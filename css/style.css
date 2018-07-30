@@ -248,11 +248,6 @@ div#myNavbar {
     font-weight: bold;
     line-height: 1.5em;
 	letter-spacing: 2px;
-	text-shadow:
-   -2px -2px 0 #071434,  
-    2px -2px 0 #071434,
-    -2px 2px 0 #071434,
-     2px 2px 0 #071434;
 }
 .banner h3 {
     color: #ccc;
@@ -260,11 +255,6 @@ div#myNavbar {
     font-size: 4em;
     line-height: 1.5em;
 	word-spacing: 7px;
-	text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
 }
 #teachers, #social, #students {
 	background: #000;
