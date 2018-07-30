@@ -27,10 +27,10 @@ body{
 	border-top:1px solid transparent;/*Yes, adjust image perfectly at the center of a box, don't know why.*/
 }
 #Choco_left_arrow{
-	display: none;
+	display: none !important;
 }
 #Choco_right_arrow{
-	display: none;
+	display: none !important;
 }
 .Choco_arrows{
 	background-repeat:no-repeat;

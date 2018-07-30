@@ -448,10 +448,12 @@ a.w3ls_banner_more:hover{
 }
 
 /*-- about --*/
-.about,.curriculum,.portfolio-agileinfo,.contact,.teachers,.video,.social, .students {
+.about,.curriculum,.contact,.teachers,.video,.social, .students {
 	padding:5em 0;
 }
-
+.portfolio-agileinfo {
+	padding: 0;	
+}
 div#about {
     background-color:#fff;
 }
@@ -926,6 +928,9 @@ button.close {
 @media(max-width:1024px){
 }
 @media(max-width:991px){
+	.table {
+	font-size: 1.75em;
+}
 .nav-links .navbar-nav>li>a {
     padding: 30px 15px;
 }
@@ -1012,7 +1017,9 @@ button.close {
 }
 }
 @media(max-width:767px){
-
+.table {
+	font-size: 1.5em;
+}
 	.navbar-brand {
 	padding:0 !important;
 }
@@ -1031,7 +1038,13 @@ button.close {
 	margin: 5px;
 	padding-left: 45px;
 }
-
+#logo.gifted {
+    display: block;
+    width: 45px;
+    height: 40px;
+	margin: 5px;
+	padding-left: 45px;
+}
 div#myNavbar {
     width: 100%;
     float: none;
@@ -1127,7 +1140,7 @@ div#myNavbar {
 .about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
     font-size: 2.5em;
 }
-.about, .curriculum, .portfolio-agileinfo, .contact, .teachers, .video, .social, .students {
+.about, .curriculum, .contact, .teachers, .video, .social, .students {
     padding: 2.5em 0;
 }
 .address-row h5 {
@@ -1170,6 +1183,9 @@ div#myNavbar {
 	.video {
 	padding:5em 0 10em;
 	}
+	.table {
+	font-size: 1.25em;
+}
 .wthree_teachers_grid {
     text-align: center;
     width: 50%;
@@ -1203,6 +1219,9 @@ div#myNavbar {
 }
 }
 @media(max-width:480px){
+	.table {
+	font-size: 1em;
+}
 	.video {
 	padding:5em 0 15em;
 	}
@@ -1272,7 +1291,7 @@ div#myNavbar {
 .search-grid button.btn1 {
     padding: 6px 5px;
 }
-.about, .curriculum, .portfolio-agileinfo, .contact, .teachers, .video, .social, .students {
+.about, .curriculum, .contact, .teachers, .video, .social, .students {
     padding: 2em 0;
 }
 .about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
