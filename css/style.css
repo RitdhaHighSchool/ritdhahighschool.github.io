@@ -8,7 +8,7 @@ html, body{
 	display: block;
 	height:70px;
 	width: 80px;
-	background: url(../images/logo.jpg);
+	background: url(../images/logo.png);
 	background-size: cover;
 	padding-left: 80px;
 	}
