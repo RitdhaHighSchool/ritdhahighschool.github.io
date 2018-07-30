@@ -15,10 +15,10 @@ html, body{
 	#logo.gifted {
 	display: block;
 	height:70px;
-	width: 80px;
+	width: 76px;
 	background: url(../images/giftedlogo.png);
 	background-size: cover;
-	padding-left: 80px;
+	padding-left: 76px;
 	}
 #giftedicon {
 	background: url(../images/gifted.png);
@@ -413,16 +413,7 @@ a.w3ls_banner_more:hover{
 /*-- //banner --*/
 /*-- to-top --*/
 
-#toTopHover {
-	width: 32px;
-	height: 32px;
-	display: block;
-	overflow: hidden;
-	float: right;
-	opacity: 0;
-	-moz-opacity: 0;
-	filter: alpha(opacity=0);
-}
+
 /*-- //to-top --*/
 .videoWrapper {
     position: relative;
@@ -1038,10 +1029,10 @@ button.close {
 }
 #logo.gifted {
     display: block;
-    width: 45px;
+    width: 44px;
     height: 40px;
 	margin: 5px;
-	padding-left: 45px;
+	padding-left: 44px;
 }
 div#myNavbar {
     width: 100%;
