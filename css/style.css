@@ -238,6 +238,9 @@ div#myNavbar {
    top: 100%;
 
 }
+#toTop {
+	display: none !important;	
+}
 .banner h2 {
     color: #c8ac7c;
     text-transform: uppercase;
