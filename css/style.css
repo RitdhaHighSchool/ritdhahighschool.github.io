@@ -227,6 +227,7 @@ div#myNavbar {
 	padding: 12em 0 0;
 }
 .banner.gifted{
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
 	background: url(../images/giftedbg.jpg);
     background-position: center;
     background-repeat: no-repeat;
