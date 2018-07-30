@@ -531,7 +531,7 @@ div#about {
 	border:none;
 }
 .readmore.useframe a {
-   padding: 15px 35px;
+   padding: 12px 30px;
     font-size: 1.4em;
 }
 .readmore a:hover {
@@ -1295,7 +1295,7 @@ div#myNavbar {
 .search-grid button.btn1 {
     padding: 6px 5px;
 }
-.about, .curriculum, .contact, .teachers, .video, .social, .students, .frame {
+.about, .curriculum, .contact, .teachers, .social, .students, .frame {
     padding: 2em 0;
 }
 .about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
