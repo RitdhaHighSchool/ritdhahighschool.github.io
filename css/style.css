@@ -933,8 +933,11 @@ button.close {
 @media(max-width:1024px){
 }
 @media(max-width:991px){
-	.table {
+.table {
 	font-size: 1.75em;
+}
+.banner.gifted.en h3 {
+    font-size: 2.5em;
 }
 .nav-links .navbar-nav>li>a {
     padding: 30px 15px;
@@ -1172,6 +1175,9 @@ div#myNavbar {
 .banner h3 {
     font-size: 2em;
 }
+.banner.gifted.en h3 {
+    font-size: 1.7em;
+}
 .wthree_teachers_grid h4 {
     font-size: 1.3em;
 }
@@ -1296,6 +1302,9 @@ div#myNavbar {
 .search-grid button.btn1 {
     padding: 6px 5px;
 }
+.banner.gifted.en h3 {
+    font-size: 1.4em;
+}
 .about, .curriculum, .contact, .teachers, .social, .students, .frame {
     padding: 2em 0;
 }
@@ -1330,6 +1339,12 @@ div#myNavbar {
     font-size: 2em;
     word-spacing: 1px;
 }
+@media(max-width:384px){
+	.banner.gifted.en h2 {
+    font-size: 1.7em;
+    word-spacing: 1px;
+}
+
 .banner h3 {
     font-size: 1.5em;
     word-spacing: 1px;
