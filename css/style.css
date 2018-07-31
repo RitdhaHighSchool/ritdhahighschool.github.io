@@ -247,7 +247,7 @@ div#myNavbar {
 	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
 	background: url(../images/bg.jpg);
 	background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 	min-height:100vh;
