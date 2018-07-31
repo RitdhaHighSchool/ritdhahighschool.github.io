@@ -246,6 +246,7 @@ div#myNavbar {
 .banner{
 	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
 	background: url(../images/bg.jpg);
+	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -260,6 +261,7 @@ div#myNavbar {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	min-height: 640px;
 }
 .banner .container {
 	position: relative;
@@ -970,6 +972,10 @@ button.close {
 .banner {
     min-height: 100vh;
 }
+.banner.gifted{
+	 min-height: 423px;
+    padding: 11em 0 0;
+}
 .w3l-about-img {
     width: 47%;
     float: left;
@@ -1234,6 +1240,13 @@ div#myNavbar {
     min-height: 500px;
     padding: 5em 0 0;
 }
+.banner.gifted.en h2 {
+	font-size: 3em;
+}
+.banner.gifted{
+	min-height: 320px;
+    padding: 7em 0 0;
+}
 .banner {
     min-height: 100vh;
     padding: 25vh 0 0;
@@ -1242,12 +1255,20 @@ div#myNavbar {
 @media(max-width:600px){
 }
 @media(max-width:568px){
+	.banner.gifted.en  {
+	padding: 8em 0 0;
+}
+	 
+	.banner.gifted.en h2 {
+	font-size: 2.1em;
+}
 .search-grid {
     float: none;
     width: 55%;
 }
 }
 @media(max-width:480px){
+
 	ul#countdown li span, ul#countdown li.seperator {
 		font-size: 4em;
 	}
