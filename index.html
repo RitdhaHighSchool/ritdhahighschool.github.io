@@ -29,6 +29,10 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link type="text/css" href="css/jquery.countdown.css?v=1.0.0.0" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.min.js?v=1.0.0.0"></script>
 <!-- //js -->
 <!-- font-awesome icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
@@ -71,6 +75,33 @@
 <!-- banner -->	
 	<div class="banner">
 		<div class="container">
+		
+		<ul id="countdown">
+	  <li><span class="days">00</span><p class="days_text">วัน</p></li>
+		<li class="seperator">:</li>
+		<li><span class="hours">00</span><p class="hours_text">ชั่วโมง</p></li>
+		<li class="seperator">:</li>
+		<li><span class="minutes">00</span><p class="minutes_text">นาที</p></li>
+		<li class="seperator">:</li>
+		<li><span class="seconds">00</span><p class="seconds_text">วินาที</p></li>
+	</ul>
+
+	<script type="text/javascript">
+		$('#countdown').countdown({
+			date: '8/5/2018 22:00:00',
+			offset: +7,
+			day: 'วัน',
+			days: 'วัน',
+			hour: 'ชั่วโมง',
+			hours: 'ชั่วโมง',
+			minutes: 'นาที',
+			minute: 'นาที',
+			seconds: 'วินาที',
+			second: 'วินาที'
+		});
+	</script>
+		
+
 		<h2>ฤทธาวิทยาคม</h2>
 			<h3>AD ASTRA SAPIENTIAM</h3>
 			
