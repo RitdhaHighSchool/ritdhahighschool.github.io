@@ -7,7 +7,7 @@ html, body{
 
 ul#countdown {
   list-style: none;
-  margin: 50px 0;
+  margin: 0 0 50px;
   padding: 0;
   display: block;
   text-align: center;
@@ -253,7 +253,6 @@ div#myNavbar {
 	min-height:100vh;
 	position: relative;
 	text-align: center;
-	padding: 25vh 0 0;
 }
 .banner.gifted{
 	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
@@ -264,9 +263,11 @@ div#myNavbar {
 	min-height: 640px;
 }
 .banner .container {
-	position: relative;
-   top: 100%;
-
+	position: absolute;
+	width: 100%;
+	 top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 #toTop {
 	display: none !important;	
@@ -278,6 +279,9 @@ div#myNavbar {
     font-weight: bold;
     line-height: 1.5em;
 	letter-spacing: 2px;
+}
+.hcount {
+	margin-top: 0.5em;
 }
 .banner h3 {
     color: #ccc;
@@ -938,12 +942,19 @@ button.close {
 @media(max-width:1366px){
 }
 @media(max-width:1280px){
+.banner.main.en h2 {
+    font-size: 4.5em;
+}
 }
 @media(max-width:1080px){
 }
 @media(max-width:1024px){
+
 }
 @media(max-width:991px){
+.banner.main.en h2 {
+    font-size: 4em;
+}
 	ul#countdown li span, ul#countdown li.seperator {
 		font-size: 6em;
 	}
@@ -956,13 +967,13 @@ button.close {
 .nav-links .navbar-nav>li>a {
     padding: 30px 15px;
 }
+.banner.main.en h2 {
+    font-size: 3.5em;
+}
 .banner h2 {
-    color: #c8ac7c;
-    text-transform: uppercase;
     font-size: 3.5em;
 }
 .banner h3 {
-    text-transform: uppercase;
     font-size: 3em;
 }
 .wthree_banner_grid {
@@ -1043,6 +1054,9 @@ button.close {
 }
 }
 @media(max-width:767px){
+	.banner.main.en h2 {
+    font-size: 3em;
+}
 .table {
 	font-size: 1.5em;
 }
@@ -1121,6 +1135,7 @@ div#myNavbar {
 
 
 @media(max-width:736px){
+
 .navbar-header {
     width: 100%;
     float: none;
@@ -1190,6 +1205,7 @@ div#myNavbar {
 	ul#countdown li span, ul#countdown li.seperator {
 		font-size: 6em;
 	}
+
 .banner h2 {
     font-size: 3.5em;
 }
@@ -1249,7 +1265,6 @@ div#myNavbar {
 }
 .banner {
     min-height: 100vh;
-    padding: 25vh 0 0;
 }
 }
 @media(max-width:600px){
@@ -1278,6 +1293,12 @@ div#myNavbar {
 	.video {
 	padding:5em 0 15em;
 	}
+	ul#countdown li p {
+		font-size: 16px;
+	}
+	.banner.main.en h2 {
+    font-size: 2.5em;
+}
 	.banner h2 {
     font-size: 3em;
     word-spacing: 1px;
@@ -1315,7 +1336,6 @@ div#myNavbar {
 }
 .banner {
     min-height: 100vh;
-    padding: 25vh 0 0;
 }
 .about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
     font-size: 2.3em;

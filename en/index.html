@@ -28,6 +28,7 @@
 <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../js/jquery.countdown.min.js?v=1.0.0.0"></script>
 <!-- //js -->
 <!-- font-awesome icons -->
 <link href="../css/font-awesome.css" rel="stylesheet"> 
@@ -55,7 +56,7 @@
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav link-effect">
 					<li class="active"><a href="https://ritdha.site/en/">Home</a></li>
-					<li><a href="#curriculum" class="scroll">Curriculums</a></li>
+					<li><a href="#curriculum" class="scroll">Curricula</a></li>
 					<li><a href="#teachers" class="scroll">Administrators</a></li>
 					<li><a href="/en/gifted">Gifted Program</a></li>
 					<li><a href="https://ritdha.site">TH</a></li>
@@ -68,19 +69,43 @@
 
 <!-- //header -->
 <!-- banner -->	
-	<div class="banner">
+	<div class="banner main en">
 		<div class="container">
 		<h2>Ritdtha High school</h2>
 			<h3>AD ASTRA SAPIENTIAM</h3>
 			
-			
+		<h2 class="hcount">New Semester Starts</h2>
+		<ul id="countdown">
+	  <li><span class="days">00</span><p class="days_text">Days</p></li>
+		<li class="seperator">:</li>
+		<li><span class="hours">00</span><p class="hours_text">Hours</p></li>
+		<li class="seperator">:</li>
+		<li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
+		<li class="seperator">:</li>
+		<li><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
+	</ul>
+	<script type="text/javascript">
+		$('#countdown').countdown({
+			date: '8/5/2018 22:00:00',
+			offset: +7,
+			days: 'Days',
+			day: 'Day',
+			hour: 'Hour',
+			hours: 'Hours',
+			minutes: 'Minutes',
+			minute: 'Minute',
+			seconds: 'Seconds',
+			second: 'Second'
+		});
+	</script>
+	
 		</div>
 	</div>
 <!-- //banner -->	<!-- about -->
 	<!-- //about -->
 <!-- Our services -->
 <div class="curriculum" id="curriculum">
-	<h3 class="wthree_head">Curriculums</h3>
+	<h3 class="wthree_head">Curricula</h3>
 	<div class="container">
 		<div class="stylegrid2">
 			<div class="col-md-6 stylegridtext">
