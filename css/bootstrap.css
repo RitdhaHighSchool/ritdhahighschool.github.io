@@ -2262,8 +2262,11 @@ th {
   margin-bottom: 20px;
   font-family: TH Sarabun New;
   font-size: 2em;
-  
 }
+.table td {
+	  color: #fff;
+}
+.table 
 .table > thead > tr > th,
 .table > tbody > tr > th,
 .table > tfoot > tr > th,

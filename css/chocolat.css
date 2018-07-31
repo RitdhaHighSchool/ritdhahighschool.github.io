@@ -76,28 +76,33 @@ body{
 	background:gray;
 }
 #Choco_close{
-	float:right;
-	width:32px;
-	height:32px;
-	background-image:url(../images/close.png)!important;
-	background-position: top right;
-	background-repeat:no-repeat;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 2em;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 	z-index:1002;
 	cursor:pointer;
-	margin: -20px 0px 0 0px;
+	float: right;
+	line-height: 32px;
+	color: #ccc;
+	margin: -30px 0 0;
+	padding: 10px 0 10px 10px;
 	display:none;
 }
+#Choco_close:before{
+    content: "\f057";
+}
 #Choco_loading{
-	background:url(../images/loading.gif)	!important;
+	background:url(../images/loading.svg)	!important;
 	background-repeat:no-repeat;
 	background-size: cover !important;
 	z-index:9999;
 	cursor:pointer;
 	display:block;
 	position:fixed;
-    height: 60px;
-    width: 60px;
-    padding-left: 60px;
+    height: 80px;
+    width: 80px;
 	left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
