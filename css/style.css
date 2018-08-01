@@ -1199,8 +1199,11 @@ div#myNavbar {
 .banner h2 {
     font-size: 3.5em;
 }
-.banner h2.newlinename {
+.newlinename {
 	display: block !important;
+}
+h3.newlinename {
+	margin-bottom: 25px;
 }
 .banner h3 {
     font-size: 2em;
