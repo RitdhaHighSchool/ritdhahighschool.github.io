@@ -1301,7 +1301,7 @@ div#myNavbar {
 		font-size: 16px;
 	}
 	.banner.main.en h2 {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 	.banner h2 {
     font-size: 3em;
@@ -1403,8 +1403,11 @@ div#myNavbar {
 }
 }
 @media(max-width:384px){
+	.banner.main.en h2 {
+    font-size: 2em;
+}
 		ul#countdown li span, ul#countdown li.seperator{
-		font-size: 3em;
+		font-size: 3em !important;
 	}
 	.banner h2 {
     font-size: 2em;
