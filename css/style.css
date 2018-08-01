@@ -1228,7 +1228,7 @@ h3.newlinename {
 		font-size: 5em;
 	}
 	.video {
-	padding:5em 0 10em;
+	padding:2.5em 0 10em;
 	}
 	.table {
 	font-size: 1.25em;
@@ -1288,7 +1288,7 @@ h3.newlinename {
 	font-size: 1em;
 }
 	.video {
-	padding:5em 0 15em;
+	padding:2.5em 0 14em;
 	}
 	ul#countdown li p {
 		font-size: 16px;
@@ -1440,7 +1440,7 @@ ul#countdown li span, ul#countdown li.seperator{
 }
 @media(max-width:320px){
 	.video {
-	padding:5em 0 20em;
+	padding:2em 0 18em;
 	}
 .navbar-toggle {
 }
