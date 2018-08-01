@@ -1290,6 +1290,7 @@ div#myNavbar {
 
 	ul#countdown li span, ul#countdown li.seperator {
 		font-size: 4em;
+		line-height: 1em;
 	}
 	.table {
 	font-size: 1em;
@@ -1406,11 +1407,12 @@ div#myNavbar {
 	.banner.main.en h2 {
     font-size: 2em;
 }
-		ul#countdown li span, ul#countdown li.seperator{
+ul#countdown li span, ul#countdown li.seperator{
 		font-size: 3em !important;
+		line-height: 1.2em;
 	}
 	.banner h2 {
-    font-size: 2em;
+    font-size: 2.2em;
     word-spacing: 1px;
 }
 @media(max-width:384px){
