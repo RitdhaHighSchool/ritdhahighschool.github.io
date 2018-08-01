@@ -55,7 +55,7 @@ ul#countdown li p {
 	height:33px;
 	background-size: cover;
 	padding-left: 34px;
-	margi
+	vertical-align: bottom:
 }
 p,ul li,ol li{
 	margin:0;
@@ -1339,9 +1339,9 @@ div#myNavbar {
     margin-bottom: 5px;
 }
 .stylegridtext h3 #giftedicon {
-	width: 22px !important;
-    height: 21px;
-    padding-left: 22px;
+	width: 24px !important;
+    height: 24px;
+    padding-left: 24px;
 }
 .portfolio-grids {
     width: 100%;
