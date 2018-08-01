@@ -280,6 +280,7 @@ div#myNavbar {
     line-height: 1.5em;
 	letter-spacing: 2px;
 }
+
 .hcount {
 	margin-top: 0.5em;
 }
@@ -1209,6 +1210,9 @@ div#myNavbar {
 .banner h2 {
     font-size: 3.5em;
 }
+.banner h2.newlinename {
+	display: block !important;
+}
 .banner h3 {
     font-size: 2em;
 }
@@ -1343,6 +1347,11 @@ div#myNavbar {
 .stylegridtext h3 {
     font-size: 22px;
     margin-bottom: 5px;
+}
+.stylegridtext h3 #giftedicon {
+	width: 22px !important;
+    height: 21px;
+    padding-left: 22px;
 }
 .portfolio-grids {
     width: 100%;
