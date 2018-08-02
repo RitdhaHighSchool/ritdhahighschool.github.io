@@ -94,7 +94,7 @@ ul#countdown li p {
 	left: 50%;
 	color: #ef3e42;
 	padding: 0 34px;
-	padding-top: 50px !important;
+	padding-top: 0.2em !important;
 	-ms-transform: rotate(-20deg) translate(-50%,-50%);
     -webkit-transform: rotate(-20deg) translate(-50%,-50%);
     transform: rotate(-20deg) translate(-50%,-50%);
