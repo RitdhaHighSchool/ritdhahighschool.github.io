@@ -236,7 +236,7 @@ div#myNavbar {
 /*-- //header --*/
 /*-- banner --*/
 .banner{
-	
+	overflow: hidden;
 	min-height:100vh;
 	position: relative;
 	text-align: center;
