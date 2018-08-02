@@ -34,12 +34,10 @@
 <link href="../css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome icons -->
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Taviraj:400,700" rel="stylesheet">
-
+<link rel="stylesheet" type="text/css" href="../css/glitch.css" />
 </head>
 	
-<body>
-<!-- header -->
-	<!-- banner -->	
+<body class="glitch1 loading">
 
 <div class="nav-links">	
 	<nav class="navbar navbar-inverse">
@@ -70,19 +68,26 @@
 <!-- //header -->
 <!-- banner -->	
 	<div class="banner main en">
+	<main>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
+			<div class="glitch__img"></div>
 		<div class="container">
-		<h2 style="display:inline">Ritdha </h2><h2 class="newlinename" style="display:inline">High School</h2>
-			<h3>AD ASTRA SAPIENTIAM</h3>
+		
+		<h2 style="display:inline">Ritdha </h2><h2 class="newlinename content__title" style="display:inline">High School</h2>
+			<h3 class="content__text">AD ASTRA SAPIENTIAM</h3>
 			
 		<h2 class="hcount">New Semester Starts</h2>
 		<ul id="countdown">
 	  <li><span class="days">00</span><p class="days_text">Days</p></li>
 		<li class="seperator">:</li>
-		<li><span class="hours">00</span><p class="hours_text">Hours</p></li>
+		<li><span class="hours">00</span><p class="hours_text content__title">Hours</p></li>
 		<li class="seperator">:</li>
 		<li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
 		<li class="seperator">:</li>
-		<li><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
+		<li><span class="seconds">00</span><p class="seconds_text content__text">Seconds</p></li>
 	</ul>
 	<script type="text/javascript">
 		$('#countdown').countdown({
@@ -98,9 +103,13 @@
 			second: 'Second'
 		});
 	</script>
-	
-		</div>
 	</div>
+	</main>
+<script src="../js/imagesloaded.pkgd.min.js"></script>
+<script src="../js/glitch.js"></script>
+	
+</div>
+
 <!-- //banner -->	<!-- about -->
 	<!-- //about -->
 <!-- Our services -->
