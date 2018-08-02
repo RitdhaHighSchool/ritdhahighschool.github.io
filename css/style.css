@@ -40,7 +40,7 @@ ul#countdown li p {
 	background-size: cover;
 	padding-left: 80px;
 	}
-	#logo.gifted {
+#logo.gifted {
 	display: block;
 	height:70px;
 	width: 76px;
@@ -48,6 +48,9 @@ ul#countdown li p {
 	background-size: cover;
 	padding-left: 76px;
 	}
+#username {
+	color: #c8ac7c;
+}
 #giftedicon {
 	background: url(../images/gifted.png);
 	display: inline-block;
@@ -55,7 +58,7 @@ ul#countdown li p {
 	height:33px;
 	background-size: cover;
 	padding-left: 34px;
-	vertical-align: bottom:
+	vertical-align: bottom;
 }
 p,ul li,ol li{
 	margin:0;
@@ -164,8 +167,8 @@ input[type="submit"],input[type="reset"],.w3l_teachers_grd, h4,.agile_feature_gr
 	background-color: #071434;
 }
 .nav-links .navbar-inverse .navbar-nav>.active>a,.nav-links  .navbar-inverse .navbar-nav>.active>a:focus,.nav-links  .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #c8ac7c;
     background-color: #000;
+	
 }
 .navbar-header {
     width: 10%;
@@ -299,6 +302,7 @@ div#myNavbar {
 	transition: 0.5s ease-in;
 	font-size: 1.5em !important;
 	vertical-align: middle;
+	vertical-align: top;
 }
 .twitter:hover, .instagram:hover, .fbpage:hover {
 	color: #c8ac7c;
@@ -1062,7 +1066,7 @@ button.close {
     margin: 0;
 }
 #logo {
-    display: block;
+    display: inline-block;
     width: 45px;
     height: 40px;
 	margin: 5px;
