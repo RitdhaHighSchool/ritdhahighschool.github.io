@@ -63,6 +63,7 @@ ul#countdown li p {
 }
 .stamp-div.en {
 	letter-spacing: 5px;
+	line-height: 1em;
 }
 .stamp-div {
 	-webkit-touch-callout: none;
