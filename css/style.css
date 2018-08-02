@@ -73,9 +73,9 @@ ul#countdown li p {
 	-ms-user-select: none;
 	user-select: none; 
 	pointer-events: none !important;
-	letter-spacing: 15px;
+	letter-spacing: 20px;
 	font-size: 15em;
-	line-height: 0.7em;
+	line-height: 1em;
 	text-align: center;
 	font-family: TH Sarabun New;
 	font-weight: bold;
