@@ -43,10 +43,10 @@ ul#countdown li p {
 #logo.gifted {
 	display: block;
 	height:70px;
-	width: 76px;
+	width: 75px;
 	background: url(../images/giftedlogo.png);
 	background-size: cover;
-	padding-left: 76px;
+	padding-left: 75px;
 	}
 #username {
 	color: #c8ac7c;
@@ -1069,10 +1069,10 @@ button.close {
 }
 #logo.gifted {
     display: block;
-    width: 44px;
+    width: 43px;
     height: 40px;
 	margin: 5px;
-	padding-left: 44px;
+	padding-left: 43px;
 }
 div#myNavbar {
     width: 100%;
