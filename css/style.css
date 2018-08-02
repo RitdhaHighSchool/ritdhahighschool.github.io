@@ -42,11 +42,11 @@ ul#countdown li p {
 	}
 #logo.gifted {
 	display: block;
-	height:70px;
-	width: 75px;
+	height:75px;
+	width: 80px;
 	background: url(../images/giftedlogo.png);
 	background-size: cover;
-	padding-left: 75px;
+	padding-left: 80px;
 	}
 #username {
 	color: #c8ac7c;
