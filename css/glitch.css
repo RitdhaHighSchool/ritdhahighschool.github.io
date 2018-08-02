@@ -28,7 +28,10 @@
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 }
-
+.imgloaded .newlinename.content__title {
+	padding-right: 15px !important;
+	    margin-right: -15px !important;
+}
 .imgloaded .content__text {
 	animation-name: glitch-anim-text;
 	animation-duration: 3s;
