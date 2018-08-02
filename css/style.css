@@ -917,6 +917,7 @@ iframe {
 	margin:0;
     letter-spacing: 1px;
 	line-height: 1.5em;
+	padding: 5px;
 }
 .copyright p a{
     text-decoration: none;
