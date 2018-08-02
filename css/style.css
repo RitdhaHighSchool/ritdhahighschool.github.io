@@ -63,6 +63,7 @@ ul#countdown li p {
 }
 .stamp-div.en {
 	letter-spacing: 5px;
+	line-height: 1em;
 }
 .stamp-div {
 	-webkit-touch-callout: none;
@@ -74,7 +75,7 @@ ul#countdown li p {
 	pointer-events: none !important;
 	letter-spacing: 15px;
 	font-size: 15em;
-	line-height: 1em;
+	line-height: 0.7em;
 	text-align: center;
 	font-family: TH Sarabun New;
 	font-weight: bold;
@@ -93,6 +94,7 @@ ul#countdown li p {
 	left: 50%;
 	color: #ef3e42;
 	padding: 0 34px;
+	padding-top: 50px !important;
 	-ms-transform: rotate(-20deg) translate(-50%,-50%);
     -webkit-transform: rotate(-20deg) translate(-50%,-50%);
     transform: rotate(-20deg) translate(-50%,-50%);
