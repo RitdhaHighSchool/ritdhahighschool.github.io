@@ -1280,10 +1280,11 @@ h3.newlinename {
 }
 @media(max-width:480px){
 
-	ul#countdown li span, ul#countdown li.seperator {
-		font-size: 4em;
-		line-height: 1em;
-	}
+ul#countdown li span, ul#countdown li.seperator {
+	font-size: 4em;
+	line-height: 1em;
+	margin-top: -8px;
+}
 	.table {
 	font-size: 1em;
 }
