@@ -32,6 +32,7 @@ ul#countdown li p {
   font-size: 25px;
 }
 
+
 #logo {
 	display: block;
 	height:70px;
@@ -42,11 +43,11 @@ ul#countdown li p {
 	}
 #logo.gifted {
 	display: block;
-	height:75px;
-	width: 80px;
+	height:70px;
+	width: 76px;
 	background: url(../images/giftedlogo.png);
 	background-size: cover;
-	padding-left: 80px;
+	padding-left: 76px;
 	}
 #username {
 	color: #c8ac7c;
@@ -59,6 +60,38 @@ ul#countdown li p {
 	background-size: cover;
 	padding-left: 34px;
 	vertical-align: bottom;
+}
+.stamp-div {
+	pointer-events: none !important;
+	font-size: 15em;
+	font-family: TH Sarabun New;
+	font-weight: bold;
+	display: inline-block;
+	position: absolute;
+	z-index: 97;
+	border-radius: 20px;
+	border-width: 15px;
+	border-color: #ef3e42;
+	border-style: solid;
+	color: #ef3e42;
+	text-transform: uppercase;
+	margin: 0 auto;
+	top: 40%;
+	left: 50%;
+	color: #ef3e42;
+	letter-spacing: -3px;
+	padding: 0 34px;
+	-ms-transform: rotate(-20deg) translate(-50%,-50%);
+    -webkit-transform: rotate(-20deg) translate(-50%,-50%);
+    transform: rotate(-20deg) translate(-50%,-50%);
+	opacity: .6;
+	-webkit-filter: blur(1.3px);
+	filter: blur(1.3px);	
+	border-image: url(../images/stamp.png) 30;
+}
+.stamp-div.en {
+	font-size: 8em;
+	border-width: 15px;
 }
 p,ul li,ol li{
 	margin:0;
@@ -934,13 +967,29 @@ button.close {
 .banner.main.en h2 {
     font-size: 4.5em;
 }
+.stamp-div{
+	font-size: 12em;
 }
 @media(max-width:1080px){
+}
+.stamp-div.en {
+	font-size: 6.5em;
+	border-width: 12px;
 }
 @media(max-width:1024px){
 
 }
 @media(max-width:991px){
+.stamp-div{
+	font-size: 8em;
+}
+.stamp-div.en {
+	font-size: 5.2em;
+	border-width: 8px;
+	padding: 0 26px;
+	top: 50%;
+	letter-spacing: -2px;
+}
 .banner.main.en h2 {
     font-size: 4em;
 }
@@ -1043,6 +1092,11 @@ button.close {
 }
 }
 @media(max-width:767px){
+.stamp-div.en {
+	font-size: 5em;
+	border-width: 8px;
+	padding: 0 22px;
+}
 	.banner.main.en h2 {
     font-size: 3em;
 }
@@ -1124,7 +1178,12 @@ div#myNavbar {
 
 
 @media(max-width:736px){
-
+.stamp-div.en {
+	font-size: 4.5em;
+}
+.stamp-div{
+	font-size: 7em;
+}
 .navbar-header {
     width: 100%;
     float: none;
@@ -1184,6 +1243,14 @@ div#myNavbar {
 }
 }
 @media(max-width:667px){
+	.stamp-div.en {
+	font-size: 3.9em;
+	border-width: 8px;
+	padding: 0 22px;
+}
+	.stamp-div{
+	font-size: 6em;
+}
 .search-grid input[type="text"] {
     width: 81%;
 }
@@ -1266,6 +1333,18 @@ h3.newlinename {
 @media(max-width:600px){
 }
 @media(max-width:568px){
+.stamp-div.en {
+	font-size: 3.4em;
+	border-width: 6px;
+	padding: 0 18px;
+}
+	.stamp-div{
+	font-size: 5em;
+	padding: 0 28px;
+	top: 50%;
+}
+}
+}
 	.banner.gifted.en  {
 	padding: 8em 0 0;
 }
@@ -1279,7 +1358,16 @@ h3.newlinename {
 }
 }
 @media(max-width:480px){
-
+.stamp-div.en {
+	font-size: 3em;
+	border-width: 5px;
+	padding: 0 16px;
+}
+.stamp-div{
+	font-size: 4em;
+	border-width: 10px;
+	padding: 0 20px;
+}
 ul#countdown li span, ul#countdown li.seperator {
 	font-size: 4em;
 	line-height: 1em;
@@ -1360,7 +1448,11 @@ ul#countdown li span, ul#countdown li.seperator {
 }
 }
 @media(max-width:414px){
-	
+.stamp-div.en {
+	font-size: 2.6em;
+	border-width: 5px;
+	padding: 0 16px;
+}
 .search-grid button.btn1 {
     padding: 6px 5px;
 }
@@ -1409,6 +1501,12 @@ ul#countdown li span, ul#countdown li.seperator{
     word-spacing: 1px;
 }
 @media(max-width:384px){
+.stamp-div.en {
+	font-size: 2em;
+	border-width: 4px;
+	padding: 0 10px;
+	letter-spacing: 0px;
+}
 	.banner.gifted.en h2 {
     font-size: 1.7em;
     word-spacing: 1px;
@@ -1438,11 +1536,27 @@ ul#countdown li span, ul#countdown li.seperator{
 }
 }
 @media(max-width:375px){
+	.stamp-div{
+	font-size: 3.5em;
+	border-width: 8px;
+}
 }
 @media(max-width:320px){
-	.video {
+.stamp-div.en {
+	top: 15%;
+	font-size: 1.6em;
+	border-width: 3px;
+	padding: 0 8px;
+}
+.video {
 	padding:2em 0 18em;
 	}
+.stamp-div{
+	font-size: 3em;
+	top: 50%;
+	border-width: 7px;
+	padding: 0 18px;
+}
 .navbar-toggle {
 }
 .about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
