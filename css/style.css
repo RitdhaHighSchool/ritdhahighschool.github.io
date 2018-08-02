@@ -63,7 +63,6 @@ ul#countdown li p {
 }
 .stamp-div.en {
 	letter-spacing: 5px;
-	line-height: 1em;
 }
 .stamp-div {
 	-webkit-touch-callout: none;
@@ -75,6 +74,7 @@ ul#countdown li p {
 	pointer-events: none !important;
 	letter-spacing: 15px;
 	font-size: 15em;
+	line-height: 1em;
 	text-align: center;
 	font-family: TH Sarabun New;
 	font-weight: bold;
