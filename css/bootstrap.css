@@ -61,6 +61,9 @@ template {
     width: 12em;
 	font-size: 17px;
 }
+.img_table {
+	background: #000;
+}
 a {
   background-color: transparent;
 }
