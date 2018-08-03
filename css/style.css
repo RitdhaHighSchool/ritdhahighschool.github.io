@@ -982,6 +982,13 @@ button.close {
 .stamp-div{
 	font-size: 12em;
 }
+@media(max-width:1200px){
+#logo.en:after {
+    width: 5em;
+	font-size: 15px;
+	line-height: 1.5em;
+	padding: 2px 5px;
+}
 @media(max-width:1080px){
 }
 
@@ -989,6 +996,22 @@ button.close {
 
 }
 @media(max-width:991px){
+#logo.en:after {
+	content:"" ;
+	text-transform: uppercase;
+    display: none;
+    width: 5em;
+	line-height: 1.5em;
+}
+#logo.en.gifted:after {
+	content:"Ritdha High School" ;
+	text-transform: uppercase;
+    display: inline-block;
+    width: 5em;
+	font-size: 14px;
+	line-height: 1.5em;
+	padding: 5px;
+}
 .stamp-div{
 	font-size: 8em;
 	top: 35%;
@@ -1114,6 +1137,23 @@ button.close {
     float: none;
     margin: 0;
 }
+#logo:after {
+	content: 'โรงเรียนฤทธาวิทยาคม' ;
+	line-height: 50px;
+	height: 50px;
+	margin-top: -5px;
+}
+#logo.en:after, #logo.gifted.en:after {
+	line-height: 50px;
+	height: 50px;
+	margin-top: -5px;
+	content:"Ritdha High School" ;
+	text-transform: uppercase;
+    display: inline-block;
+    width: 12em;
+	font-size: 14px;
+	padding: 0 5px;
+}
 #logo {
     display: inline-block;
     width: 45px;
@@ -1122,7 +1162,7 @@ button.close {
 	padding-left: 45px;
 }
 #logo.gifted {
-    display: block;
+    display: inline-block;
     width: 43px;
     height: 40px;
 	margin: 5px;

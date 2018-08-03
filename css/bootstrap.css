@@ -40,6 +40,24 @@ template {
     float: none !important;
     margin: 0 auto;
 }
+#logo:after {
+	content: 'โรงเรียนฤทธาวิทยาคม' ;
+    display: inline-block;
+    width: 10em;
+	vertical-align: middle;
+	line-height: 70px;
+	height: 70px;
+	padding: 0 5px;
+	color: #c8ac7c;
+	font-size: 19px;
+}
+#logo.en:after {
+	content:"Ritdha High School";
+	text-transform: uppercase;
+    display: inline-block;
+    width: 12em;
+	font-size: 17px;
+}
 a {
   background-color: transparent;
 }
@@ -4187,7 +4205,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   height: 50px;
   padding: 5px 5px;
-
+  display: inline;
+   width: 100%;
+   position: relative;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
