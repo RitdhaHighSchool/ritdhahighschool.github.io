@@ -51,6 +51,9 @@ template {
 	color: #c8ac7c;
 	font-size: 19px;
 }
+#logo.gifted:after {
+	padding: 0 5px 0 9px;
+}
 #logo.en:after {
 	content:"Ritdha High School";
 	text-transform: uppercase;

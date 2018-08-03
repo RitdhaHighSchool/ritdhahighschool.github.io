@@ -1143,6 +1143,9 @@ button.close {
 	height: 50px;
 	margin-top: -5px;
 }
+#logo.gifted:after {
+	padding: 0 7px;
+}
 #logo.en:after, #logo.gifted.en:after {
 	line-height: 50px;
 	height: 50px;
@@ -1153,6 +1156,9 @@ button.close {
     width: 12em;
 	font-size: 14px;
 	padding: 0 5px;
+}
+#logo.gifted.en:after {
+	padding: 0 5px 0 7px;
 }
 #logo {
     display: inline-block;
