@@ -294,6 +294,7 @@ div#myNavbar {
 	min-height: 640px;
 }
 .banner .container {
+	margin-top: 0.5em;
 	position: absolute;
 	width: 100%;
 	 top: 50%;
