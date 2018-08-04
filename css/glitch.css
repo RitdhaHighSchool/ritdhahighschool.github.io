@@ -351,7 +351,7 @@
 /* Flash */
 @keyframes glitch-anim-flash {
 	0%, 5% { 
-		opacity: 0.2; 
+		opacity: 0.5; 
 		transform: translate3d(var(--gap-horizontal), var(--gap-vertical), 0);
 	}
 	5.5%, 100% {
