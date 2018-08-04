@@ -90,7 +90,7 @@
 	background-blend-mode: var(--blend-mode-5);
 	animation-name: glitch-anim-flash;
 	margin-left: -12px;
-    padding-right: 12px;
+	width: 105vw;
 }
 
 /* Animations */
