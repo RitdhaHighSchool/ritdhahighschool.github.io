@@ -102,6 +102,10 @@ ul#countdown li p {
 	-webkit-filter: blur(1.3px);
 	filter: blur(1.3px);	
 	border-image: url(../images/stamp.png) 30;
+    background: url(../images/stamp.png);
+	background-size: 30px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 p,ul li,ol li{
