@@ -84,12 +84,19 @@
 		<h2 style="display:inline; padding-right: 16px; margin-right: -16px;" class="content__title">Ritdha </h2><h2 class="newlinename" style="display:inline">High School</h2>
 			<h3 class="content__text">AD ASTRA SAPIENTIAM</h3>
 			
-		<h2 class="hcount" style="display:inline-block">First&nbsp;</h2><h2 class="content__title" style="display:inline-block">Semester</h2></h2>
-		<div class="clearfix"></div>
-		<h3 style="display:inline-block">of year&nbsp;</h3><h3 class="content__text" style="display:inline-block">2018</h3>
+		<h2 class="hcount" style="display:inline-block">Episode&nbsp;</h2><h2 style="display:inline-block" class="content__title" >2</h2><h2 style="display:inline-block">&nbsp;airs in</h2>
+		<ul id="countdown">
+	   <li><span class="days content__title" style="display: inline-block; padding-bottom: 7px; margin-bottom: -7px;">00</span><p class="days_text">Days</p></li>
+		<li class="seperator">:</li>
+		<li><span class="hours">00</span><p class="hours_text content__text">Hours</p></li>
+		<li class="seperator">:</li>
+		<li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
+		<li class="seperator">:</li>
+		<li><span class="seconds content__text" style="display: inline-block; padding-bottom: 7px;     margin-bottom: -7px;">00</span><p class="seconds_text content__title">Seconds</p></li>
+	</ul>
 	<script type="text/javascript">
 		$('#countdown').countdown({
-			date: '8/5/2018 22:00:00',
+			date: '8/19/2018 22:00:00',
 			offset: +7,
 			days: 'Days',
 			day: 'Day',
@@ -99,6 +106,8 @@
 			minute: 'Minute',
 			seconds: 'Seconds',
 			second: 'Second'
+		}, function () {
+			alert('Finally!');
 		});
 	</script>
 			<div class="appform" data-aos="zoom-in">
