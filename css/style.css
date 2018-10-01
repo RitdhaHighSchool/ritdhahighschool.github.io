@@ -718,9 +718,8 @@ p.sub_cap {
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: .5px;
-    margin: 10px auto;
+    margin: 10px -50px;
 	text-align: center;
-	width: 55%;
 }
 /*-- //teachers --*/
 /* /contact */
