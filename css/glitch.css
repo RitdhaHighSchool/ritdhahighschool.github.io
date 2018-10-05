@@ -501,12 +501,12 @@
 
 /* Hover animations for horizontal case */
 .glitch .glitch__img.gifted:nth-child(2) {
-	left: -3px;
+	left: -2px;
 	animation: glitch-anim-1-horizontal var(--time-anim) infinite linear alternate;
 }
 
 .glitch > .glitch__img.gifted:nth-child(3) {
-	left: 3px;
+	left: 2px;
 	animation: glitch-anim-2-horizontal var(--time-anim) infinite linear alternate;
 }
 
