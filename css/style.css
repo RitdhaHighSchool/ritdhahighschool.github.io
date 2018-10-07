@@ -2,6 +2,7 @@ html, body{
     font-size: 100%;
 	font-family: 'Perfect DOS VGA 437', 'RD CHULAJARUEK', serif;
 	background: url(../images/bluebg.png);
+	background-color: #071434;
 	margin: 0;
 }
 
@@ -187,6 +188,7 @@ input[type="submit"],input[type="reset"],.w3l_teachers_grd, h4,.agile_feature_gr
 }
 .nav-links .navbar-inverse {
     background: url(../images/bluebg.png);
+	  background-color: #071434;
 	border:none;
 		position: fixed;
     z-index: 99;
@@ -214,6 +216,7 @@ input[type="submit"],input[type="reset"],.w3l_teachers_grd, h4,.agile_feature_gr
 }
 .navbar-nav > li > a {
 	background: url(../images/bluebg.png);
+	  background-color: #071434;
 }
 .nav-links .navbar-inverse .navbar-nav>.active>a,.nav-links  .navbar-inverse .navbar-nav>.active>a:focus,.nav-links  .navbar-inverse .navbar-nav>.active>a:hover {
     background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=80&opacity=20);
@@ -331,6 +334,7 @@ div#myNavbar {
 }
 #teachers.gifted {
 	background: url(../images/bluebg.png);
+	  background-color: #071434;
 }
 .twitter {
 	color: #1da1f2;
