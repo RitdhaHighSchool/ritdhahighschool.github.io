@@ -2348,7 +2348,7 @@ th {
   background-color: #f9f9f9;
 }
 .table-hover > tbody > tr:hover {
-  background-color: #071434;
+  background: url(../images/bluebg.png);
 }
 table col[class*="col-"] {
   position: static;
