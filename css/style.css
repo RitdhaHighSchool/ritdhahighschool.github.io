@@ -1,7 +1,7 @@
 html, body{
     font-size: 100%;
 	font-family: 'Perfect DOS VGA 437', 'RD CHULAJARUEK', serif;
-	background:#071434;
+	background: url(../images/bluebg.png);
 	margin: 0;
 }
 
@@ -186,7 +186,7 @@ input[type="submit"],input[type="reset"],.w3l_teachers_grd, h4,.agile_feature_gr
 	margin-bottom:0px;
 }
 .nav-links .navbar-inverse {
-    background-color:#071434;
+    background: url(../images/bluebg.png);
 	border:none;
 		position: fixed;
     z-index: 99;
@@ -206,18 +206,17 @@ input[type="submit"],input[type="reset"],.w3l_teachers_grd, h4,.agile_feature_gr
 	text-transform: uppercase;
 }
 .nav-links  .navbar-inverse .navbar-nav>li>a:hover {
-    background-color:#000;
+    background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=80&opacity=20);
 	color:#ccc;
 }
 .navbar-inverse .navbar-nav > li > a:focus {
     color: #ccc;
 }
 .navbar-nav > li > a {
-	background-color: #071434;
+	background: url(../images/bluebg.png);
 }
 .nav-links .navbar-inverse .navbar-nav>.active>a,.nav-links  .navbar-inverse .navbar-nav>.active>a:focus,.nav-links  .navbar-inverse .navbar-nav>.active>a:hover {
-    background-color: #000;
-	
+    background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=80&opacity=20);
 }
 .navbar-header {
     width: 10%;
@@ -328,10 +327,10 @@ div#myNavbar {
 	word-spacing: 7px;
 }
 #teachers, #social, #students {
-	background: #000;
+	background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=80&opacity=20);
 }
 #teachers.gifted {
-	background: #071434;
+	background: url(../images/bluebg.png);
 }
 .twitter {
 	color: #1da1f2;
@@ -933,7 +932,7 @@ iframe {
 .copyright{
 	padding:1.5em 0;
 	text-align:center;
-	background:#000;
+	background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=80&opacity=20);
 }
 .copyright p{
 	color:#ccc;
