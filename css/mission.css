@@ -103,7 +103,7 @@ body:before {
 	border: 6px solid #fff;
 	width: 4.5em;
 	margin: 0.2em auto;
-	animation: missionborder 1.5s step-start infinite;
+	animation: missionborder 1.25s step-start infinite;
 			-webkit-touch-callout: none;
 	-webkit-user-select: none; 
 	-khtml-user-select: none; 
