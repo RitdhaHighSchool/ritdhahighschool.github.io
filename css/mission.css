@@ -8,6 +8,19 @@ html, body {
 	overflow-x: hidden;
 	background: #000;
 }
+body:before {
+	content: '3rd';
+	font-size:40vw;
+	text-align: center;
+	z-index: 0;
+	width: 100%;
+	line-height: 100vh;
+	margin-top: .1em;
+	display: block;
+	position: fixed;
+	color: #121025;
+	text-shadow: 2px 2px 15vw #121025;
+}
 .nav-links {
 	border-bottom: 10px solid #99999b;
 		-webkit-touch-callout: none;
