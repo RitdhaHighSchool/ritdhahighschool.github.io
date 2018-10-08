@@ -1,8 +1,19 @@
+*, *:after {
+	-webkit-transition-property: none !important;
+	-moz-transition-property: none !important;
+	-o-transition-property: none !important;
+	transition-property: none !important;
+	-webkit-transition-duration: 0s !important;
+	-moz-transition-duration: 0s !important;
+	-o-transition-duration: 0s !important;
+	transition-duration: 0s !important;
+}
+
 html, body{
     font-size: 100%;
 	font-family: 'Perfect DOS VGA 437', 'RD CHULAJARUEK', serif;
 	background: url(../images/bluebg.png);
-	background-color: #071434;
+	background-color: #000084;
 	margin: 0;
 }
 
@@ -51,7 +62,7 @@ ul#countdown li p {
 	padding-left: 76px;
 	}
 #username {
-	color: #c8ac7c;
+	color: #fdfdfd;
 }
 #giftedicon {
 	background: url(../images/gifted.png);
@@ -188,7 +199,7 @@ input[type="submit"],input[type="reset"],.w3l_teachers_grd, h4,.agile_feature_gr
 }
 .nav-links .navbar-inverse {
     background: url(../images/bluebg.png);
-	  background-color: #071434;
+	  background-color: #000084;
 	border:none;
 		position: fixed;
     z-index: 99;
@@ -202,24 +213,25 @@ input[type="submit"],input[type="reset"],.w3l_teachers_grd, h4,.agile_feature_gr
 }
 .nav-links .navbar-nav>li>a {
     padding: 30px 25px;
-    color: #c8ac7c;
+    color: #fdfdfd;
     font-size: 16px;
     font-weight: 600;
 	text-transform: uppercase;
 }
 .nav-links  .navbar-inverse .navbar-nav>li>a:hover {
-    background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=80&opacity=20);
-	color:#ccc;
+	background: url(../images/blackbg.png);
+	color:#fff;
 }
 .navbar-inverse .navbar-nav > li > a:focus {
-    color: #ccc;
+    color: #fff;
 }
 .navbar-nav > li > a {
 	background: url(../images/bluebg.png);
-	  background-color: #071434;
+	  background-color: #000084;
 }
 .nav-links .navbar-inverse .navbar-nav>.active>a,.nav-links  .navbar-inverse .navbar-nav>.active>a:focus,.nav-links  .navbar-inverse .navbar-nav>.active>a:hover {
-    background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=80&opacity=20);
+	background: url(../images/blackbg.png);
+
 }
 .navbar-header {
     width: 10%;
@@ -242,7 +254,7 @@ div#myNavbar {
 	left: 0;
 	width: 100%;
 	height: 1px;
-	background:#c8ac7c;
+	background:#fdfdfd;
 	content: '';
 	opacity: 0;
 	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -293,8 +305,8 @@ div#myNavbar {
 	text-align: center;
 }
 .banner.gifted{
-	box-shadow: inset 0 0 0 2000px rgba(0,0,0,.3);
-	background: url(../images/giftedbg.jpg);
+	box-shadow: inset 0 0 0 0 rgba(0,0,0,0);
+	background: url(../images/3rd.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -311,7 +323,7 @@ div#myNavbar {
 	display: none !important;	
 }
 .banner h2 {
-    color: #c8ac7c;
+    color: #fdfdfd;
     text-transform: uppercase;
     font-size: 5.5em;
     font-weight: bold;
@@ -323,18 +335,19 @@ div#myNavbar {
 	margin-top: 0.5em;
 }
 .banner h3 {
-    color: #ccc;
+    color: #fff;
     text-transform: uppercase;
     font-size: 4em;
     line-height: 1.5em;
 	word-spacing: 7px;
 }
 #teachers, #social, #students {
-	background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=80&opacity=20);
+	background: url(../images/blackbg.png);
+
 }
 #teachers.gifted {
 	background: url(../images/bluebg.png);
-	  background-color: #071434;
+	  background-color: #000084;
 }
 .twitter {
 	color: #1da1f2;
@@ -352,7 +365,7 @@ div#myNavbar {
 	vertical-align: top;
 }
 .twitter:hover, .instagram:hover, .fbpage:hover {
-	color: #c8ac7c;
+	color: #fdfdfd;
 }
 .banner p{
 	color:#fff;
@@ -515,12 +528,12 @@ div#about {
     background-color:#fff;
 }
 .w3l-about-left h2 {
-    color:#c8ac7c;
+    color:#fdfdfd;
 
 }
 .about-agileits-title h3,h3.wthree_head,.contact h3,.wthree_head_section_gallery h3,.agileits-title-teachers h3,.heading h3{
 	font-size: 3em;
-    color:#c8ac7c;
+    color:#fdfdfd;
     text-decoration: none;
     font-weight: 600;
     padding: 0;
@@ -568,7 +581,7 @@ div#about {
     font-size: 28px;
     margin-bottom: 25px;
     text-transform: uppercase;
-    color:#ccc;
+    color:#fff;
 	font-weight: 500;
 }
 .stylegridtext p {
@@ -592,7 +605,8 @@ div#about {
     font-size: 1.4em;
 }
 .readmore a:hover {
-    background: #c8ac7c;
+    background: #fdfdfd;
+	color: #030408;
 }
 .readmore {
     margin-top: 30px;
@@ -629,7 +643,7 @@ p.sub_cap {
 	padding: 0.3em;
 }
 .portfolio-grids a:hover {
-	color: #c8ac7c;
+	color: #fdfdfd;
 }
 .portfolio-agileinfo .portfolio-grids img.img-responsive {
     width: 100%;
@@ -701,7 +715,7 @@ p.sub_cap {
 	filter: brightness(65%) contrast(125%);
 }
 .wthree_teachers_grid  {
-	filter: brightness(75%);
+	filter: brightness(85%) contrast(125%);
 }
 .portfolio-grids.wave {
 	filter: brightness(100%);
@@ -724,19 +738,19 @@ p.sub_cap {
 }
 .wthree_teachers_grid h4 {
     font-size: 1.5em;
-    color: #c8ac7c;
+    color: #fdfdfd;
     margin: 1em 0 .5em;
 	text-transform: capitalize;
 }
 .wthree_teachers_grid p {
-    color: #ccc;
+    color: #fff;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: .5px;
     margin: 10px 0 40px;
 }
 #head {
-	color: #ccc;
+	color: #fff;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: .5px;
@@ -787,8 +801,8 @@ p.sub_cap {
 	margin: 1em 0;
 	 text-transform: uppercase;
     text-decoration: none;
-    background:#c8ac7c;
-    border: solid 1px #c8ac7c;
+    background:#fdfdfd;
+    border: solid 1px #fdfdfd;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -814,7 +828,7 @@ display: block;
 	}
 	.agile-sub h4 {
     font-size: 2em;
-    color:#c8ac7c;
+    color:#fdfdfd;
     margin-bottom: 0.4em;
 }
 iframe {
@@ -826,7 +840,7 @@ iframe {
 
 /*-- mail us --*/ 
 .contact-left input[type="text"],.contact-left input[type="email"]{
-	border:1px solid #ccc;
+	border:1px solid #fff;
 	font-size:1em;
 	color:#828282;
 	background:none;
@@ -838,7 +852,7 @@ iframe {
 	border-color:#000;	
 }
 .contact-right textarea{
-	border:1px solid #ccc;
+	border:1px solid #fff;
 	font-size:1em;
 	color:#828282;
 	background:none;
@@ -855,7 +869,7 @@ iframe {
     padding: .6em 1em;
     color: #fff;
     font-size: 1.1em;
-    background:#c8ac7c; 
+    background:#fdfdfd; 
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -864,7 +878,7 @@ iframe {
     outline: none;
     margin: 1em 0 0;
     width: 100%;
-	border:1px solid #c8ac7c;
+	border:1px solid #fdfdfd;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -898,13 +912,13 @@ iframe {
     font-size: 1.2em;
     border: 1px solid ;
     padding: 1em;
-    color: #c8ac7c;
+    color: #fdfdfd;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all; 
 	transition:.5s all;
 }
 .address-row:hover span.glyphicon {
-    border-color: #c8ac7c; 
+    border-color: #fdfdfd; 
 	-webkit-transform: rotatey(360deg);
 	-moz-transform: rotatey(360deg);
     transform: rotatey(360deg);	
@@ -918,7 +932,7 @@ iframe {
     font-weight: 300;
 }
 .address-row p a {
-    color: #c8ac7c;
+    color: #fdfdfd;
 }
 .address-row p a:hover{
     color: #999;
@@ -936,10 +950,11 @@ iframe {
 .copyright{
 	padding:1.5em 0;
 	text-align:center;
-	background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=80&opacity=20);
+	background: url(../images/blackbg.png);
+
 }
 .copyright p{
-	color:#ccc;
+	color:#fff;
 	font-size:1em;
 	margin:0;
     letter-spacing: 1px;
@@ -950,12 +965,12 @@ iframe {
     text-decoration: none;
 }
 .copyright p a:hover{
-	color:#c8ac7c;	
+	color:#fdfdfd;	
 }
 /*-- bootstrap-modal-pop-up --*/
 .modal-header {
     font-size: 2em;
-    color: #c8ac7c;
+    color: #fdfdfd;
     text-align: center;
     text-transform: uppercase;
     border: 1px solid #fff;
@@ -1230,7 +1245,7 @@ div#myNavbar {
     margin: 0 !important;
 }
 .navbar-toggle {
-    background-color: #c8ac7c;
+    background-color: #fdfdfd;
 }
 .navbar-inverse .navbar-toggle {
     border-color: #000;
@@ -1289,7 +1304,7 @@ div#myNavbar {
     margin: 0 !important;
 }
 .navbar-inverse .navbar-toggle {
-    border-color: #071434;
+    border-color: #000084;
 }
 .search-grid button.btn1 {
     padding: 6px 17px;
@@ -1523,7 +1538,7 @@ ul#countdown li span, ul#countdown li.seperator {
     margin-bottom: 0.3em;
 }
 .w3l-about-left h2 {
-    color: #c8ac7c;
+    color: #fdfdfd;
     font-size: 25px;
 }
 .address-row {

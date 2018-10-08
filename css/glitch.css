@@ -22,6 +22,13 @@
 	--blend-color-5: #000;
 }
 
+.imgloaded .content__text2 {
+	animation-name: glitch-anim-text;
+	animation-duration: 3.75s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
 .imgloaded .content__title {
 	animation-name: glitch-anim-text;
 	animation-duration: 2s;
@@ -41,7 +48,7 @@
 .banner main {
 	overflow: hidden;
 }
-.glitch__img {
+.glitch__img.bannerimg {
 	position: absolute;
 	overflow: hidden;
 	background: url(../images/bg.jpg);
@@ -56,36 +63,51 @@
 	height: 100vh;
 }
 
-.glitch__img:nth-child(n+2) {
+.gifted .glitch__img.bannerimg{
+	position: absolute;
+	overflow: hidden;
+	background: url(../images/3rd.jpg);
+	box-shadow: inset 0 0 0 0 rgba(0,0,0,0);
+	background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.glitch__img.bannerimg:nth-child(n+2) {
 	opacity: 0;
 }
 
-.imgloaded .glitch__img:nth-child(n+2) {
+.imgloaded .glitch__img.bannerimg:nth-child(n+2) {
 	animation-duration: var(--time-anim);
 	animation-delay: var(--delay-anim);
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 }
 
-.imgloaded .glitch__img:nth-child(2) {
+.imgloaded .glitch__img.bannerimg:nth-child(2) {
 	background-color: var(--blend-color-2);
 	background-blend-mode: var(--blend-mode-2);
 	animation-name: glitch-anim-1;
 }
 
-.imgloaded .glitch__img:nth-child(3) {
+.imgloaded .glitch__img.bannerimg:nth-child(3) {
 	background-color: var(--blend-color-3);
 	background-blend-mode: var(--blend-mode-3);
 	animation-name: glitch-anim-2;
 }
 
-.imgloaded .glitch__img:nth-child(4) {
+.imgloaded .glitch__img.bannerimg:nth-child(4) {
 	background-color: var(--blend-color-4);
 	background-blend-mode: var(--blend-mode-4);
 	animation-name: glitch-anim-3;
 }
 
-.imgloaded .glitch__img:nth-child(5) {
+.imgloaded .glitch__img.bannerimg:nth-child(5) {
 	background-color: var(--blend-color-5);
 	background-blend-mode: var(--blend-mode-5);
 	animation-name: glitch-anim-flash;
