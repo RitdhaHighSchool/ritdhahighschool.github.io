@@ -113,7 +113,7 @@ body:before {
 	pointer-events: none !important;
 }
 #missiontitle div {
-	animation: missiontext 1s step-start infinite;
+	animation: missiontext 1.25s step-start infinite;
 }
 
 #missiondetail {
