@@ -2348,7 +2348,6 @@ th {
   background-color: #f9f9f9;
 }
 .table-hover > tbody > tr:hover {
-  background: url(../images/bluebg.png);
   background-color: #000084;
 }
 table col[class*="col-"] {
