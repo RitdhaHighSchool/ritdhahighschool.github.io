@@ -26,11 +26,11 @@
 	background: url(../images/3rd.png);
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding-bottom: 9em;
 	margin: 0 auto;
 	
 }
 #appicon p {
+	padding-top: 0.6em;
 	font-size: 1.5em;
 	font-weight: normal;
 }
