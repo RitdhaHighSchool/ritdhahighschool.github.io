@@ -31,7 +31,7 @@
 <link rel="icon" type="image/png" sizes="192x192" href="../3rd-192x192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../3rd-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../3rd-16x16.png">
-<link rel="manifest" href="../3rd.webmanifest">
+<link rel="manifest" href="../3rdmanifest.json">
 <link rel="mask-icon" href="../3rd.svg" color="#01058a">
 <meta name="msapplication-TileColor" content="#01058a">
 <meta name="theme-color" content="#01058a">
@@ -50,9 +50,15 @@
 
 <body>
 <script type="text/javascript">
-    window.onLoad = function() {        
-        window.scrollTo(0,1);
-    }
+    if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('../js/service-worker.js').then(function(registration) {
+      // Registration was successful
+    }, function(err) {
+      // registration failed :(
+    });
+  });
+}
 </script>
 <div class="nav-links">	
 	<nav class="navbar">
@@ -117,7 +123,7 @@
 </script>
 <!-- start-smoth-scrolling -->
 <!-- for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
+	<script src="../js/bootstrap.js"></script>
 <!-- //for bootstrap working -->
 <!-- here stars scrolling icon -->
 
