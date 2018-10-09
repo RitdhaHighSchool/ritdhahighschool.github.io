@@ -6,16 +6,18 @@ html, body {
 	width: 100%;
 	height: 100%;
 	overflow-x: hidden;
-	background: #000;
+	background: transparent;
 }
 body:before {
-	content: '3rd';
-	font-size:40vw;
+	content: '3';
+	font-size:150vw;
 	text-align: center;
-	z-index: 0;
+	z-index: -1;
 	width: 100%;
 	line-height: 100vh;
-	margin-top: .1em;
+	padding-top: .1em;
+	padding-left: .1em;
+	background: #000;
 	display: block;
 	position: fixed;
 	color: #121025;
