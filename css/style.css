@@ -8,6 +8,32 @@
 	-o-transition-duration: 0s !important;
 	transition-duration: 0s !important;
 }
+#appicon {
+	max-width: 200px;
+	margin: 0 auto;
+}
+#appicon:hover {
+	filter: brightness(130%) contrast(90%);
+}
+#appicon a {
+	text-decoration: none;
+}
+#appicon div {
+	display: block;
+	position: relative;
+	width: 130px;
+	height: 130px;
+	background: url(../images/3rd.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-bottom: 9em;
+	margin: 0 auto;
+	
+}
+#appicon p {
+	font-size: 1.5em;
+	font-weight: normal;
+}
 html, body{
     font-size: 100%;
 	font-family: 'Perfect DOS VGA 437', 'RD CHULAJARUEK', serif;
