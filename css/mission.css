@@ -195,7 +195,7 @@ ul#countdown li {
 #missiondetail {
 	 font-family: 'RD CHULAJARUEK' !important;
     margin: 0 auto;
-    font-size: calc(3vw + 3vh) !important;
+    font-size: 5em;
 	display: block;
 	text-align: center;
     width: 95%;
