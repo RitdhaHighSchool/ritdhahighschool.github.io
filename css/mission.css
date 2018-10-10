@@ -195,7 +195,7 @@ ul#countdown li {
 #missiondetail {
 	 font-family: 'RD CHULAJARUEK' !important;
     margin: 0 auto;
-    font-size: 5em;
+    font-size: calc(3vw + 3vh) !important;
 	display: block;
 	text-align: center;
     width: 95%;
@@ -454,6 +454,9 @@ ul#countdown li {
 	}
 }
 @media(max-width:414px){
+	#reward p {
+		width: 80%;
+	}
 	#missiontitle {
 	font-size: 4.5em;
 	}
@@ -463,6 +466,16 @@ ul#countdown li {
 	 #reward h2 {
 		font-size: 3.9em;
 	}
+	#reward h2:before {
+	position: absolute;
+	margin-left: -.3em;
+	top: 2.1em;
+}
+	#reward h2:after {
+	position: absolute;
+	margin-left: calc(-46px + 0.3em);
+	top: 2.1em;
+}
 }
 @media(max-width:384px){
 	#missiontitle {
@@ -474,17 +487,7 @@ ul#countdown li {
 		width: 46px;
 		height: 54px;
 	}
-	#reward h2:before {
-	position: absolute;
-	margin-left: -.3em;
-	top: 2.1em;
-}
 
-#reward h2:after {
-	position: absolute;
-	margin-left: calc(-46px + 0.3em);
-	top: 2.1em;
-}
 }
 @media(max-width:375px){
 	#missiontitle {
