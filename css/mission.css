@@ -45,6 +45,14 @@ body:before {
 	margin: 0;
 }
 
+.nav-links.count {
+	border-bottom: 10px solid #fff;
+}
+
+.nav-links.count .navbar:before, .nav-links.count .navbar:after {
+	display: none;
+}
+
 .navbar:before {
 	position: absolute;
 	content: '';
@@ -114,9 +122,75 @@ body:before {
 	user-select: none; 
 	pointer-events: none !important;
 }
+
 #missiontitle div {
 	animation: missiontext 1.25s step-start infinite;
 }
+
+.nav-links.count .navbar {
+	position: relative;
+	display:block;
+	background: #b55061;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 0;
+	border: none;
+	border-bottom: 8px solid #fff;
+	margin: 0;
+}
+
+#countdowntitle {
+	 text-align: center;
+    font-size: 17.5em;
+    vertical-align: middle;
+    line-height: 0.9em;
+	padding-left: 0.1em;
+	padding-top: 0.1em;
+    height: auto;
+    position: relative;
+	z-index: 99999;
+	background: #fff;
+	color: #000;
+	mix-blend-mode: screen;
+	width: 5.5em;
+	margin: 0.2em auto;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none;
+	user-select: none; 
+	pointer-events: none !important;
+}
+
+#countdowntime {
+	 text-align: center;
+    font-size: 19.5em;
+    vertical-align: middle;
+    line-height: 1em;
+	padding: 0.1em 0 0 0.1em;
+    height: auto;
+    position: relative;
+	z-index: 99999;
+	border: 6px solid #fff;
+	width: 4.75em;
+	margin: 0 auto 0.1em;
+}
+
+ul#countdown {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+ul#countdown li {
+	display: inline;
+	margin: 0 -.3em;
+	color: #852633;
+	}
+
 
 #missiondetail {
 	 font-family: 'RD CHULAJARUEK' !important;
@@ -493,3 +567,4 @@ body:before {
 		transform: scale(0.85);
 	}
 }
+
