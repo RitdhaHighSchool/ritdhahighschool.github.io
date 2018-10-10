@@ -422,6 +422,7 @@ ul#countdown li {
 		font-size: 4.5em;
 	}
 	#reward p {
+		width: 85%;
 		margin: 0.2em	auto 0.1em;
 		font-size: 2.25em;
 	}
@@ -430,6 +431,7 @@ ul#countdown li {
 		width: 55px;
 		height: 65px;
 	}
+
 }
 @media(max-width:568px){
 	#missiontitle {
@@ -472,6 +474,17 @@ ul#countdown li {
 		width: 46px;
 		height: 54px;
 	}
+	#reward h2:before {
+	position: absolute;
+	margin-left: -.3em;
+	top: 2.1em;
+}
+
+#reward h2:after {
+	position: absolute;
+	margin-left: calc(-46px + 0.3em);
+	top: 2.1em;
+}
 }
 @media(max-width:375px){
 	#missiontitle {
@@ -511,6 +524,11 @@ ul#countdown li {
 	#reward h2:after {
 		width: 46px;
 		height: 54px;
+	}
+		#reward p {
+		width: 100%;
+		margin: 0.2em auto 0.1em;
+		font-size: 2.25em;
 	}
 }
 
