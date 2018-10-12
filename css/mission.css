@@ -124,7 +124,7 @@ body:before {
 }
 
 #missiontitle div {
-	animation: missiontext 1.25s step-start infinite;
+	animation: missiontext 1s step-start infinite;
 }
 
 .nav-links.count .navbar {
@@ -540,10 +540,10 @@ ul#countdown li {
 		color: #fff;
 		}
     40% {
-		color: #029cff;
+		color: #004bf4;
 		}
     60% {
-		color: #029cff;
+		color: #004bf4;
 		}
 	100% {
 		color: #fff;
