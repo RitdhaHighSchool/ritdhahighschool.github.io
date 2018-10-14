@@ -16,7 +16,7 @@
   "start_url": "/3rd/index.html",
   "background_color": "#000084",
   "display": "standalone",
-  ​​"orientation": "portrait",
+  ​​"orientation": "portrait-primary",
   "scope": "/",
   "theme_color": "#000084"
 }
