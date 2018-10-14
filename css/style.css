@@ -36,6 +36,11 @@
 }
 html, body{
     font-size: 100%;
+<<<<<<< HEAD
+=======
+	font-family: 'Noto Serif', 'Taviraj', serif;
+	background:#071434;
+>>>>>>> parent of f8eef55... updated
 	margin: 0;
 	color: #000 !important;
 }
@@ -101,7 +106,6 @@ ul#countdown li p {
 	line-height: 1em;
 }
 .stamp-div {
-	display: none !important;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none; 
 	-khtml-user-select: none; 
@@ -113,7 +117,7 @@ ul#countdown li p {
 	font-size: 15em;
 	line-height: 1em;
 	text-align: center;
-	font-family: 'Perfect DOS VGA 437', 'RD CHULAJARUEK';
+	font-family: TH Sarabun New;
 	font-weight: bold;
 	display: inline-block;
 	position: absolute;
@@ -607,8 +611,13 @@ div#about {
 	font-weight: 500;
 }
 .stylegridtext p {
+<<<<<<< HEAD
 	font-family: 'RD CHULAJARUEK';
     font-size: 20px;
+=======
+	font-family: TH Sarabun New;
+    font-size: 25px;
+>>>>>>> parent of f8eef55... updated
     line-height: 30px;
     color: #fff;
     margin-bottom: 20px;
