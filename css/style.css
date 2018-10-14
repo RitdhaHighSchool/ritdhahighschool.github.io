@@ -723,7 +723,6 @@ p.sub_cap {
 .portfolio-grids {
     padding: 0;
 }
-<<<<<<< HEAD
 .img_table > * {
 		-webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -743,9 +742,6 @@ p.sub_cap {
 .portfolio-grids.wave {
 	filter: brightness(100%);
 }
-=======
-
->>>>>>> parent of be4e7ec... updated
 .portfolio-grids_left {
     padding: 0;
 }
