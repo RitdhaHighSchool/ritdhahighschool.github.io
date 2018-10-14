@@ -36,10 +36,8 @@
 }
 html, body{
     font-size: 100%;
-	font-family: 'Perfect DOS VGA 437', 'RD CHULAJARUEK', serif;
-	background: url(../images/bluebg.png);
-	background-color: #000084;
 	margin: 0;
+	color: #000;
 }
 
 ul#countdown {
