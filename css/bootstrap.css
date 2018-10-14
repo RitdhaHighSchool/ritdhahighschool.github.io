@@ -2348,7 +2348,11 @@ th {
   background-color: #f9f9f9;
 }
 .table-hover > tbody > tr:hover {
+<<<<<<< HEAD
   background-color: #000084;
+=======
+  background-color: #071434;
+>>>>>>> parent of b8027ad... updated
 }
 table col[class*="col-"] {
   position: static;
