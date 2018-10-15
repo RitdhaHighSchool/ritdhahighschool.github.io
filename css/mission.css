@@ -1,3 +1,10 @@
+::selection {
+  background: #000084;
+}
+::-moz-selection {
+  background: #000084;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -198,16 +205,22 @@ ul#countdown li {
     font-size: 5em;
 	display: block;
 	text-align: center;
-    width: 95%;
+    width: 75%;
 	animation: scale 1s linear infinite;
 	transform: scale(0.95);
-			-webkit-touch-callout: none;
-	-webkit-user-select: none; 
-	-khtml-user-select: none; 
-	-moz-user-select: none; 
-	-ms-user-select: none;
-	user-select: none; 
-	pointer-events: none !important;
+	background: transparent;
+	resize: none !important;
+	border: 0 !important;
+	overflow: hidden;
+	outline: none;
+	height: 2.8em;
+	max-height: 2.8em;
+	line-height: 1.2em;
+}
+#missiondetail:hover, #missiondetail:active, #missiondetail:focus {
+	background: transparent;
+	border: 0 !important;
+	outline: none;
 }
 .sep {
 	 text-align: center;
@@ -232,7 +245,12 @@ ul#countdown li {
 	border: 3px solid #6d6c7a;
 	border-radius: 30px;
 	width: 45em;
-			-webkit-touch-callout: none;
+}
+
+#reward h2 {
+	margin: 0.1em 0 -0.1em;
+	font-size: 8.5em;
+	-webkit-touch-callout: none;
 	-webkit-user-select: none; 
 	-khtml-user-select: none; 
 	-moz-user-select: none; 
@@ -241,12 +259,7 @@ ul#countdown li {
 	pointer-events: none !important;
 }
 
-#reward h2 {
-	margin: 0.1em 0 -0.1em;
-	font-size: 8.5em;
-}
-
-#reward p {
+#reward textarea {
 	font-family: 'RD CHULAJARUEK' !important;
     margin: 0 auto 0.1em;
     font-size: 4em;
@@ -254,6 +267,18 @@ ul#countdown li {
 	text-align: center;
     width: 95%;
 	transform: scale(0.95);
+	background: transparent;
+	border: 0 !important;
+	resize: none !important;
+	overflow: hidden;
+	outline: none;
+	height: 3.2em;
+	max-height: 3.2em;
+}
+#reward textarea:hover, #reward textarea:active, #reward textarea:focus {
+	background: transparent;
+	border: 0 !important;
+	outline: none;
 }
 
 
@@ -271,6 +296,13 @@ ul#countdown li {
 	margin-top: -0.15em;
 	margin-right: 0.12em;
 	animation: scale2 0.5s linear infinite;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none;
+	user-select: none; 
+	pointer-events: none !important;
 }
 
 #reward h2:after {
@@ -286,6 +318,13 @@ ul#countdown li {
     transform: scale(0.85);
 	margin-top: -0.15em;
 	animation: scale2 0.5s linear infinite;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none;
+	user-select: none; 
+	pointer-events: none !important;
 }
 
 @media(max-width:1440px){
@@ -329,7 +368,7 @@ ul#countdown li {
 	#reward h2 {
 		font-size: 7em;
 	}
-	#reward p {
+	#reward textarea {
 		font-size: 3em;
 	}
 	#reward h2:before,
@@ -384,7 +423,7 @@ ul#countdown li {
 	#reward h2 {
 		font-size: 5.8em;
 	}
-	#reward p {
+	#reward textarea {
 		font-size: 2.75em;
 	}
 	#reward h2:before,
@@ -427,7 +466,7 @@ ul#countdown li {
 	#reward h2 {
 		font-size: 4.5em;
 	}
-	#reward p {
+	#reward textarea {
 		width: 85%;
 		margin: 0.2em	auto 0.1em;
 		font-size: 2.25em;
@@ -460,7 +499,7 @@ ul#countdown li {
 	}
 }
 @media(max-width:414px){
-	#reward p {
+	#reward textarea {
 		width: 80%;
 	}
 	#missiontitle {
@@ -472,16 +511,6 @@ ul#countdown li {
 	 #reward h2 {
 		font-size: 3.9em;
 	}
-	#reward h2:before {
-	position: absolute;
-	margin-left: -.3em;
-	top: 2.1em;
-}
-	#reward h2:after {
-	position: absolute;
-	margin-left: calc(-46px + 0.3em);
-	top: 2.1em;
-}
 }
 @media(max-width:384px){
 	#missiontitle {
@@ -534,7 +563,7 @@ ul#countdown li {
 		width: 46px;
 		height: 54px;
 	}
-		#reward p {
+		#reward textarea {
 		width: 100%;
 		margin: 0.2em auto 0.1em;
 		font-size: 2.25em;
