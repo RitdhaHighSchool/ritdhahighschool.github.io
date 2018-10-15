@@ -281,7 +281,6 @@ ul#countdown li {
 	overflow: hidden;
 	outline: none;
 	height: 1.6em;
-	line-height: 1.6em;
 	text-decoration: none: !important;
 	-webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -494,7 +493,6 @@ ul#countdown li {
 	}
 	#missiondetail {
 		height: 4em !important;
-		line-height: 1.3em !important;
 	}
 
 }
