@@ -522,8 +522,8 @@ ul#countdown li {
 	}
 	#reward h2:before,
 	#reward h2:after {
-		width: 46px;
-		height: 54px;
+		width: 42px;
+		height: 50px;
 	}
 
 }
@@ -541,8 +541,8 @@ ul#countdown li {
 	}
 	#reward h2:before,
 	#reward h2:after {
-		width: 46px;
-		height: 54px;
+		width: 42px;
+		height: 50px;
 	}
 }
 @media(max-width:320px){
@@ -563,8 +563,8 @@ ul#countdown li {
 	}
 	#reward h2:before,
 	#reward h2:after {
-		width: 46px;
-		height: 54px;
+		width: 42px;
+		height: 50px;
 	}
 		#reward textarea {
 		width: 100%;
