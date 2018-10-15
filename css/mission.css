@@ -485,7 +485,7 @@ ul#countdown li {
 	#reward p {
 		width: 85%;
 		margin: 0	auto 0.1em;
-		height: 4.8em;
+		height: 5em !important;
 	}
 	#reward h2:before,
 	#reward h2:after {
@@ -493,8 +493,8 @@ ul#countdown li {
 		height: 65px;
 	}
 	#missiondetail {
-		height: 3.8em !important;
-		line-height: 1.3em;
+		height: 4em !important;
+		line-height: 1.3em !important;
 	}
 
 }
