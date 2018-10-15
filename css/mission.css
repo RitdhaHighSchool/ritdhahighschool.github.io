@@ -215,7 +215,7 @@ ul#countdown li {
 	overflow: hidden;
 	outline: none;
 	height: 1.5em;
-	line-height: 1.2em;
+	line-height: 1.5em;
 	text-decoration: none: !important;
 	-webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -267,7 +267,7 @@ ul#countdown li {
 	pointer-events: none !important;
 }
 
-#reward textarea {
+#reward p {
 	font-family: 'RD CHULAJARUEK' !important;
     margin: 0 auto 0.1em;
     font-size: calc(2.6vw + 2.6vh) !important;
@@ -281,13 +281,13 @@ ul#countdown li {
 	overflow: hidden;
 	outline: none;
 	height: 1.6em;
-	line-height: 1.2em;
+	line-height: 1.6em;
 	text-decoration: none: !important;
 	-webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
 	}
-#reward textarea:hover, #reward textarea:active, #reward textarea:focus {
+#reward p:hover, #reward p:active, #reward p:focus {
 	background: transparent;
 	border: 0 !important;
 	outline: none;
@@ -384,7 +384,7 @@ ul#countdown li {
 	#reward h2 {
 		font-size: 7em;
 	}
-	#reward textarea {
+	#reward p {
 		font-size: 3em;
 	}
 	#reward h2:before,
@@ -439,7 +439,7 @@ ul#countdown li {
 	#reward h2 {
 		font-size: 5.8em;
 	}
-	#reward textarea {
+	#reward p {
 		font-size: 2.75em;
 	}
 	#reward h2:before,
@@ -482,10 +482,10 @@ ul#countdown li {
 	#reward h2 {
 		font-size: 4.5em;
 	}
-	#reward textarea {
+	#reward p {
 		width: 85%;
 		margin: 0	auto 0.1em;
-		height: 5.2em;
+		height: 5em;
 	}
 	#reward h2:before,
 	#reward h2:after {
@@ -494,7 +494,7 @@ ul#countdown li {
 	}
 	#missiondetail {
 		height: 4em !important;
-		line-height: 1.2em;
+		line-height: 1.3em;
 	}
 
 }
@@ -519,7 +519,7 @@ ul#countdown li {
 	}
 }
 @media(max-width:414px){
-	#reward textarea {
+	#reward p {
 		width: 80%;
 	}
 	#missiontitle {
@@ -583,7 +583,7 @@ ul#countdown li {
 		width: 42px;
 		height: 50px;
 	}
-		#reward textarea {
+		#reward p {
 		width: 100%;
 		margin: 0.2em auto 0.1em;
 		font-size: 2.25em;
