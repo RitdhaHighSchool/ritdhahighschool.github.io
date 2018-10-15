@@ -215,11 +215,11 @@ ul#countdown li {
 	overflow: hidden;
 	outline: none;
 	height: 1.5em;
-	line-height: 1.5em;
 	text-decoration: none: !important;
 	-webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+	 padding-top: 0.1em;
 }
 #missiondetail:hover, #missiondetail:active, #missiondetail:focus {
 	background: transparent;
@@ -285,6 +285,7 @@ ul#countdown li {
 	-webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+	 padding-top: 0.1em;
 	}
 #reward p:hover, #reward p:active, #reward p:focus {
 	background: transparent;
