@@ -217,12 +217,18 @@ ul#countdown li {
 	height: 1.5em;
 	line-height: 1.2em;
 	text-decoration: none: !important;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 #missiondetail:hover, #missiondetail:active, #missiondetail:focus {
 	background: transparent;
 	border: 0 !important;
 	outline: none;
 	text-decoration: none: !important;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 .sep {
 	 text-align: center;
@@ -277,12 +283,18 @@ ul#countdown li {
 	height: 1.6em;
 	line-height: 1.2em;
 	text-decoration: none: !important;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 	}
 #reward textarea:hover, #reward textarea:active, #reward textarea:focus {
 	background: transparent;
 	border: 0 !important;
 	outline: none;
 	text-decoration: none: !important;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 
