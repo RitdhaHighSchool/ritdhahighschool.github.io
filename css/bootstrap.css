@@ -48,7 +48,7 @@ template {
 	line-height: 70px;
 	height: 70px;
 	padding: 0 5px;
-	color: #fdfdfd;
+	color: #c8ac7c;
 	font-size: 19px;
 }
 #logo.gifted:after {
@@ -2306,6 +2306,7 @@ th {
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
   text-transform: uppercase;
+  color: #ccc;
 }
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
@@ -2348,11 +2349,7 @@ th {
   background-color: #f9f9f9;
 }
 .table-hover > tbody > tr:hover {
-<<<<<<< HEAD
-  background-color: #000084;
-=======
   background-color: #071434;
->>>>>>> parent of b8027ad... updated
 }
 table col[class*="col-"] {
   position: static;
@@ -3078,7 +3075,7 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: #030408;
-  background-color: #fdfdfd;
+  background-color: #c8ac7c;
    display: inline-block;
     padding: 6px 18px;
     margin-bottom: 0;
@@ -3106,7 +3103,7 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #fff;
-  background-color: #000084;
+  background-color: #071434;
 }
 .btn-default:active,
 .btn-default.active,
@@ -4259,7 +4256,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 5px;
 }
 .navbar-toggle:focus {
   outline: 0;
@@ -4268,7 +4265,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
   width: 22px;
   height: 3px;
-  border-radius: 0;
+  border-radius: 3px;
 }
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 3px;
@@ -4486,7 +4483,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #000084;
+  border-color: #071434;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -4586,14 +4583,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #fff;
+  background-color: #c8ac7c;
 }
 .navbar-inverse .navbar-toggle.collapsed {
-  background-color: #fdfdfd;
+  background-color: #c8ac7c;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #000084;
+  background-color: #071434;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
