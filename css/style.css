@@ -745,7 +745,7 @@ p.sub_cap {
 	text-transform: capitalize;
 }
 .wthree_teachers_grid p {
-    color: #fff;
+    color: #ccc;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: .5px;
