@@ -41,7 +41,7 @@ ul#countdown {
   text-align: center;
 }
 
-ul#countdown li { display: inline-block; }
+ul#countdown li { display: inline-block;  color: #ccc;}
 
 ul#countdown li span {
   font-size: 8em;

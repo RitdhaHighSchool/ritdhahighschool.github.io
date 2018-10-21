@@ -79,17 +79,42 @@
 		<h2 style="display:inline-block">โรงเรียน</h2><span class="newlinename"><h2 style="display:inline-block">ฤทธา</h2><h2 style="display:inline-block">วิทยาคม</h2></span>
 			<h3>AD ASTRA SAPIENTIAM</h3>
 			
-		<h2 class="hcount" style="display:inline-block">ภาคเรียนที่&nbsp;</h2><h2 style="display:inline-block"> 1</h2>
+			<h2 class="hcount" style="display:inline-block">ปิดภาคเรียน</h2>
+			<ul id="countdown">
+		   <li><span class="days">00</span><p class="days_text">วัน</p></li>
+			<li class="seperator">:</li>
+			<li><span class="hours">00</span><p class="hours_text">ชั่วโมง</p></li>
+			<li class="seperator">:</li>
+			<li><span class="minutes">00</span><p class="minutes_text">นาที</p></li>
+			<li class="seperator">:</li>
+			<li><span class="seconds">00</span><p class="seconds_text ">วินาที</p></li>
+		</ul>
+		<script type="text/javascript">
+			$('#countdown').countdown({
+				date: '11/4/2018 23:00:00',
+				offset: +7,
+				days: 'วัน',
+				day: 'วัน',
+				hours: 'ชั่วโมง',
+				hour:  'ชั่วโมง',
+				minutes: 'นาที',
+				minute: 'นาที',
+				seconds: 'วินาที',
+				second: 'วินาที'
+			}, function () {
+				alert('');
+			});
+		</script>
 		<div class="clearfix"></div>
-		<h3 style="display:inline-block">ประจำปีการศึกษา&nbsp;</h3><h3 style="display:inline-block">2561</h3>
 
-			<div class="appform" data-aos="zoom-in">
+			<!--<div class="appform" data-aos="zoom-in">
 				<a href="images/appform1.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
 					<button type="button" class="btn-default">สมัครเรียน</button>
 				</a>
 				<a href="images/appform2.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
 				</a>
 			</div>
+			-->
 	</div>
 	</main>
 <script src="js/imagesloaded.pkgd.min.js"></script>
