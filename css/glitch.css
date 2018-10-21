@@ -51,12 +51,11 @@
 .glitch__img.bannerimg {
 	position: absolute;
 	overflow: hidden;
-	background: url(../images/blackbg.png);
-	box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+	background: url(../images/bg.png);
 	background-attachment: fixed;
-    *background-position: bottom;
-    *background-repeat: no-repeat;
-    *background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 	top: 0;
 	left: 0;
 	width: 100vw;
