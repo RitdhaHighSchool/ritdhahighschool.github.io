@@ -33,7 +33,7 @@ html, body{
 	color: #000 !important;
 }
 .outgifted {
-	filter: brightness(25%);
+	filter: brightness(25%); 
 }
 ul#countdown {
   list-style: none;
