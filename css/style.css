@@ -32,7 +32,9 @@ html, body{
 	margin: 0;
 	color: #000 !important;
 }
-
+.outgifted {
+	filter: brightness(25%);
+}
 ul#countdown {
   list-style: none;
   margin: 0;
