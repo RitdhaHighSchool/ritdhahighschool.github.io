@@ -4,7 +4,10 @@
 ::-moz-selection {
   background: #000084;
 }
-
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+  display: block; /* For Firefox */
+}
 html, body {
 	margin: 0;
 	padding: 0;
