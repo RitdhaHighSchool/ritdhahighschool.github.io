@@ -95,6 +95,15 @@ ul#countdown li p {
 	letter-spacing: 5px;
 	line-height: 1em;
 }
+.milliseconds_text {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none;
+	user-select: none; 
+	pointer-events: none !important;
+}
 .stamp-div {
 	display: none !important;
 	-webkit-touch-callout: none;
@@ -108,7 +117,7 @@ ul#countdown li p {
 	font-size: 15em;
 	line-height: 1em;
 	text-align: center;
-	font-family: TH Sarabun New;
+	font-family: Sarabun;
 	font-weight: bold;
 	display: inline-block;
 	position: absolute;
@@ -607,8 +616,8 @@ div#about {
 	font-weight: 500;
 }
 .stylegridtext p {
-	font-family: TH Sarabun New;
-    font-size: 25px;
+	font-family: Sarabun;
+    font-size: 18px;
     line-height: 30px;
     color: #fff;
     margin-bottom: 20px;
@@ -1069,7 +1078,7 @@ button.close {
 		font-size: 6em;
 	}
 .table {
-	font-size: 1.75em;
+	font-size: 1.3em;
 }
 .banner.gifted.en h3 {
     font-size: 2.5em;
@@ -1169,7 +1178,7 @@ button.close {
     font-size: 3em;
 }
 .table {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 	.navbar-brand {
 	padding:0 !important;
@@ -1385,7 +1394,7 @@ h3.newlinename {
 	padding:2.5em 0 10em;
 	}
 	.table {
-	font-size: 1.25em;
+	font-size: 1em;
 }
 .wthree_teachers_grid {
     text-align: center;
@@ -1452,8 +1461,8 @@ ul#countdown li span, ul#countdown li.seperator {
 	line-height: 1em;
 	margin-top: -8px;
 }
-	.table {
-	font-size: 1em;
+.table {
+	font-size: 0.9em;
 }
 	.video {
 	padding:2.5em 0 14em;
@@ -1527,7 +1536,9 @@ ul#countdown li span, ul#countdown li.seperator {
 }
 }
 @media(max-width:414px){
-
+.table {
+	font-size: 0.75em;
+}
 .search-grid button.btn1 {
     padding: 6px 5px;
 }

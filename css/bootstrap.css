@@ -2284,8 +2284,9 @@ th {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
-  font-family: TH Sarabun New;
-  font-size: 2em;
+  font-family: Sarabun;
+  font-size: 1.4em;
+  line-height: 2.5em;
 }
 .table td {
 	  color: #fff;
@@ -2298,11 +2299,13 @@ th {
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
   padding: 8px;
-  line-height: 1.42857143;
+  line-height: 2;
   vertical-align: top;
   border-top: 1px solid #ddd;
 }
 .table > thead > tr > th {
+	padding: 12px 3px;
+  line-height: 1.2em;
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
   text-transform: uppercase;
