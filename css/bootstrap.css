@@ -2305,7 +2305,7 @@ th {
 }
 .table > thead > tr > th {
 	padding: 12px 3px;
-  line-height: 1.2em;
+  line-height: 1.4em;
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
   text-transform: uppercase;
