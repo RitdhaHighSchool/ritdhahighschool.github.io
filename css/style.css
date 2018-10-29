@@ -380,13 +380,13 @@ div#myNavbar {
 #teachers.gifted {
 	  background-color: #071434;
 }
-.twitter {
+.twitter:hover {
 	color: #1da1f2;
 }
-.instagram {
+.instagram:hover {
 	color: #c32aa3;
 }
-.fbpage {
+.fbpage:hover {
 	color: #3b5998;
 }
 .twitter, .instagram, .fbpage {
@@ -395,7 +395,7 @@ div#myNavbar {
 	vertical-align: middle;
 	vertical-align: top;
 }
-.twitter:hover, .instagram:hover, .fbpage:hover {
+.twitter, .instagram, .fbpage {
 	color: #c8ac7c;
 }
 .banner p{
