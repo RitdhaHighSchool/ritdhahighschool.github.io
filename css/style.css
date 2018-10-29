@@ -1536,6 +1536,9 @@ ul#countdown li span, ul#countdown li.seperator {
 }
 }
 @media(max-width:414px){
+#newli {
+	display: block;
+}
 .table {
 	font-size: 0.75em;
 }
