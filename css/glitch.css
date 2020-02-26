@@ -51,7 +51,7 @@
 .glitch__img.bannerimg {
 	position: absolute;
 	overflow: hidden;
-	background: url(../images/bg.png);
+	background: url(../images/bg.jpg);
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,6 +60,7 @@
 	left: 0;
 	width: 100vw;
 	height: 100vh;
+	box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
 }
 
 .gifted .glitch__img.bannerimg{
@@ -908,9 +909,9 @@
 /* Flash */
 @keyframes glitch-anim-flash {
 	0% { 
-		opacity: 0.3; 
+		opacity: 0.75; 
 	}
-	33%, 100% { 
+	10%, 100% { 
 		opacity: 0;
 	}
 }
