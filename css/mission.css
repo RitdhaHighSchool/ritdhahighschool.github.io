@@ -104,6 +104,26 @@ body:before {
     position: relative;
 	z-index: 99999;
 }
+.outer {
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+  }
+  
+  .middle {
+	display: table-cell;
+	vertical-align: middle;
+  }
+  
+  .inner {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: calc(7.5vh + 65px);
+	width: 100vw;
+  }
 .container.content {
 	margin: 0;
 	padding: 0;
@@ -370,7 +390,8 @@ ul#countdown li {
 }
 @media(max-width:1024px){
 	#missiondetail {
-    font-size: 3em;
+	font-size: 3em;
+	height:3em;
 }
 }
 @media(max-width:991px){
@@ -379,10 +400,13 @@ ul#countdown li {
 	}
 }
 @media(max-width:800px){
+	.inner {
+		padding-top: calc(7.5vh);
+	}
 	#reward {
-	margin: 1em auto;
-	width: 80%;
-	height: 100%;
+		margin: 1em auto;
+		width: 80%;
+		height: 100%;
 }
 	#reward h2 {
 		font-size: 7em;
@@ -396,7 +420,7 @@ ul#countdown li {
 		height: 100px;
 	}
 	#missiondetail {
-    font-size: 2.5m;
+    font-size: 2.5em;
 	width: 60%;
 	}
 	#nlmb {
@@ -488,7 +512,7 @@ ul#countdown li {
 	#reward p {
 		width: 85%;
 		margin: 0	auto 0.1em;
-		height: 5em !important;
+		height: 4.5em !important;
 	}
 	#reward h2:before,
 	#reward h2:after {
@@ -496,7 +520,7 @@ ul#countdown li {
 		height: 65px;
 	}
 	#missiondetail {
-		height: 4em !important;
+		height: 4.5em !important;
 	}
 
 }
