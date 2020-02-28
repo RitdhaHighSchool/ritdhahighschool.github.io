@@ -1060,13 +1060,11 @@ button.close {
 @media(max-width:991px){
 #logo::after {
     content:"" ;
+    display: none;
 }
 #logo.en:after {
 	content:"" ;
-	text-transform: uppercase;
     display: none;
-    width: 5em;
-	line-height: 1.5em;
 }
 #logo.en.gifted:after {
 	content:"Ritdha High School" ;
