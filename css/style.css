@@ -226,11 +226,12 @@ input[type="submit"],input[type="reset"],.w3l_teachers_grd, h4,.agile_feature_gr
 	margin-bottom:0px;
 }
 .nav-links .navbar-inverse {
-	  background: #071434;
+	background: #071434;
 	border:none;
-		position: fixed;
+    position: fixed;
     z-index: 99;
     width: 100%;
+    border-radius: 0;
 }
 .nav-links .navbar-inverse .navbar-brand h1 {
     color: #000;
@@ -1049,6 +1050,7 @@ button.close {
 	line-height: 1.5em;
 	padding: 2px 5px;
 }
+}
 @media(max-width:1080px){
 }
 
@@ -1056,6 +1058,9 @@ button.close {
 
 }
 @media(max-width:991px){
+#logo::after {
+    content:"" ;
+}
 #logo.en:after {
 	content:"" ;
 	text-transform: uppercase;
@@ -1074,7 +1079,8 @@ button.close {
 }
 .stamp-div{
 	font-size: 8em;
-	top: 35%;
+    top: 35%;
+    
 }
 
 .banner.main.en h2 {
@@ -1087,7 +1093,7 @@ button.close {
 	font-size: 1.3em;
 }
 .banner.gifted.en h3 {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 .nav-links .navbar-nav>li>a {
     padding: 30px 15px;
@@ -1177,13 +1183,14 @@ button.close {
 .about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
     font-size: 2.8em;
 }
+
 }
 @media(max-width:767px){
 
 	.banner.main.en h2 {
     font-size: 3em;
 }
-.table {
+    .table {
 	font-size: 1.2em;
 }
 	.navbar-brand {
@@ -1381,7 +1388,7 @@ h3.newlinename {
     font-size: 2em;
 }
 .banner.gifted.en h3 {
-    font-size: 1.7em;
+    font-size: 1.65em;
 }
 .wthree_teachers_grid h4 {
     font-size: 1.3em;
@@ -1424,9 +1431,6 @@ h3.newlinename {
     min-height: 500px;
     padding: 5em 0 0;
 }
-.banner.gifted.en h2 {
-	font-size: 3em;
-}
 .banner.gifted{
 	min-height: 320px;
     padding: 7em 0 0;
@@ -1444,14 +1448,12 @@ h3.newlinename {
 	padding: 0 28px;
 	top: 42.5%;
 }
-}
-}
 	.banner.gifted.en  {
 	padding: 8em 0 0;
 }
 	 
-	.banner.gifted.en h2 {
-	font-size: 2.1em;
+	.banner.gifted.en h3 {
+    font-size: 1.2em;
 }
 .search-grid {
     float: none;
@@ -1555,7 +1557,7 @@ ul#countdown li span, ul#countdown li.seperator {
     padding: 6px 5px;
 }
 .banner.gifted.en h3 {
-    font-size: 1.4em;
+    font-size: 1em;
 }
 .about, .curriculum, .contact, .teachers, .social, .students, .frame {
     padding: 2em 0;
@@ -1601,7 +1603,7 @@ ul#countdown li span, ul#countdown li.seperator{
 @media(max-width:384px){
 
 	.banner.gifted.en h2 {
-    font-size: 1.7em;
+    font-size: 2em;
     word-spacing: 1px;
 }
 
