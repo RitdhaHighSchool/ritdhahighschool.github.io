@@ -91,6 +91,7 @@ body{
 	display: none;
 	position: fixed;
 	right: 0;
+	top: 30px;
 }
 #Choco_close:before{
     content: "\f057";
