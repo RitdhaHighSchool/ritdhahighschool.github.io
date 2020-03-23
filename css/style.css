@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "Font Awesome 5 Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-display: auto;
+    src: url(../fonts/fa-light-300.eot);
+    src: url(../fonts/fa-light-300.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-light-300.woff2) format("woff2"), url(../fonts/fa-light-300.woff) format("woff"), url(../fonts/fa-light-300.ttf) format("truetype"), url(../fonts/fa-light-300.svg#fontawesome) format("svg")
+}
+
+.fal {
+    font-weight: 300;
+    font-family: "Font Awesome 5 Pro";
+
+}
 a, a:visited, a:focus, a:active, a:hover{
     outline: 0 none !important;
 }
@@ -80,9 +94,6 @@ ul#countdown li p {
 	background-size: cover;
 	padding-left: 76px;
 	}
-#username {
-	color: #c8ac7c;
-}
 #giftedicon {
 	background: url(../images/gifted.png);
 	display: inline-block;
@@ -387,24 +398,6 @@ div#myNavbar {
 #teachers.gifted {
 	  background-color: #071434;
 }
-.twitter:hover {
-	color: #1da1f2;
-}
-.instagram:hover {
-	color: #c32aa3;
-}
-.fbpage:hover {
-	color: #3b5998;
-}
-.twitter, .instagram, .fbpage {
-	transition: 0.5s ease-in;
-	font-size: 1.5em !important;
-	vertical-align: middle;
-	vertical-align: top;
-}
-.twitter, .instagram, .fbpage {
-	color: #c8ac7c;
-}
 .banner p{
 	color:#ccc;
 	line-height:1.5em;
@@ -613,7 +606,7 @@ div#about {
     padding: 0;
 }
 .stylegridtext {
-    padding: 40px 60px;
+    padding: 40px 60px;    
 }
 .stylegridtext h3 {
     font-size: 28px;
@@ -639,9 +632,33 @@ div#about {
 	border:none;
 }
 .readmore.useframe a {
-   padding: 12px 30px;
+    padding: 12px 30px;
     font-size: 1.4em;
 }
+.useframe {
+    display: inline-block;
+    margin: 0 7.5px;
+}
+@media(max-width:384px){
+    .useframe {
+        margin: 15px 5px 0 !important;
+    }
+    .readmore.useframe a {
+        font-size: 1.2em;
+    }
+}
+.useframe .fa-facebook {
+    color: transparent;
+    background: url(../images/fblogo.png);
+    background-size: cover;
+}
+
+.useframe .fa-twitter {
+	color: transparent;
+    background: url(../images/twilogo.png);
+    background-size: cover;
+}
+
 .readmore a:hover {
     background: #c8ac7c;
 	color: #030408;
@@ -675,10 +692,6 @@ p.sub_cap {
 }
 .portfolio-grids a {
 	color: #fff;
-}
-.portfolio-grids a i {
-	font-size: 0.8em;
-	padding: 0.3em;
 }
 .portfolio-grids a:hover {
 	color: #c8ac7c;
@@ -982,11 +995,38 @@ iframe {
 	line-height: 1.5em;
 	padding: 5px;
 }
-.copyright p a{
+.copyright p a {
     text-decoration: none;
+    position: relative;
+    display: inline-block;
+    width: 1.3em;    
+    height: 1.3em;    
+    line-height: 1.3em;
+    vertical-align: text-bottom;
 }
 .copyright p a:hover{
 	color:#c8ac7c;	
+}
+.twitter i, .instagram i, .fbpage i {
+    color: #c8ac7c;    
+    font-size:1.3em;
+    transition: 0.5s ease-in;
+}
+.fbpage i {
+    font-size: 1.15em;
+}
+.twitter:hover i, .twitter:hover ~ #username {
+	color: #1da1f2;
+}
+.instagram:hover i, .instagram:hover ~ #username {
+	color: #e1306c;
+}
+.fbpage:hover i, .fbpage:hover ~ #username {
+	color: #1778f2;
+}
+#username {
+    color: #c8ac7c;
+    transition: 0.5s ease-in;
 }
 /*-- bootstrap-modal-pop-up --*/
 .modal-header {
@@ -1139,9 +1179,13 @@ button.close {
 }
 .stylegridimg {
     padding: 2em 0;
+    max-width: 50%;
+    margin: 0 auto;
 }
 .stylegridtext {
     padding: 40px 8px;
+    margin-bottom: 1em;
+    text-align: center;
 }
 .portfolio-grids {
     width: 50%;
@@ -1230,7 +1274,10 @@ button.close {
     width: 45px;
     height: 40px;
 	margin: 5px;
-	padding-left: 45px;
+    padding-left: 45px;
+}
+nav * {
+    transition: none !important;
 }
 #logo.gifted {
     display: inline-block;
@@ -1578,9 +1625,6 @@ ul#countdown li span, ul#countdown li.seperator {
 }
 .agile-sub-left p {
     font-size: 1.2em;
-}
-.stylegridimg {
-    padding: 1em 0;
 }
 .search-grid button.btn1 {
     padding: 6px 12px;
