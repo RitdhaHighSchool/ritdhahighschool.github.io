@@ -1253,7 +1253,11 @@ button.close {
 	content: 'โรงเรียนฤทธาวิทยาคม' ;
 	line-height: 50px;
 	height: 50px;
-	margin-top: -5px;
+    margin-top: -5px;
+    display: inline-block;
+    width: 12em;
+    font-size: 14px;
+    padding: 0 5px;
 }
 #logo.gifted:after {
 	padding: 0 7px;
