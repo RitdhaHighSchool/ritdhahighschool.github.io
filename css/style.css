@@ -15,6 +15,9 @@
 a, a:visited, a:focus, a:active, a:hover{
     outline: 0 none !important;
 }
+.appform button {
+    transition: all 0.2s ease-in !important;
+}
 #app {
 	display: block;
     position: absolute;
