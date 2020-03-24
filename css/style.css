@@ -1513,7 +1513,9 @@ h3.newlinename {
 }
 }
 @media(max-width:480px){
-
+.appform {
+	font-size: 1.5em;
+}
 .stamp-div{
 	font-size: 4em;
 	border-width: 10px;
@@ -1638,6 +1640,9 @@ ul#countdown li span, ul#countdown li.seperator {
 }
 }
 @media(max-width:384px){
+	.appform {
+	font-size: 1.25em;
+}
 	.banner.main.en h2 {
     font-size: 2em;
 }
