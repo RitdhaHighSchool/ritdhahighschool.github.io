@@ -635,12 +635,19 @@ div#about {
 	border:none;
 }
 .readmore.useframe a {
+    display: inline-block;
     padding: 12px 30px;
     font-size: 1.4em;
 }
 .useframe {
     display: inline-block;
     margin: 0 7.5px;
+}
+.useframe:first-of-type {
+    margin-left: 0;
+}
+.useframe:last-of-type {
+    margin-right: 0;
 }
 @media(max-width:384px){
     .useframe {
@@ -650,18 +657,22 @@ div#about {
         font-size: 1.2em;
     }
 }
-.useframe .fa-facebook {
+.useframe .facebook {
+    display: inline-block;
     color: transparent;
-    width: 22.4px;
-    height: 22.4px;
+    width: 20px;
+    height: 20px;
     background: url(../images/fblogo.png);
-    background-size: cover;
+    background-size: contain;
 }
 
-.useframe .fa-twitter {
-	color: transparent;
+.useframe .twitter {
+    display: inline-block;
+    color: transparent;
+    width: 20px;
+    height: 20px;
     background: url(../images/twilogo.png);
-    background-size: cover;
+    background-size: contain;
 }
 
 .readmore a:hover {
@@ -669,7 +680,7 @@ div#about {
 	color: #030408;
 }
 .readmore {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 /* //curriculum */
 /*-- portfolio section --*/
