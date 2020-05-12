@@ -642,6 +642,18 @@ div#about {
 .useframe {
     display: inline-block;
     margin: 0 7.5px;
+	position: relative;
+}
+.twibbon {
+	width: 100%;
+    color: #ccc;
+    position: absolute;
+    left: 0;
+    top: 4em;
+    font-family: Sarabun;
+    font-size: 14px;
+    text-align: center;
+	pointer-events: none;
 }
 .useframe:first-of-type {
     margin-left: 0;
