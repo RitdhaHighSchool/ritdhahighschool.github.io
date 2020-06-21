@@ -1134,18 +1134,9 @@ button.close {
     content:"" ;
     display: none;
 }
-#logo.en:after {
+#logo.en:after, #logo.en.gifted:after {
 	content:"" ;
     display: none;
-}
-#logo.en.gifted:after {
-	content:"Ritdha High School" ;
-	text-transform: uppercase;
-    display: inline-block;
-    width: 5em;
-	font-size: 14px;
-	line-height: 1.5em;
-	padding: 5px;
 }
 .stamp-div{
 	font-size: 8em;
