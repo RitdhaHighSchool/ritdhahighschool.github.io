@@ -2308,7 +2308,6 @@ th {
   line-height: 1.4em;
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
-  text-transform: uppercase;
   color: #ccc !important;
 }
 .table > caption + thead > tr:first-child > th,
