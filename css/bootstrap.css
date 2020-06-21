@@ -2309,7 +2309,7 @@ th {
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
   text-transform: uppercase;
-  color: #ccc;
+  color: #ccc !important;
 }
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,

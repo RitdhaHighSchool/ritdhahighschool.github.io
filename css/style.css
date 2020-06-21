@@ -295,7 +295,7 @@ div#myNavbar {
 	left: 0;
 	width: 100%;
 	height: 1px;
-	background:#c8ac7c;
+	background:#c8ac7c !important;
 	content: '';
 	opacity: 0;
 	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -388,7 +388,7 @@ div#myNavbar {
 	margin-top: 0.5em;
 }
 .banner h3 {
-    color: #ccc;
+    color: #ccc !important;
     text-transform: uppercase;
     font-size: 4em;
     line-height: 1.5em;
@@ -615,7 +615,7 @@ div#about {
     font-size: 28px;
     margin-bottom: 25px;
     text-transform: uppercase;
-    color:#ccc;
+    color:#ccc !important;
 	font-weight: 500;
 }
 .stylegridtext p {
@@ -809,7 +809,7 @@ p.sub_cap {
 	text-transform: capitalize;
 }
 .wthree_teachers_grid p {
-    color: #ccc;
+    color: #ccc !important;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: .5px;
@@ -1360,7 +1360,7 @@ div#myNavbar {
 	top: calc(50% + 20px);
 }
 .navbar-toggle {
-    background-color: #c8ac7c;
+    background-color: #c8ac7c !important;
 }
 .navbar-inverse .navbar-toggle {
     border-color: #000;
