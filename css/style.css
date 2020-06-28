@@ -626,13 +626,14 @@ div#about {
     margin-bottom: 20px;
 }
 .readmore a,.w3_agile_mail_grid input[type="submit"]{
+	display: inline-block;
     padding: 10px 25px;
     background: #000;
     color: #fff;
     text-transform: uppercase;
     font-size: 15px;
 	text-decoration:none;
-	border:none;
+	border:none;	
 }
 .readmore.useframe a {
     display: inline-block;
@@ -695,9 +696,7 @@ div#about {
     background: #c8ac7c;
 	color: #030408;
 }
-.readmore {
-    margin-top: 20px;
-}
+
 /* //curriculum */
 /*-- portfolio section --*/
 
