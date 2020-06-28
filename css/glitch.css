@@ -44,6 +44,7 @@
 	animation-duration: 3s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
+	word-spacing: -0.2em;
 }
 .banner main {
 	overflow: hidden;

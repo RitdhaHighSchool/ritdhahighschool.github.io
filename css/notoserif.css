@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Noto Serif'), local('NotoSerif'), url('../fonts/NotoSerif-Medium.woff2') format('woff2'), url('../fonts/NotoSerif-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Noto Serif'), local('NotoSerif'), url('../fonts/NotoSerif-SemiBold.woff2') format('woff2'), url('../fonts/NotoSerif-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Serif Thai';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Noto Serif Thai'), local('NotoSerifThai'), url('../fonts/NotoSerifThai-Regular.woff2') format('woff2'), url('../fonts/NotoSerifThai-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Serif Thai';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Noto Serif Thai'), local('NotoSerifThai'), url('../fonts/NotoSerifThai-Medium.woff2') format('woff2'), url('../fonts/NotoSerifThai-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Serif Thai';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Noto Serif Thai'), local('NotoSerifThai'), url('../fonts/NotoSerifThai-SemiBold.woff2') format('woff2'), url('../fonts/NotoSerifThai-SemiBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Noto Serif Thai';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Noto Serif Thai'), local('NotoSerifThai'), url('../fonts/NotoSerifThai-Bold.woff2') format('woff2'), url('../fonts/NotoSerifThai-Bold.woff') format('woff');
+}
