@@ -392,7 +392,7 @@ div#myNavbar {
     text-transform: uppercase;
     font-size: 4em;
     line-height: 1.5em;
-	word-spacing: 7px;
+    word-spacing: -0.15em;
 }
 #teachers, #social, #students {
 	background: #000;

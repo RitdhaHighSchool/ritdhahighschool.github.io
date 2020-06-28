@@ -39,9 +39,6 @@
 	padding-right: 15px !important;
 	    margin-right: -15px !important;
 }
-.content__text {
-	word-spacing: -0.15em;
-}
 .imgloaded .content__text {
 	animation-name: glitch-anim-text;
 	animation-duration: 3s;
