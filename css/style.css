@@ -394,6 +394,9 @@ div#myNavbar {
     line-height: 1.5em;
     word-spacing: -0.15em;
 }
+.banner.gifted h3 {
+	word-spacing: normal
+}
 #teachers, #social, #students {
 	background: #000;
 
