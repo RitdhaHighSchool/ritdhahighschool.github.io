@@ -1129,7 +1129,9 @@ button.close {
 }
 
 @media(max-width:1024px){
-
+.banner.gifted.en h3 {
+    font-size: 3em;
+}
 }
 @media(max-width:991px){
 #logo::after {
