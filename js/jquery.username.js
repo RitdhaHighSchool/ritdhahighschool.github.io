@@ -14,4 +14,7 @@
 	}).on('touchend mouseout', function () {
 		$(".fa-facebook, #username").removeClass("fbhover");
 	});
+	$("body").on("contextmenu", "img, #logo", function(e) {
+		return false;
+	});
 })(jQuery);
