@@ -17,4 +17,7 @@
 	$("body").on("contextmenu", "img, #logo, .hovereffect, #Choco_container_photo", function(e) {
 		return false;
 	});
+	$('img').on('touchstart touchmove ondragstart mousedown', function (e) {
+		e.preventDefault();
+	});
 })(jQuery);

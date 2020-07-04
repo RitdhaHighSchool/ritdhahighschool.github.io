@@ -20,10 +20,6 @@ img, a, .banner .container {
   user-drag: none;
 }
 
-#Choco_bigImage, div.teachers img {
-	pointer-events: none;
-}
-
 .fal {
 	font-weight: 300;
 	font-family: "Font Awesome 5 Pro";
