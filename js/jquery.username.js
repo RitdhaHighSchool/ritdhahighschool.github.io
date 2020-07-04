@@ -14,10 +14,10 @@
 	}).on('touchend mouseout', function () {
 		$(".fa-facebook, #username").removeClass("fbhover");
 	});
-	$("body").on("contextmenu", "img, #logo, .hovereffect, #Choco_container_photo", function(e) {
+	$("body").on("contextmenu", "img, #logo, .hovereffect, #Choco_container_photo, div.portfolio-grids", function(e) {
 		return false;
 	});
-	$('img, div.portfolio-grids > a').on('touchmove dragstart drag', function (e) {
+	$('img, div.portfolio-grids > a').on('dragstart drag', function (e) {
 		e.preventDefault();
 	});
 })(jQuery);
