@@ -20,7 +20,7 @@ img, a, .banner .container {
   user-drag: none;
 }
 
-#Choco_bigImage {
+#Choco_bigImage, div.teachers img {
 	pointer-events: none;
 }
 
