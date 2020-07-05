@@ -1,23 +1,25 @@
 (function ($) {
 	$('.twitter').on('touchstart mouseover ', function () {
-		$(".fa-twitter, #username").addClass("twitterhover");
+		$('.fa-twitter, #username').addClass('twitterhover');
 	}).on('touchend mouseout', function () {
-		$(".fa-twitter, #username").removeClass("twitterhover");
+		$('.fa-twitter, #username').removeClass('twitterhover');
 	});
 	$('.instagram').on('touchstart mouseover', function () {
-		$(".fa-instagram, #username").addClass("instagramhover");
+		$('.fa-instagram, #username').addClass('instagramhover');
 	}).on('touchend mouseout', function () {
-		$(".fa-instagram, #username").removeClass("instagramhover");
+		$('.fa-instagram, #username').removeClass('instagramhover');
 	});
 	$('.fbpage').on('touchstart mouseover', function () {
-		$(".fa-facebook, #username").addClass("fbhover");
+		$('.fa-facebook, #username').addClass('fbhover');
 	}).on('touchend mouseout', function () {
-		$(".fa-facebook, #username").removeClass("fbhover");
+		$('.fa-facebook, #username').removeClass('fbhover');
 	});
-	$("body").on("contextmenu dragstart", "img, #logo, .hovereffect, #Choco_container_photo, div.portfolio-grids", function(e) {
+	$('body').on('contextmenu dragstart', 'img, #logo, .hovereffect, #Choco_container_photo, div.portfolio-grids', function(e) {
 		return false;
 	});
-	$('img, div.portfolio-grids > a').on('dragstart drag', function (e) {
-		e.preventDefault();
+	$('div.portfolio-grids > a').on('click auxclick', function (e) {
+		if (e.which == 2) {
+			e.preventDefault();
+		}
 	});
 })(jQuery);
