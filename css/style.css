@@ -18,10 +18,12 @@ img, a, .banner .container, div.portfolio-grids * {
   -moz-user-drag: none;
   -o-user-drag: none;
   user-drag: none;
+  -webkit-touch-callout: none !important;
 }
 
 #Choco_bigImage, div.teachers img {
 	pointer-events: none;
+	-webkit-touch-callout: none !important;
 }
 
 .fal {
