@@ -454,13 +454,22 @@ div#myNavbar {
 	display: none !important;
 }
 
-.banner h2 {
+.banner h1 {
 	color: #c8ac7c;
 	text-transform: uppercase;
 	font-size: 5.5em;
 	font-weight: bold;
-	line-height: 1.5em;
 	letter-spacing: 2px;
+	line-height: 1em;
+    margin-bottom: 0.25em;
+}
+
+.banner.main.en h1 {
+	line-height: 1.25em;
+}
+
+.inlineblock, .newlineblock, .spaceblock {
+	display: inline-block;
 }
 
 .hcount {
@@ -1291,7 +1300,7 @@ button.close {
 @media(max-width:1366px) {}
 
 @media(max-width:1280px) {
-	.banner.main.en h2 {
+	.banner.main.en h1 {
 		font-size: 4.5em;
 	}
 	.stamp-div {
@@ -1332,9 +1341,6 @@ button.close {
 		font-size: 8em;
 		top: 35%;
 	}
-	.banner.main.en h2 {
-		font-size: 4em;
-	}
 	ul#countdown li span, ul#countdown li.seperator {
 		font-size: 6em;
 	}
@@ -1347,13 +1353,13 @@ button.close {
 	.nav-links .navbar-nav>li>a {
 		padding: 30px 15px;
 	}
-	.banner.main.en h2 {
-		font-size: 3.5em;
-	}
-	.banner h2 {
+	.banner h1 {
 		font-size: 3.5em;
 	}
 	.banner h3 {
+		font-size: 3em;
+	}
+	.banner.main.en h1 {
 		font-size: 3em;
 	}
 	.wthree_banner_grid {
@@ -1443,9 +1449,6 @@ button.close {
 }
 
 @media(max-width:767px) {
-	.banner.main.en h2 {
-		font-size: 3em;
-	}
 	.table {
 		font-size: 1.2em;
 	}
@@ -1633,13 +1636,16 @@ button.close {
 	ul#countdown li span, ul#countdown li.seperator {
 		font-size: 6em;
 	}
-	.banner h2 {
-		font-size: 3.5em;
+	.banner h1 {
+		font-size: 3.75em;
 	}
-	.newlinename {
+	.spaceblock {
+		display: none;
+	}
+	.newlineblock {
 		display: block !important;
 	}
-	h3.newlinename {
+	h3.newlineblock {
 		margin-bottom: 25px;
 	}
 	.banner h3 {
@@ -1742,16 +1748,15 @@ button.close {
 	ul#countdown li p {
 		font-size: 16px;
 	}
-	.banner.main.en h2 {
-		font-size: 2.5em;
-	}
-	.banner h2 {
+	.banner h1 {
 		font-size: 3em;
-		word-spacing: 1px;
+	}
+	.banner.main.en h1 {
+		font-size: 2.35em;
+		line-height: 1.35em;
 	}
 	.banner h3 {
 		font-size: 2.5em;
-		word-spacing: 1px;
 	}
 	.search-grid {
 		float: none;
@@ -1764,7 +1769,6 @@ button.close {
 	}
 	.banner h3 {
 		font-size: 1.5em;
-		word-spacing: 1px;
 	}
 	.nav-links .navbar-inverse .navbar-brand h1 {
 		font-size: 1.8em;
@@ -1851,27 +1855,25 @@ button.close {
 	.appform {
 		font-size: 0.8em;
 	}
-	.banner.main.en h2 {
-		font-size: 2em;
-	}
 	ul#countdown li span, ul#countdown li.seperator {
 		font-size: 3em !important;
 		line-height: 1.2em;
 	}
-	.banner h2 {
-		font-size: 2.2em;
-		word-spacing: 1px;
+	.banner h1 {
+		font-size: 2.75em;
 	}
 }
 
 @media(max-width:384px) {
-	.banner.gifted.en h2 {
+	.banner.gifted.en h1 {
 		font-size: 2em;
 		word-spacing: 1px;
 	}
+	.banner.main.en h1 {
+		line-height: 1.2em;
+	}
 	.banner h3 {
 		font-size: 1.5em;
-		word-spacing: 1px;
 	}
 	.address-row h5 {
 		font-size: 1.2em;
@@ -1901,6 +1903,15 @@ button.close {
 }
 
 @media(max-width:320px) {
+	.banner h1 {
+		font-size: 2.5em;
+	}
+	.banner.main.en h1 {
+		font-size: 2.2em;
+	}
+	.banner h3 {
+		font-size: 1.25em;
+	}
 	.video {
 		padding: 2em 0 18em;
 	}
