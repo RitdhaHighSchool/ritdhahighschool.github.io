@@ -15,9 +15,6 @@
 		$(".fa-facebook, #username").removeClass("fbhover");
 	});
 	$("body").on("contextmenu", "img, #logo, .hovereffect, #Choco_container_photo, div.portfolio-grids", function(e) {
-		e.preventDefault();
-		e.stopPropagation();
-		e.stopImmediatePropagation();
 		return false;
 	});
 	$('img, div.portfolio-grids > a').on('dragstart drag', function (e) {
