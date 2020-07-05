@@ -22,7 +22,6 @@ img, a, .banner .container, div.portfolio-grids * {
 }
 
 #Choco_bigImage, div.teachers img {
-	pointer-events: none;
 	-webkit-touch-callout: none !important;
 }
 
