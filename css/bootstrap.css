@@ -6653,6 +6653,12 @@ button.close {
 	display: none !important;
 }
 
+@media (max-width: 991px) {
+	.pull-right {
+		float: none !important;
+	}
+}
+
 @media (max-width: 767px) {
 	.visible-xs {
 		display: block !important;

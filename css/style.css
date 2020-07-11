@@ -488,7 +488,7 @@ div#myNavbar {
 	word-spacing: normal;
 }
 
-#teachers, #social, #students {
+#teachers, #social, #students, #pin {
 	background: #000;
 }
 
@@ -660,7 +660,7 @@ a.w3ls_banner_more:hover {
 
 /*-- about --*/
 
-.about, .curriculum, .contact, .teachers, .video, .social, .students, .frame {
+.about, .curriculum, .contact, .teachers, .video, .social, .students, .frame, .pin {
 	padding: 5em 0;
 }
 
@@ -821,7 +821,24 @@ div#about {
 	background-size: contain;
 }
 
-.readmore a:hover {
+.pin-price {
+	font-size: 3rem;
+	color: #c8ac7c;
+	margin-bottom: 20px;
+}
+
+.buynow a {
+	display: inline-block;
+	padding: 10px 25px;
+	background: #071434;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-decoration: none;
+	border: none;
+}
+
+.readmore a:hover, .buynow a:hover {
 	background: #c8ac7c;
 	color: #030408;
 }
@@ -1391,7 +1408,7 @@ button.close {
 		float: none;
 		margin: 2em 0;
 	}
-	.about, .curriculum, .contact, .teachers, .video, .social, .students, .frame {
+	.about, .curriculum, .contact, .teachers, .video, .social, .students, .frame, .pin {
 		padding: 3em 0;
 	}
 	.stylegridimg {
@@ -1401,7 +1418,7 @@ button.close {
 	}
 	.stylegridtext {
 		padding: 40px 8px;
-		margin-bottom: 1em;
+		margin-bottom: 2em;
 		text-align: center;
 	}
 	.stylegrid2 .stylegridtext {
@@ -1608,7 +1625,7 @@ button.close {
 	.about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
 		font-size: 2.5em;
 	}
-	.about, .curriculum, .contact, .teachers, .video, .social, .students, .frame {
+	.about, .curriculum, .contact, .teachers, .video, .social, .students, .frame, .pin {
 		padding: 2.5em 0;
 	}
 	.address-row h5 {
@@ -1793,6 +1810,10 @@ button.close {
 		font-size: 22px;
 		margin-bottom: 5px;
 	}
+	.stylegridtext h4 {
+		font-size: 2.5rem;
+		margin-top: 20px;
+	}
 	.stylegridtext h3 #giftedicon {
 		width: 24px !important;
 		height: 24px;
@@ -1824,7 +1845,7 @@ button.close {
 	.banner.gifted.en h3 {
 		font-size: 1em;
 	}
-	.about, .curriculum, .contact, .teachers, .social, .students, .frame {
+	.about, .curriculum, .contact, .teachers, .social, .students, .frame, .pin {
 		padding: 2em 0;
 	}
 	.about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
@@ -1881,6 +1902,9 @@ button.close {
 	.stylegridtext h3 {
 		font-size: 18px;
 		margin-bottom: 5px;
+	}
+	.stylegridtext h4 {
+		font-size: 2.5rem;
 	}
 	.nav-links .navbar-nav>li>a {
 		padding: 15px 15px;
