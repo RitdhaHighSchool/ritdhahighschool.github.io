@@ -1,7 +1,7 @@
 // CountDown Clock
-// Version   : 1.0.2
+// Version   : 1.0.1
 // Developer : Ekrem KAYA
-// Website   : https://e-piksel.com
+// Website   : http://e-piksel.com
 // GitHub    : https://github.com/epiksel/countdown
 
 (function ($) {
@@ -16,8 +16,7 @@
 			minute: 'Minute',
 			minutes: 'Minutes',
 			second: 'Second',
-			seconds: 'Seconds',
-			hideOnComplete: true
+			seconds: 'Seconds'
 		}, options);
 
 		// Throw error if date is not set
@@ -53,7 +52,7 @@
 		/**
 		 * Main countdown function that calculates everything
 		 */
-		function countdown() {
+		function countdown () {
 			var target_date = new Date(settings.date), // set target date
 				current_date = currentDate(); // get fixed current date
 
@@ -65,19 +64,15 @@
 				// stop timer
 				clearInterval(interval);
 
-				if (settings.hideOnComplete) {
-					$(container).hide();
-				}
-
-				if (callback && typeof callback === 'function') {
-					callback(container);
-				}
+				if (callback && typeof callback === 'function') callback();
 
 				return;
 			}
 
 			// basic math variables
-			var _second = 1000,
+			var 
+				_millisecond = 1,
+				_second = _millisecond * 1000,
 				_minute = _second * 60,
 				_hour = _minute * 60,
 				_day = _hour * 24;
@@ -87,31 +82,36 @@
 				hours = Math.floor((difference % _day) / _hour),
 				minutes = Math.floor((difference % _hour) / _minute),
 				seconds = Math.floor((difference % _minute) / _second);
-
+				milliseconds = Math.floor((difference % _second) / _millisecond);
+		
 			// based on the date change the refrence wording
 			var text_days = (days === 1) ? settings.day : settings.days,
 				text_hours = (hours === 1) ? settings.hour : settings.hours,
 				text_minutes = (minutes === 1) ? settings.minute : settings.minutes,
 				text_seconds = (seconds === 1) ? settings.second : settings.seconds;
+				text_seconds = (milliseconds === 1) ? settings.millisecond : settings.milliseconds;
 
 				// fix dates so that it will show two digets
 				days = (String(days).length >= 2) ? days : '0' + days;
 				hours = (String(hours).length >= 2) ? hours : '0' + hours;
 				minutes = (String(minutes).length >= 2) ? minutes : '0' + minutes;
 				seconds = (String(seconds).length >= 2) ? seconds : '0' + seconds;
+				milliseconds = (String(milliseconds).length >= 3) ? milliseconds : (String(milliseconds).length >= 2) ? '0' + milliseconds : '00' + milliseconds;
 
 			// set to DOM
 			container.find('.days').text(days);
 			container.find('.hours').text(hours);
 			container.find('.minutes').text(minutes);
 			container.find('.seconds').text(seconds);
+			container.find('.milliseconds').text(milliseconds);
 
 			container.find('.days_text').text(text_days);
 			container.find('.hours_text').text(text_hours);
 			container.find('.minutes_text').text(text_minutes);
 			container.find('.seconds_text').text(text_seconds);
+			container.find('.milliseconds_text').text(text_milliseconds);
 		}
-
+		
 		// start
 		var interval = setInterval(countdown, 1000);
 	};
