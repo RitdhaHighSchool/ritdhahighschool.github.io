@@ -31,30 +31,6 @@ audio:not([controls]) {
 	margin: 0 auto;
 }
 
-#logo:after {
-	content: 'โรงเรียนฤทธาวิทยาคม';
-	display: inline-block;
-	width: 10em;
-	vertical-align: middle;
-	line-height: 70px;
-	height: 70px;
-	padding: 0 5px;
-	color: #c8ac7c;
-	font-size: 19px;
-}
-
-#logo.gifted:after {
-	padding: 0 1px 0 9px;
-}
-
-#logo.en:after {
-	content: "Ritdha High School";
-	text-transform: uppercase;
-	display: inline-block;
-	width: 12em;
-	font-size: 17px;
-}
-
 .img_table {
 	background: #030408;
 }
