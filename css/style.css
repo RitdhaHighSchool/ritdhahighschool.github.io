@@ -248,11 +248,11 @@ body a:hover {
 }
 
 input[type="submit"], input[type="reset"], .w3l_teachers_grd, h4, .agile_feature_grid, .agile_curriculum_grid_pos, a, .w3l_footer_grid, .w3_two_grid_right_grid1, .w3_two_grid_right_grid1 i {
-	-webkit-transition: 0.5s ease-in;
-	-moz-transition: 0.5s ease-in;
-	-ms-transition: 0.5s ease-in;
-	-o-transition: 0.5s ease-in;
-	transition: 0.5s ease-in;
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-ms-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
 }
 
 /*-- header --*/
@@ -1256,7 +1256,7 @@ iframe {
 .twitter i, .instagram i, .fbpage i {
 	color: #c8ac7c;
 	font-size: 1.3em;
-	transition: 0.5s ease-in;
+	transition: 0.4s ease-in-out;
 }
 
 .fbpage i {
@@ -1281,7 +1281,7 @@ iframe {
 
 #username {
 	color: #c8ac7c;
-	transition: 0.5s ease-in;
+	transition: 0.4s ease-in-out;
 }
 
 /*-- bootstrap-modal-pop-up --*/
