@@ -534,11 +534,11 @@ body.compensate-for-scrollbar {
 .fancybox-loading {
   animation: fancybox-rotate 1s linear infinite;
   background: transparent;
-  border: 4px solid #888;
+  border: 5px solid #888;
   border-bottom-color: #fff;
   border-radius: 50%;
-  height: 50px;
-  left: 50%;
+  height: 65px;
+  left: 65%;
   margin: -25px 0 0 -25px;
   opacity: .7;
   padding: 0;
