@@ -470,7 +470,7 @@ div#myNavbar {
 .banner .container {
 	position: absolute;
 	width: 100%;
-	top: calc(50% + 30px);
+	top: calc(50%);
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -681,6 +681,14 @@ a.w3ls_banner_more:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+#overlay{
+	width:100%;
+  height:100%;
+  z-index:999;
+	position:absolute;
+	pointer-events: none;
 }
 
 /*-- about --*/
@@ -894,11 +902,11 @@ p.sub_cap {
 	position: relative;
 }
 
-.portfolio-grids a {
+.std-profile a {
 	color: #fff;
 }
 
-.portfolio-grids a:hover {
+.std-profile a:hover {
 	color: #c8ac7c;
 }
 
@@ -1596,7 +1604,7 @@ button.close {
 		margin: 0 !important;
 	}
 	.banner .container {
-		top: calc(50% + 20px);
+		top: calc(50%);
 	}
 	.navbar-toggle {
 		background-color: #c8ac7c !important;
