@@ -3258,7 +3258,7 @@ textarea.form-group-lg .form-control, select[multiple].form-group-lg .form-contr
 
 .btn-default {
 	color: #030408;
-	background-color: #c8ac7c;
+	background-color: #c4a474;
 	display: inline-block;
 	padding: 6px 18px;
 	margin-bottom: 0;
@@ -4707,11 +4707,11 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background-color: #c8ac7c;
+	background-color: #c4a474;
 }
 
 .navbar-inverse .navbar-toggle.collapsed {
-	background-color: #c8ac7c;
+	background-color: #c4a474;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {

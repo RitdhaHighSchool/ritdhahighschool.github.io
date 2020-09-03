@@ -140,7 +140,7 @@ ul#countdown li p {
 	line-height: 70px;
 	height: 70px;
 	padding: 0 5px;
-	color: #c8ac7c;
+	color: #c4a474;
 	font-size: 19px;
 }
 
@@ -336,7 +336,7 @@ input[type="submit"], input[type="reset"], .w3l_teachers_grd, h4, .agile_feature
 
 .nav-links .navbar-nav>li>a {
 	padding: 30px 25px;
-	color: #c8ac7c;
+	color: #c4a474;
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -385,7 +385,7 @@ div#myNavbar {
 	left: 0;
 	width: 100%;
 	height: 1px;
-	background: #c8ac7c !important;
+	background: #c4a474 !important;
 	content: '';
 	opacity: 0;
 	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -480,7 +480,7 @@ div#myNavbar {
 }
 
 .banner h1 {
-	color: #c8ac7c;
+	color: #c4a474;
 	text-transform: uppercase;
 	font-size: 5.5em;
 	font-weight: bold;
@@ -706,12 +706,12 @@ div#about {
 }
 
 .w3l-about-left h2 {
-	color: #c8ac7c;
+	color: #c4a474;
 }
 
 .about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
 	font-size: 3em;
-	color: #c8ac7c;
+	color: #c4a474;
 	text-decoration: none;
 	font-weight: 600;
 	padding: 0;
@@ -856,7 +856,7 @@ div#about {
 
 .pin-price {
 	font-size: 3rem;
-	color: #c8ac7c;
+	color: #c4a474;
 	margin-bottom: 20px;
 }
 
@@ -872,7 +872,7 @@ div#about {
 }
 
 .readmore a:hover, .buynow a:hover {
-	background: #c8ac7c;
+	background: #c4a474;
 	color: #030408;
 }
 
@@ -907,7 +907,7 @@ p.sub_cap {
 }
 
 .std-profile a:hover {
-	color: #c8ac7c;
+	color: #c4a474;
 }
 
 .portfolio-agileinfo .portfolio-grids img.img-responsive {
@@ -990,7 +990,7 @@ p.sub_cap {
 
 .wthree_teachers_grid h4 {
 	font-size: 1.5em;
-	color: #c8ac7c;
+	color: #c4a474;
 	margin: 1em 0 .5em;
 	text-transform: capitalize;
 }
@@ -1060,8 +1060,8 @@ p.sub_cap {
 	margin: 1em 0;
 	text-transform: uppercase;
 	text-decoration: none;
-	background: #c8ac7c;
-	border: solid 1px #c8ac7c;
+	background: #c4a474;
+	border: solid 1px #c4a474;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -1091,7 +1091,7 @@ p.sub_cap {
 
 .agile-sub h4 {
 	font-size: 2em;
-	color: #c8ac7c;
+	color: #c4a474;
 	margin-bottom: 0.4em;
 }
 
@@ -1139,7 +1139,7 @@ iframe {
 	padding: .6em 1em;
 	color: #fff;
 	font-size: 1.1em;
-	background: #c8ac7c;
+	background: #c4a474;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
@@ -1148,7 +1148,7 @@ iframe {
 	outline: none;
 	margin: 1em 0 0;
 	width: 100%;
-	border: 1px solid #c8ac7c;
+	border: 1px solid #c4a474;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
@@ -1189,14 +1189,14 @@ iframe {
 	font-size: 1.2em;
 	border: 1px solid;
 	padding: 1em;
-	color: #c8ac7c;
+	color: #c4a474;
 	-webkit-transition: .5s all;
 	-moz-transition: .5s all;
 	transition: .5s all;
 }
 
 .address-row:hover span.glyphicon {
-	border-color: #c8ac7c;
+	border-color: #c4a474;
 	-webkit-transform: rotatey(360deg);
 	-moz-transform: rotatey(360deg);
 	transform: rotatey(360deg);
@@ -1212,7 +1212,7 @@ iframe {
 }
 
 .address-row p a {
-	color: #c8ac7c;
+	color: #c4a474;
 }
 
 .address-row p a:hover {
@@ -1258,11 +1258,11 @@ iframe {
 }
 
 .copyright p a:hover {
-	color: #c8ac7c;
+	color: #c4a474;
 }
 
 .twitter i, .instagram i, .fbpage i {
-	color: #c8ac7c;
+	color: #c4a474;
 	font-size: 1.3em;
 	transition: 0.4s ease-in-out;
 }
@@ -1284,11 +1284,11 @@ iframe {
 }
 
 .company {
-	color: #c8ac7c;
+	color: #c4a474;
 }
 
 #username {
-	color: #c8ac7c;
+	color: #c4a474;
 	transition: 0.4s ease-in-out;
 }
 
@@ -1296,7 +1296,7 @@ iframe {
 
 .modal-header {
 	font-size: 2em;
-	color: #c8ac7c;
+	color: #c4a474;
 	text-align: center;
 	text-transform: uppercase;
 	border: 1px solid #fff;
@@ -1607,7 +1607,7 @@ button.close {
 		top: calc(50%);
 	}
 	.navbar-toggle {
-		background-color: #c8ac7c !important;
+		background-color: #c4a474 !important;
 	}
 	.navbar-inverse .navbar-toggle {
 		border-color: #000;
@@ -1908,7 +1908,7 @@ button.close {
 		margin-bottom: 0.3em;
 	}
 	.w3l-about-left h2 {
-		color: #c8ac7c;
+		color: #c4a474;
 		font-size: 25px;
 	}
 	.address-row {
