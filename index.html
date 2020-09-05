@@ -225,9 +225,7 @@
 				<a href="https://www.gmm25.com/live.html">คลิกที่นี่เพื่อเข้าชมโรงเรียน</a>
 			</div>
 	</div>
-	<audio type="audio/mp3" preload="auto" autoplay>
-		<source src="audio/theme.mp3" type="audio/mp3" preload="auto">
-	</audio>
+	<audio id="theme" type="audio/mp3" preload="auto" src="audio/theme.mp3" autoplay></audio>
 	<!-- js -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="/js/jquery.countdown.min.js?v=1.0.0.0"></script>
@@ -255,6 +253,16 @@
 			$.fancybox.open( $('#watch'), {
   		});
 		});
+	</script>
+	<script>
+		var theme = setInterval(function(){
+			if($('#days').is(':hidden'))
+			{
+				$("#theme").attr("src","https://ritdha.com/audio/theme2.mp3");
+				clearInterval(theme);
+			}
+		}
+		, 100)
 	</script>
 	<script src="/js/jquery.username.js"></script>
 	<!-- js for portfolio  -->
