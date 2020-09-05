@@ -98,13 +98,19 @@
 				<h3 id="countdowntitle" class="content__text">เปิดภาคเรียน 2563</h3>
 				<div class="clearfix"></div>
 				<ul id="countdown">
-					<li><span class="days">00</span><p class="days_text">วัน</p></li>
-					<li class="seperator">:</li>
+					<span id="days">
+						<li><span class="days">00</span><p class="days_text">วัน</p></li>
+						<li class="seperator">:</li>
+					</span>
 					<li><span class="hours">00</span><p class="hours_text">ชั่วโมง</p></li>
 					<li class="seperator">:</li>
 					<li><span class="minutes">00</span><p class="minutes_text">นาที</p></li>
 					<li class="seperator">:</li>
 					<li><span class="seconds">00</span><p class="seconds_text">วินาที</p></li>
+					<span id="milliseconds" style="display:none">
+						<li class="seperator">:</li>
+						<li><span class="milliseconds">00</span><p class="milliseconds_text">&nbsp;</p></li>
+					</span>
 				</ul>
 				<div class="clearfix"></div>
 				<!-- hide 
