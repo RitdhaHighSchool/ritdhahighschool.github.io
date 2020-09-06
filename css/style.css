@@ -506,7 +506,7 @@ div#myNavbar {
 	text-transform: uppercase;
 	font-size: 4em;
 	line-height: 1.5em;
-	/*word-spacing: -0.15em;*/
+	word-spacing: -0.15em;
 }
 
 .banner.gifted h3 {
