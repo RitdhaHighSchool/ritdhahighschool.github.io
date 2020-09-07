@@ -44,7 +44,7 @@ a, a:visited, a:focus, a:active, a:hover {
 }
 
 #app {
-	display: block;
+	display: none;
 	position: absolute;
 	bottom: 1.5em;
 	right: 1.5em;
