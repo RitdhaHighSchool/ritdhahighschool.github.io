@@ -310,6 +310,10 @@ input[type="submit"], input[type="reset"], .w3l_teachers_grd, h4, .agile_feature
 
 /*-- navbar --*/
 
+.navbar-collapse {
+	transition: height .3s ease-in-out !important;
+}
+
 .nav-links .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
 	margin-left: 0;
 }
