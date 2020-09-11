@@ -1906,6 +1906,9 @@ button.close {
 		background-size: 125%;
 		background-position: center 75%;
 	}
+	.gifted.en #students > .container > .heading h3 {
+		font-size: 2.25em;
+	}
 }
 
 @media(max-width:414px) {
