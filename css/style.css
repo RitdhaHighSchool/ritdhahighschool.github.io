@@ -724,6 +724,14 @@ div#about {
 	text-transform: uppercase;
 }
 
+#students > .container > .heading h3 {
+	margin-bottom: 0;
+}
+
+.slick-slide .heading h3 {
+	padding-top: 6px
+}
+
 .w3l-about-left h5 {
 	font-size: .9em;
 	color: #212121;
@@ -968,11 +976,15 @@ p.sub_cap {
 	margin: 0;
 }
 
+#batch_16 {
+	display: none;
+}
+
 .portfolio-grids {
 	padding: 0;
 }
 
-.portfolio-grids_left {
+.portfolio-grids_15, .portfolio-grids_16 {
 	padding: 0;
 }
 
@@ -980,7 +992,11 @@ p.sub_cap {
 	width: 100%;
 }
 
-.portfolio-grid_left {
+.portfolio-grid_15 {
+	padding: 0;
+}
+
+.portfolio-grid_16 {
 	padding: 0;
 }
 
@@ -1345,7 +1361,7 @@ button.close {
 	outline: none;
 }
 
-#students .container:after {
+#students .one-time .container::after {
 	content: '';
 	display: block;
 	background: url(../images/FKGIFTED2.png);
@@ -1476,12 +1492,12 @@ button.close {
 	.stylegrid2 .stylegridtext {
 		text-align: left;
 	}
-	.portfolio-grids {
+	.portfolio-grid_15 .portfolio-grids {
 		width: 50%;
 		float: left;
 	}
-	.portfolio-grid_left {
-		width: 50%;
+	.portfolio-grid_16 .portfolio-grids {
+		width: 33.33333333%;
 		float: left;
 	}
 	.wthree_teachers_grid {
@@ -1871,11 +1887,15 @@ button.close {
 		height: 24px;
 		padding-left: 24px;
 	}
-	.portfolio-grids {
+	.portfolio-grid_15 .portfolio-grids {
 		width: 100%;
 		float: none;
 	}
-	.portfolio-grid_left {
+	.portfolio-grid_16 .portfolio-grids {
+		width: 100%;
+		float: none;
+	}
+	.portfolio-grid_15 {
 		width: 100%;
 		float: none;
 	}

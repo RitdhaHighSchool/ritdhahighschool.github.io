@@ -43,6 +43,9 @@
 	<link href="/css/notoserif.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/css/glitch.css" />
 	<link rel="stylesheet " href="/css/jquery.fancybox.css " type="text/css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 </head>
 
 <body class="glitch1 loading">
@@ -103,159 +106,230 @@
 	<audio type="audio/mp3" preload="auto" autoplay loop>
 		<source src="audio/theme.mp3" type="audio/mp3" preload="auto">
 	</audio>
+	
 	<div class="students" id="students">
-		<div class="container" style="position: relative">
+		<div class="container">
 			<div class="heading">
-				<h3>นักเรียนโครงการพิเศษ รุ่นที่ 15</h3>
+				<h3>นักเรียนโครงการพิเศษ</h3>
 			</div>
-			<div class="stamp-div">
-				ห้าม<br>เผยแพร่
+		</div>		
+		<div class="silder one-time">
+			<div>
+				<div class="container" style="position: relative">
+					<div class="heading">
+						<h3>รุ่นที่ 15</h3>
+					</div>
+					<div class="stamp-div">
+						ห้าม<br>เผยแพร่
+					</div>
+					<table class="table table-dark table-hover">
+						<thead>
+							<tr>
+								<th>ลำดับที่</th>
+								<th>รหัสกิฟต์</th>
+								<th>ชื่อ - นามสกุล</th>
+								<th>ห้องเรียน</th>
+								<th>แฟ้มประวัติ</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>063</td>
+								<td>นายวสุธร วรโชติเมธี</td>
+								<td>4/1</td>
+								<td>
+									<div class="std-profile">
+										<a href="profile/063.jpg">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>059</td>
+								<td>นายปุณณ์ ทวีศิลป์</td>
+								<td>4/1</td>
+								<td>
+									<div class="std-profile">
+										<a href="profile/059.jpg">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>057</td>
+								<td>น.ส.ชญานิศ ปราชญ์คริษฐ์</td>
+								<td>4/1</td>
+								<td>
+									<div class="std-profile">
+										<a href="profile/057.jpg">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>066</td>
+								<td>น.ส.ไอริณ จรัสพรรณ</td>
+								<td>4/1</td>
+								<td>
+									<div class="std-profile">
+										<a href="profile/066.jpg">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td>058</td>
+								<td>นายธนากร กอบกุล</td>
+								<td>4/1</td>
+								<td>
+									<div class="std-profile">
+										<a href="profile/058.jpg">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td>061</td>
+								<td>น.ส.พัชมณ ปิติวงกรณ์</td>
+								<td>4/2</td>
+								<td>
+									<div class="std-profile">
+										<a href="profile/061.jpg">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>7</td>
+								<td>062</td>
+								<td>นายวิชัย ทรายเงิน</td>
+								<td>4/2</td>
+								<td>
+									<div class="std-profile">
+										<a href="profile/062.jpg">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>8</td>
+								<td>064</td>
+								<td>นายชนุตม์ แซ่หลิว</td>
+								<td>4/3</td>
+								<td>
+									<div class="std-profile">
+										<a href="profile/064.jpg">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>9</td>
+								<td>065</td>
+								<td>นายชเนศ แซ่หลิว</td>
+								<td>4/3</td>
+								<td>
+									<div class="std-profile">
+										<a href="profile/065.jpg">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>10</td>
+								<td>060</td>
+								<td>นายปวเรศ เสริมฤทธิรงค์</td>
+								<td>4/8</td>
+								<td>
+									<div class="std-profile">
+										<a href="profile/060.jpg">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="clearfix"> </div>
+				</div>
 			</div>
-			<table class="table table-dark table-hover">
-				<thead>
-					<tr>
-						<th>ลำดับที่</th>
-						<th>รหัสกิฟต์</th>
-						<th>ชื่อ - นามสกุล</th>
-						<th>ห้องเรียน</th>
-						<th>แฟ้มประวัติ</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>1</td>
-						<td>063</td>
-						<td>นายวสุธร วรโชติเมธี</td>
-						<td>4/1</td>
-						<td>
-							<div class="std-profile">
-								<a href="profile/063.jpg">
-									<i class="fas fa-file"></i>
-								</a>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>2</td>
-						<td>059</td>
-						<td>นายปุณณ์ ทวีศิลป์</td>
-						<td>4/1</td>
-						<td>
-							<div class="std-profile">
-								<a href="profile/059.jpg">
-									<i class="fas fa-file"></i>
-								</a>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>3</td>
-						<td>057</td>
-						<td>น.ส.ชญานิศ ปราชญ์คริษฐ์</td>
-						<td>4/1</td>
-						<td>
-							<div class="std-profile">
-								<a href="profile/057.jpg">
-									<i class="fas fa-file"></i>
-								</a>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>4</td>
-						<td>066</td>
-						<td>น.ส.ไอริณ จรัสพรรณ</td>
-						<td>4/1</td>
-						<td>
-							<div class="std-profile">
-								<a href="profile/066.jpg">
-									<i class="fas fa-file"></i>
-								</a>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>5</td>
-						<td>058</td>
-						<td>นายธนากร กอบกุล</td>
-						<td>4/1</td>
-						<td>
-							<div class="std-profile">
-								<a href="profile/058.jpg">
-									<i class="fas fa-file"></i>
-								</a>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>6</td>
-						<td>061</td>
-						<td>น.ส.พัชมณ ปิติวงกรณ์</td>
-						<td>4/2</td>
-						<td>
-							<div class="std-profile">
-								<a href="profile/061.jpg">
-									<i class="fas fa-file"></i>
-								</a>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>7</td>
-						<td>062</td>
-						<td>นายวิชัย ทรายเงิน</td>
-						<td>4/2</td>
-						<td>
-							<div class="std-profile">
-								<a href="profile/062.jpg">
-									<i class="fas fa-file"></i>
-								</a>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>8</td>
-						<td>064</td>
-						<td>นายชนุตม์ แซ่หลิว</td>
-						<td>4/3</td>
-						<td>
-							<div class="std-profile">
-								<a href="profile/064.jpg">
-									<i class="fas fa-file"></i>
-								</a>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>9</td>
-						<td>065</td>
-						<td>นายชเนศ แซ่หลิว</td>
-						<td>4/3</td>
-						<td>
-							<div class="std-profile">
-								<a href="profile/065.jpg">
-									<i class="fas fa-file"></i>
-								</a>
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>10</td>
-						<td>060</td>
-						<td>นายปวเรศ เสริมฤทธิรงค์</td>
-						<td>4/8</td>
-						<td>
-							<div class="std-profile">
-								<a href="profile/060.jpg">
-									<i class="fas fa-file"></i>
-								</a>
-							</div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<div class="clearfix"> </div>
-		</div>
+			
+			<div style="display: none">
+				<div class="container" style="position: relative">
+					<div class="heading">
+						<h3>รุ่นที่ 16</h3>
+					</div>
+					<table class="table table-dark table-hover">
+						<thead>
+							<tr>
+								<th>ลำดับที่</th>
+								<th>รหัสกิฟต์</th>
+								<th>ชื่อ - นามสกุล</th>
+								<th>ห้องเรียน</th>
+								<th>แฟ้มประวัติ</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>070</td>
+								<td>นายวสุธร วรโชติเมธี</td>
+								<td>4/1</td>
+								<td>
+									<div class="std-profile">
+										<a href="">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>071</td>
+								<td></td>
+								<td></td>
+								<td>
+									<div class="std-profile">
+										<a href="">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>072</td>
+								<td></td>
+								<td>4/1</td>
+								<td>
+									<div class="std-profile">
+										<a href="">
+											<i class="fas fa-file"></i>
+										</a>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>		
 	</div>
 
 	<div class="frame" id="frame">
@@ -288,14 +362,14 @@
 		<div class="container">
 			<div class="stylegrid">
 				<div class="col-md-4 pull-right stylegridimg">
-					<img src="images/pin.png" alt="">
+					<img src="images/pin_s2.png" alt="">
 				</div>
 				<div class="col-md-8 stylegridtext">
-					<h3>เข็มกลัดนักเรียนพลังกิฟต์</h3>					
-					<h4 class="pin-price">290 ฿</h4>
-					<p>พลังกิฟต์ใคร ๆ ก็มีได้!<br>ITEM สุดพิเศษจากโรงเรียนฤทธาวิทยาคม</p>
+					<h3>เข็มกลัดนักเรียนพลังกิฟต์ (โฉมใหม่)</h3>					
+					<h4 class="pin-price">350 ฿</h4>
+					<p>พลังกิฟต์ใคร ๆ ก็มีได้!<br>ITEM สุดพิเศษจากโรงเรียนฤทธาวิทยาคม<br>เรียบหรูในกล่องกำมะหยี่สีดำ</p>
 					<div class="buynow">
-						<a target="_blank" href="https://www.gmm-tv.com/shop/product/thegifted-pin/">สั่งซื้อเลย ></a>
+						<a target="_blank" href="https://www.gmm-tv.com/shop/product/thegifted-pin-s2/">สั่งซื้อเลย ></a>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -305,9 +379,9 @@
 
 	<div class="portfolio-agileinfo" id="gallery">
 		<div class="agile_wthree_inner_grids">
-			<div class="img_table">
+			<div class="img_table" id="batch_15">
 				<div class="portfolio-grids_main">
-					<div class="col-md-3 portfolio-grid_left">
+					<div class="col-sm-6 portfolio-grid_15">
 						<div class="col-md-6 portfolio-grids">
 							<a href="images/graduation/Pang.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
 								<img src="images/graduation/Pang.jpg" class="img-responsive" />
@@ -323,7 +397,7 @@
 							</a>
 						</div>						
 					</div>
-					<div class="col-md-3 portfolio-grid_left">						
+					<div class="col-sm-6 portfolio-grid_15">						
 						<div class="col-md-6 portfolio-grids">
 							<a href="images/graduation/Claire.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
 								<img src="images/graduation/Claire.jpg" class="img-responsive" />
@@ -341,7 +415,7 @@
 					</div>
 				</div>
 				<div class="portfolio-grids_main">
-					<div class="col-md-3 portfolio-grid_left">		
+					<div class="col-sm-6 portfolio-grid_15">		
 						<div class="col-md-6 portfolio-grids">
 							<a href="images/graduation/Ohm.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
 								<img src="images/graduation/Ohm.jpg" class="img-responsive" />
@@ -357,7 +431,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-3 portfolio-grid_left">						
+					<div class="col-sm-6 portfolio-grid_15">						
 						<div class="col-md-6 portfolio-grids">
 							<a href="images/graduation/Mon.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
 								<img src="images/graduation/Mon.jpg" class="img-responsive" />
@@ -372,6 +446,34 @@
 								</div>
 							</a>
 						</div>						
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="img_table" id="batch_16">
+				<div class="portfolio-grids_main">
+					<div class="col-md-12 portfolio-grid_16">
+						<div class="col-md-4 portfolio-grids">
+							<a href="images/graduation/Time.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+								<img src="images/graduation/Time.jpg" class="img-responsive" />
+								<div class="b-wrapper">
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4 portfolio-grids">
+							<a href="images/graduation/Grace.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+								<div class="grid">
+									<img src="images/graduation/Grace.jpg" class="img-responsive" />
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4 portfolio-grids">
+							<a href="images/graduation/Third.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+								<div class="grid">
+									<img src="images/graduation/Third.jpg" class="img-responsive" />
+								</div>
+							</a>
+						</div>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -425,6 +527,31 @@
 			});			
 	});
 	</script>
+
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<!--<script>
+		var $slider = $('.one-time').slick({
+			dots: false,
+			speed: 300,
+			slidesToShow: 1,
+			centerMode: true,
+			adaptiveHeight: true,
+			infinite: false,
+    	loop: false,
+			arrows: false,
+		});
+		$slider.on('afterChange', function(event, slick, currentSlide, nextSlide){
+			if ($('.slick-slide[data-slick-index="0"]').hasClass("slick-current")) {
+				$('#batch_15').show();
+				$('#batch_16').hide();
+			}
+			else if ($('.slick-slide[data-slick-index="1"]').hasClass("slick-current")) {
+				$('#batch_15').hide();
+				$('#batch_16').show();
+			}			
+		});		
+	</script> -->
+	
 	<script src="/js/jquery.username.js "></script>
 	<script type="text/javascript" src="/js/move-top.js"></script>
 	<script type="text/javascript" src="/js/easing.js"></script>
