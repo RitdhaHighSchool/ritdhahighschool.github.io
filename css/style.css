@@ -1816,6 +1816,10 @@ button.close {
 	.appform {
 		font-size: 1em;
 	}
+	.wthree_teachers_grid p {
+		font-size: 15px;
+		margin: 10px -10px 40px;
+	}
 	.stamp-div {
 		font-size: 4em;
 		border-width: 10px;
