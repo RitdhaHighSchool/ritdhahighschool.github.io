@@ -1817,8 +1817,8 @@ button.close {
 		font-size: 1em;
 	}
 	.wthree_teachers_grid p {
-		font-size: 15px;
-		margin: 10px -10px 40px;
+		font-size: 15px !important;
+		margin: 10px -10px 40px !important;
 	}
 	.stamp-div {
 		font-size: 4em;
