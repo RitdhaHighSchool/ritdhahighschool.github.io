@@ -18,7 +18,8 @@ img, a, .banner .container, div.portfolio-grids *, #Choco_overlay, #Choco_contai
   -moz-user-drag: none;
   -o-user-drag: none;
   user-drag: none;
-  -webkit-touch-callout: none !important;
+	-webkit-touch-callout: none !important;
+	touch-action: none;
 }
 
 #Choco_container_description {
@@ -27,6 +28,7 @@ img, a, .banner .container, div.portfolio-grids *, #Choco_overlay, #Choco_contai
 
 #Choco_bigImage, div.teachers img {
 	-webkit-touch-callout: none !important;
+	touch-action: none;
 }
 
 
