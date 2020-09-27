@@ -13,11 +13,11 @@ html, html * {
 }
 
 img, a, div.portfolio-grids * {
-  -webkit-touch-callout: none;
-  -webkit-user-select: text;
-  -moz-user-select: text;
-  -ms-user-select: text;
-	user-select: text;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 	touch-action: pan-y;
 	-webkit-user-drag: none;
   -khtml-user-drag: none;
