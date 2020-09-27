@@ -14,6 +14,11 @@ img, a, div.portfolio-grids * {
   -ms-user-select: text;
 	user-select: text;
 	touch-action: pan-y;
+	-webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
   font-size: 0;
 }
 
