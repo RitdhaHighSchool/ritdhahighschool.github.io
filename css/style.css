@@ -921,10 +921,11 @@ p.sub_cap {
 
 .std-profile > i{
 	cursor: not-allowed;
+	opacity: 0.4;
 }
 
 .std-profile a:hover {
-	color: #c4a474;
+	color: #c4a474;	
 }
 
 .portfolio-agileinfo .portfolio-grids img.img-responsive {
