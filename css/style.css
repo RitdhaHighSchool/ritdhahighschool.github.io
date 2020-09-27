@@ -7,19 +7,13 @@
 	src: url(../fonts/fa-light-300.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-light-300.woff2) format("woff2"), url(../fonts/fa-light-300.woff) format("woff"), url(../fonts/fa-light-300.ttf) format("truetype"), url(../fonts/fa-light-300.svg#fontawesome) format("svg")
 }
 
-img, a, div.portfolio-grids *, #Choco_overlay, #Choco_container_description {
+img, a, div.portfolio-grids * {
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-  user-drag: none;
-	-webkit-touch-callout: none !important;
-	touch-action: none;
+  touch-action: none;
 }
 
 #Choco_container_description {
