@@ -7,6 +7,11 @@
 	src: url(../fonts/fa-light-300.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-light-300.woff2) format("woff2"), url(../fonts/fa-light-300.woff) format("woff"), url(../fonts/fa-light-300.ttf) format("truetype"), url(../fonts/fa-light-300.svg#fontawesome) format("svg")
 }
 
+html, html * {
+  -webkit-text-size-adjust: none;
+  touch-action: pan-x pan-y;
+}
+
 img, a, div.portfolio-grids * {
   -webkit-touch-callout: none;
   -webkit-user-select: text;
