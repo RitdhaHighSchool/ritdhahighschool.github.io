@@ -17,7 +17,7 @@
 	$('body').on('contextmenu dragstart', 'img, a', function (e) {
 		e.preventDefault();
 	});
-	$('div.portfolio-grids > a').on('click auxclick', function (e) {
+	$('.fancybox').on('click auxclick', function (e) {
 		if (e.which == 2) {
 			e.preventDefault();
 		}
