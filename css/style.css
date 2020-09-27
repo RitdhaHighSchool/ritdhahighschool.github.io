@@ -12,7 +12,8 @@ img, a, div.portfolio-grids * {
   -webkit-user-select: text;
   -moz-user-select: text;
   -ms-user-select: text;
-  user-select: text;
+	user-select: text;
+	touch-action: pan-y;
   font-size: 0;
 }
 
