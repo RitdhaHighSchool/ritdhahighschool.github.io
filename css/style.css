@@ -34,9 +34,8 @@ img, a, div.portfolio-grids * {
 
 #Choco_bigImage, div.teachers img {
 	-webkit-touch-callout: none !important;
-	touch-action: none;
+	touch-action: pan-y;
 }
-
 
 .fal {
 	font-weight: 300;
