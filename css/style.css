@@ -919,6 +919,10 @@ p.sub_cap {
 	color: #fff;
 }
 
+.std-profile > i{
+	cursor: not-allowed;
+}
+
 .std-profile a:hover {
 	color: #c4a474;
 }
@@ -1364,7 +1368,7 @@ button.close {
 
 #students .one-time .container::after {
 	content: '';
-	display: block;
+	display: none;
 	background: url(../images/FKGIFTED2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
