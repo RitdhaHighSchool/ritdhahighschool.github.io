@@ -927,6 +927,12 @@ p.sub_cap {
 	font-size: 1em !important;
 }
 
+.std-profile i {
+	padding: 8px;
+	line-height: 2em;
+}
+
+
 .std-profile>i {
 	cursor: not-allowed;
 	opacity: 0.4;
