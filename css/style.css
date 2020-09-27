@@ -32,7 +32,7 @@ img, a, div.portfolio-grids * {
 	display: none !important;
 }
 
-#Choco_bigImage, div.teachers img {
+div.teachers img {
 	-webkit-touch-callout: none !important;
 	touch-action: pan-y;
 }
