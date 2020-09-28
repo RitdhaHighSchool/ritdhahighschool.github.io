@@ -750,6 +750,7 @@ div#about {
 
 .one-time .heading h3 {
 	padding-top: 8px;
+	display: inline-block;
 	margin: 0 auto 40px;
 }
 
