@@ -28,6 +28,21 @@ img, a, a.fancybox, div.portfolio-grids * {
 	font-size: 0;
 }
 
+.copyright {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	touch-action: pan-y;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
+
 #Choco_container_description {
 	display: none !important;
 }
