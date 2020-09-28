@@ -986,7 +986,7 @@ p.sub_cap {
 	position: relative;
 }
 
-.std-profile a, .portfolio-grids {
+.std-profile, .portfolio-grids {
 	cursor: wait;
 }
 
@@ -999,7 +999,7 @@ p.sub_cap {
 	pointer-events: none;
 }
 
-.std-profile a.initialized {
+.std-profile.initialized a {
 	opacity: 1;
 	pointer-events: all;
 }
@@ -1008,7 +1008,7 @@ p.sub_cap {
 	pointer-events: all;
 }
 
-.std-profile a.initialized, .portfolio-grids.initialized {
+.std-profile.initialized a, .portfolio-grids.initialized {
 	cursor: pointer;
 }
 

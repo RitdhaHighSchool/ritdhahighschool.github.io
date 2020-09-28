@@ -25,8 +25,12 @@
     outline: none !important;
 }
 
-.slick-slider h3, .slick-slider th, .slick-slider td {
+.slick-slider h3, .slick-slider th span, .slick-slider td span {
     cursor: auto;
+}
+
+.slick-slider td:nth-child(3) span {
+    display: inline-block;
 }
 
 .slick-list
