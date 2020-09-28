@@ -952,6 +952,7 @@ p.sub_cap {
 }
 .std-profile a,
 .portfolio-grids a {
+	pointer-events: none;
 	cursor: pointer;
 }
 

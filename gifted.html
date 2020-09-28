@@ -554,9 +554,7 @@
 	<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
 	<script>
 		jQuery(document).ready(function () {
-			$('.std-profile a').on('init', function (event, slick) {
-				$('.std-profile a').css('pointer-events', 'auto');
-			}).fancybox({
+			$('.std-profile a').fancybox({
 				protect: true,
 				buttons: [""],
 				wheel: false,
@@ -566,6 +564,7 @@
 					width: 'auto'
 				}
 			});
+			$('.std-profile a').css('pointer-events', 'all');
 			$(".portfolio-grids a").fancybox({
 				protect: true,
 				buttons: [""],
@@ -573,11 +572,9 @@
 				height: 1500,
 				mobile: {
 					height: 1200,
-				},
-				onInit: function () {
-					$('.portfolio-grids a').css('pointer-events', 'auto');
 				}
 			});
+			$('.portfolio-grids a').css('pointer-events', 'all');
 		});
 	</script>
 
