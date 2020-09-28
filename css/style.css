@@ -950,10 +950,19 @@ p.sub_cap {
 	overflow: hidden;
 	position: relative;
 }
+
 .std-profile a,
 .portfolio-grids a {
-	pointer-events: none;
+	opacity: .4;
+	cursor: not-allowed;
+	pointer-events: none;	
+}
+
+.std-profile a.initialized,
+.portfolio-grids a.initialized {
+	opacity: 1;
 	cursor: pointer;
+	pointer-events: all;
 }
 
 .std-profile a {
