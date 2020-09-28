@@ -1829,6 +1829,9 @@ pre code {
 	.container, .containernav {
 		width: 750px;
 	}
+}
+
+@media (min-width: 768px) and (max-width: 768px) {
 	.slick-slide .container {
 		width: 720px;
 	}
