@@ -744,8 +744,12 @@ div#about {
 	margin-bottom: 0;
 }
 
+.one-time .heading {
+	text-align: center;
+}
 .one-time .heading h3 {
 	padding-top: 8px;
+	margin: 0 auto 40px;
 }
 
 .w3l-about-left h5 {
