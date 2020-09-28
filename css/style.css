@@ -951,7 +951,7 @@ p.sub_cap {
 	position: relative;
 }
 
-.std-profile a,
+.std-profile a i,
 .portfolio-grids a {
 	opacity: .4;
 	cursor: not-allowed;
