@@ -1832,7 +1832,7 @@ pre code {
 }
 
 @media (min-width: 768px) and (max-width: 768px) {
-	.slick-slide .container {
+	.one-time .container {
 		width: 720px;
 	}
 }
