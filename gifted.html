@@ -550,29 +550,6 @@
 
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script>
-		var $slider = $('.one-time').on('init', function (event, slick) {
-			$('#batch_16_table').show();
-		}).on('afterChange', function (event, slick, currentSlide, nextSlide) {
-			if ($('.slick-slide[data-slick-index="0"]').hasClass("slick-current")) {
-				$('#batch_15').show();
-				$('#batch_16').hide();
-			}
-			else if ($('.slick-slide[data-slick-index="1"]').hasClass("slick-current")) {
-				$('#batch_15').hide();
-				$('#batch_16').show();
-			}
-		}).slick({
-			dots: false,
-			speed: 300,
-			infinite: false,
-			adaptiveHeight: true,
-			loop: false,
-			arrows: false,
-		})	
-	</script>
-
 	<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
 	<script>
 		jQuery(document).ready(function () {
@@ -597,6 +574,29 @@
 			});
 		});
 	</script>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script>
+		var $slider = $('.one-time').on('init', function (event, slick) {
+			$('#batch_16_table').show();
+		}).on('afterChange', function (event, slick, currentSlide, nextSlide) {
+			if ($('.slick-slide[data-slick-index="0"]').hasClass("slick-current")) {
+				$('#batch_15').show();
+				$('#batch_16').hide();
+			}
+			else if ($('.slick-slide[data-slick-index="1"]').hasClass("slick-current")) {
+				$('#batch_15').hide();
+				$('#batch_16').show();
+			}
+		}).slick({
+			dots: false,
+			speed: 300,
+			infinite: false,
+			adaptiveHeight: true,
+			loop: false,
+			arrows: false,
+		})	
+	</script>	
 
 	<script src="/js/jquery.username.js "></script>
 	<script type="text/javascript" src="/js/move-top.js"></script>
