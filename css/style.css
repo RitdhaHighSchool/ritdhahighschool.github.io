@@ -1404,6 +1404,10 @@ button.close {
 	pointer-events: none;
 }
 
+.one-time:not(.slick-initialized) {
+	margin-top: 6px;
+}
+
 /*-- //bootstrap-modal-pop-up --*/
 
 /*-- /responsive design --*/
