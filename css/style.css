@@ -1004,7 +1004,7 @@ p.sub_cap {
 	pointer-events: all;
 }
 
-.portfolio-grids a.initialized {
+.portfolio-grids.initialized a {
 	pointer-events: all;
 }
 
