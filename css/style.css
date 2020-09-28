@@ -950,17 +950,20 @@ p.sub_cap {
 	overflow: hidden;
 	position: relative;
 }
+.std-profile a,
+.portfolio-grids a {
+	cursor: pointer;
+}
 
 .std-profile a {
 	color: #fff;
-	font-size: 1em !important;
+	font-size: 1em !important;	
 }
 
 .std-profile i {
 	padding: 8px;
 	line-height: 2em;
 }
-
 
 .std-profile>i {
 	cursor: not-allowed;
