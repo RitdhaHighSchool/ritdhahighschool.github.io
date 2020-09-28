@@ -744,8 +744,8 @@ div#about {
 	margin-bottom: 0;
 }
 
-.slick-slide .heading h3 {
-	padding-top: 6px
+.one-time .heading h3 {
+	padding-top: 8px;
 }
 
 .w3l-about-left h5 {
