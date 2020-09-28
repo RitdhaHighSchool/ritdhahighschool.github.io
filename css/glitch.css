@@ -55,9 +55,9 @@
 .glitch__img.bannerimg {
 	position: absolute;
 	overflow: hidden;
-	background: url(../images/bg.jpg);
+	background: url(../images/bg2.jpg);
 	background-attachment: fixed;
-	background-position: center;
+	background-position: left;
 	background-repeat: no-repeat;
 	background-size: cover;
 	top: 0;

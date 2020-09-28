@@ -478,10 +478,10 @@ div#myNavbar {
 	min-height: 100vh;
 	position: relative;
 	text-align: center;
-	background: url(../images/bg.jpg);
+	background: url(../images/bg2.jpg);
 	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
 	background-attachment: fixed;
-	background-position: center;
+	background-position: left;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
