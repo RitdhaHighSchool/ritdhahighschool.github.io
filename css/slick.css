@@ -14,7 +14,7 @@
 }
 
 #batch_16_table {
-    display: none;
+    visibility: : hidden;
 }
 
 .slick-slider:active {
