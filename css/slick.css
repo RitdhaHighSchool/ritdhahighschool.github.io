@@ -13,6 +13,10 @@
     cursor: grab;
 }
 
+#batch_16_table {
+    display: none;
+}
+
 .slick-slider:active {
     cursor: grabbing
 }

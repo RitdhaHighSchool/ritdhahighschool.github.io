@@ -44,7 +44,8 @@
 	<link rel="stylesheet" type="text/css" href="/css/glitch.css" />
 	<link rel="stylesheet " href="/css/jquery.fancybox.css " type="text/css" media="all" />
 	<link rel="stylesheet" type="text/css" href="/css/slick.css" />
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+	<link rel="stylesheet" type="text/css"
+		href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
 </head>
 
@@ -239,7 +240,7 @@
 					<div class="clearfix"></div>
 				</div>
 			</div>
-			<div>
+			<div id="batch_16_table">
 				<div class="container" style="position: relative">
 					<div class="heading">
 						<h3>รุ่นที่ 16</h3>
@@ -551,15 +552,9 @@
 
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script>
-		var $slider = $('.one-time').slick({
-			dots: false,
-			speed: 300,
-			infinite: false,
-			adaptiveHeight: true,
-			loop: false,
-			arrows: false,
-		});
-		$slider.on('afterChange', function (event, slick, currentSlide, nextSlide) {
+		var $slider = $('.one-time').on('init', function (event, slick) {
+			$('#batch_16_table').show();
+		}).on('afterChange', function (event, slick, currentSlide, nextSlide) {
 			if ($('.slick-slide[data-slick-index="0"]').hasClass("slick-current")) {
 				$('#batch_15').show();
 				$('#batch_16').hide();
@@ -568,7 +563,14 @@
 				$('#batch_15').hide();
 				$('#batch_16').show();
 			}
-		});		
+		}).slick({
+			dots: false,
+			speed: 300,
+			infinite: false,
+			adaptiveHeight: true,
+			loop: false,
+			arrows: false,
+		})	
 	</script>
 
 	<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
