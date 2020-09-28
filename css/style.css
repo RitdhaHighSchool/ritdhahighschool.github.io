@@ -951,21 +951,31 @@ p.sub_cap {
 	position: relative;
 }
 
-.std-profile a {
-	cursor: not-allowed;
+.std-profile,
+.portfolio-grids {
+	cursor: wait;
 }
 
-.std-profile a i,
-.portfolio-grids a {
+.std-profile a {
 	opacity: .4;
-	cursor: not-allowed;
+	pointer-events: none;
+}
+
+.portfolio-grids a {
 	pointer-events: none;	
 }
 
-.std-profile a.initialized,
-.portfolio-grids a.initialized {
-	opacity: 1;
+.std-profile.initialized a {
+	opacity: 1;	
+	pointer-events: all;
+}
+
+.std-profile.initialized,
+.portfolio-grids.initialized {
 	cursor: pointer;
+}
+
+.portfolio-grids.initialized a {
 	pointer-events: all;
 }
 
