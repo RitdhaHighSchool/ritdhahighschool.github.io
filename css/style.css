@@ -263,6 +263,14 @@ input[type="submit"], input[type="reset"], .w3l_teachers_grd, h4, .agile_feature
 	transition: 0.4s ease-in-out;
 }
 
+.nav-links .navbar-nav>li>a {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+} 
+
 /*-- header --*/
 
 .search-grid {
