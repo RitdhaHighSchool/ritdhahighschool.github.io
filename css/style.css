@@ -496,15 +496,16 @@ div#myNavbar {
 	min-height: 640px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
 	.banner, .banner.gifted {
-		background-size: 640px;
+		background-position: center top;
+		background-size: 768px;
 	}
 }
 
-@media (max-width: 768px) {
-	.banner, .banner.gifted {
-		background-size: 768px;
+@media (max-width: 640px) {
+	.banner, .banner.gifted {		
+		background-size: 640px;
 	}
 }
 
@@ -2036,7 +2037,7 @@ button.close {
 		display: block;
 	}
 	.table {
-		font-size: 0.65em;
+		font-size: 0.8em;
 	}
 	.search-grid button.btn1 {
 		padding: 6px 5px;
@@ -2129,8 +2130,11 @@ button.close {
 }
 
 @media(max-width:320px) {
+	.slick-slide .container {
+		padding: 0 !important;
+	}
 	.table {
-		font-size: 0.5em;
+		font-size: 0.65em;
 	}
 	.banner h1 {
 		font-size: 2.5em;
