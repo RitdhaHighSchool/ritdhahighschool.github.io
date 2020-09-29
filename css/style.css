@@ -944,6 +944,15 @@ div#about {
 	margin-bottom: 20px;
 }
 
+.pin-price.en:after {
+	content: "(not including shipping)";
+	font-size: 0.35em;
+	opacity: 0.65;
+	color: #fff;
+	font-weight: 300;
+	display: block;
+}
+
 .buynow a {
 	display: inline-block;
 	padding: 10px 25px;
