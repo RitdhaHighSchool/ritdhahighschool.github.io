@@ -791,7 +791,7 @@ div#about {
 	text-transform: uppercase;
 }
 
-#students>.container>.heading h3 {
+#students .container .heading h3 {
 	margin-bottom: 0;
 }
 
@@ -2070,9 +2070,10 @@ button.close {
 	.search-grid button.btn1 {
 		padding: 6px 12px;
 	}
-	html[lang="en-US"] #students>.container>.heading h3 {
+	html[lang="en-US"] #students .container .heading h3, {
 		font-size: 1.75em;
 	}
+	 slick-current slick-active
 }
 
 @media(max-width:384px) {
@@ -2169,7 +2170,7 @@ button.close {
 	.w3ls-form input[type="email"] {
 		width: 100%;
 	}
-	html[lang="en-US"] #students>.container>.heading h3 {
+	html[lang="en-US"] #students .container .heading h3 {
 		font-size: 1.5em;
 	}
 }
