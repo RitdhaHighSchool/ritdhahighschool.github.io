@@ -2070,10 +2070,9 @@ button.close {
 	.search-grid button.btn1 {
 		padding: 6px 12px;
 	}
-	html[lang="en-US"] #students .container .heading h3, {
+	html[lang="en-US"] #students .container .heading h3 {
 		font-size: 1.75em;
 	}
-	 slick-current slick-active
 }
 
 @media(max-width:384px) {
