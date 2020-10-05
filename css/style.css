@@ -279,11 +279,11 @@ input[type="submit"], input[type="reset"], .w3l_teachers_grd, h4, .agile_feature
 }
 
 .nav-links .navbar-nav>li>a {
-	-webkit-transition: none !important;
-	-moz-transition: none !important;
-	-ms-transition: none !important;
-	-o-transition: none !important;
-	transition: none !important;
+	-webkit-transition: none color 0.3s, background-color 0.3s;
+	-moz-transition: none color 0.3s, background-color 0.3s;
+	-ms-transition: color 0.3s, background-color 0.3s;
+	-o-transition: color 0.3s, background-color 0.3s;
+	transition: color 0.3s, background-color 0.3s;
 }
 
 /*-- header --*/
@@ -408,7 +408,7 @@ li.lang a.active {
 }
 
 .nav-links .navbar-inverse .navbar-nav>li>a:hover {
-	background: #000;
+	background-color: #000;
 	color: #fff;
 }
 
@@ -417,11 +417,11 @@ li.lang a.active {
 }
 
 .navbar-nav>li>a {
-	background: #071434;
+	background-color: #071434;
 }
 
 .nav-links .navbar-inverse .navbar-nav>.active>a, .nav-links .navbar-inverse .navbar-nav>.active>a:focus, .nav-links .navbar-inverse .navbar-nav>.active>a:hover {
-	background: #000;
+	background-color: #000;
 }
 
 .navbar-header {
