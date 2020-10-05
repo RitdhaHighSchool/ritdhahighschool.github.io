@@ -377,6 +377,36 @@ a.navbar-brand {
 	text-transform: uppercase;
 }
 
+.nav-links .navbar-nav>li.lang>a {
+	padding: 0 25px;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+li.lang a.active {
+	color: #fff;
+	background: black;
+}
+
+.link-effect li.lang a.active::after {
+	position: absolute;
+	top: 35px;
+	left: 0;
+	width: 100%;
+	background: #c4a474 !important;
+	content: '';
+	height: 5px;
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+.link-effect li.lang a::after {
+	top: 35px;
+}
+
 .nav-links .navbar-inverse .navbar-nav>li>a:hover {
 	background: #000;
 	color: #fff;
@@ -416,7 +446,7 @@ div#myNavbar {
 
 .link-effect a::after {
 	position: absolute;
-	top: 94%;
+	top: 75px;
 	left: 0;
 	width: 100%;
 	height: 1px;
@@ -1654,6 +1684,17 @@ button.close {
 }
 
 @media(max-width:767px) {
+	.nav-links .navbar-nav>li.lang>a {
+		padding: 30px 15px;
+		height: unset;
+		line-height: 20px;
+	}
+	.link-effect li.lang a::after {
+		top: 75px;
+	}
+	li.lang a.active {
+		display: none;
+	}
 	.navbar-collapse {
 		transition: height .3s ease-in-out !important;
 	}
@@ -2111,6 +2152,15 @@ button.close {
 	}
 	.nav-links .navbar-nav>li>a {
 		padding: 15px 15px;
+	}
+	.nav-links .navbar-nav>li.lang>a {
+		padding: 15px 15px;
+		height: unset;
+		line-height: 20px;
+	}
+	.link-effect li a::after,
+	.link-effect li.lang a::after {
+		top: 45px;
 	}
 	.w3l-about-img {
 		width: 100%;
