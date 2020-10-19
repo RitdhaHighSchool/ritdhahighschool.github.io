@@ -179,6 +179,15 @@ ul#countdown li p {
 	padding-left: 76px;
 }
 
+#logo.ministry {
+	display: block;
+	height: 70px;
+	width: 80px;
+	background: url(../images/ministrylogo.png);
+	background-size: cover;
+	padding-left: 80px;
+}
+
 #logo:after {
 	content: 'โรงเรียนฤทธาวิทยาคม';
 	display: inline-block;
@@ -208,6 +217,16 @@ ul#countdown li p {
 	display: inline-block;
 	width: 34px !important;
 	height: 33px;
+	background-size: cover;
+	padding-left: 34px;
+	vertical-align: bottom;
+}
+
+#ministryicon {
+	background: url(../images/ministry.png);
+	display: inline-block;
+	width: 34px !important;
+	height: 34px;
 	background-size: cover;
 	padding-left: 34px;
 	vertical-align: bottom;
