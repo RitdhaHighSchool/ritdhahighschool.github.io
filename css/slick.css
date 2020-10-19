@@ -26,7 +26,7 @@
 	cursor: auto;
 }
 
-.slick-slider td:nth-child(3) span {
+.slick-slider td:nth-child(3) span, .table>tbody>tr>td:nth-child(3) span {
 	display: inline-block;
 }
 
