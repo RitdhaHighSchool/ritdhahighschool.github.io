@@ -1792,6 +1792,13 @@ button.close {
 	nav * {
 		transition: none !important;
 	}
+	#logo.ministry {
+		display: inline-block;
+		width: 45px;
+		height: 40px;
+		margin: 5px;
+		padding-left: 45px;
+	}
 	#logo.gifted {
 		display: inline-block;
 		width: 43px;
@@ -1824,6 +1831,8 @@ button.close {
 	}
 	.navbar-brand {
 		float: none;
+		height: 40px;
+		width: 35px;
 	}
 	.navbar-header {
 		width: 100%;

@@ -4343,10 +4343,10 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 
 .navbar-brand {
 	float: left;
-	height: 50px;
+	height: 80px;
+	width: 90px;
 	padding: 5px 5px;
 	display: inline;
-	width: 100%;
 	position: relative;
 }
 
