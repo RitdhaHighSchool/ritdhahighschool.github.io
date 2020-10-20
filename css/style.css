@@ -1594,6 +1594,14 @@ button.close {
 	}
 }
 
+.full {
+	display: inline-block;
+}
+
+.short {
+	display: none;
+}
+
 @media(max-width:1200px) {
 	#logo.en {
 		letter-spacing: 1px;
@@ -1609,7 +1617,7 @@ button.close {
 	}
 	#logo.gifted.en:after {
 		padding: 2px 1px 2px 9px;
-	}
+	}	
 }
 
 @media(max-width:1080px) {}
@@ -1628,6 +1636,12 @@ button.close {
 	#logo.en:after, #logo.en.gifted:after {
 		content: "";
 		display: none;
+	}
+	.full {
+		display: none;
+	}
+	.short {
+		display: inline-block;
 	}
 	.stamp-div {
 		font-size: 8em;
@@ -1741,6 +1755,16 @@ button.close {
 }
 
 @media(max-width:767px) {
+	#logo.en {
+		letter-spacing: 0;
+    line-height: unset;
+	}
+	.full {
+		display: inline-block;
+	}
+	.short {
+		display: none;
+	}
 	.nav-links .navbar-nav>li.lang>a {
 		padding: 30px 15px;
 		height: unset;
