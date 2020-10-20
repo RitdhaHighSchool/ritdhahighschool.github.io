@@ -1627,6 +1627,12 @@ button.close {
 	.banner.gifted.en h3 {
 		font-size: 3em;
 	}
+	.full {
+		display: none;
+	}
+	.short {
+		display: inline-block;
+	}
 }
 
 @media(max-width:991px) {
@@ -1637,13 +1643,7 @@ button.close {
 	#logo.en:after, #logo.en.gifted:after {
 		content: "";
 		display: none;
-	}
-	.full {
-		display: none;
-	}
-	.short {
-		display: inline-block;
-	}
+	}	
 	.stamp-div {
 		font-size: 8em;
 		top: 35%;
