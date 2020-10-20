@@ -1595,11 +1595,18 @@ button.close {
 }
 
 @media(max-width:1200px) {
+	#logo.en {
+		letter-spacing: 1.5px;
+    line-height: 20px;
+	}
 	#logo.en:after {
+		content: 'Ritdha \A High School';
 		width: 5em;
 		font-size: 16px;
 		line-height: 1.4em;
 		padding: 2px 5px;
+		margin-top: 15px;
+		white-space: pre;
 	}
 	#logo.gifted.en:after {
 		padding: 2px 1px 2px 9px;
