@@ -182,10 +182,18 @@ ul#countdown li p {
 #logo.ministry {
 	display: block;
 	height: 70px;
-	width: 80px;
-	background: url(../images/ministrylogo.png);
+	width: 159px;
+	padding-left: 159px;
+}
+
+#logo.ministry.ritdha {
+	background: url(../images/ministryritdha.png);
 	background-size: cover;
-	padding-left: 80px;
+}
+
+#logo.ministry.mgifted {
+	background: url(../images/ministrygiftedlogo.png);
+	background-size: cover;
 }
 
 #logo:after {
@@ -223,9 +231,9 @@ ul#countdown li p {
 }
 
 #ministryicon {
-	background: url(../images/ministry.png);
+	background: url(../images/ministrygifted.png);
 	display: inline-block;
-	width: 34px !important;
+	width: 71.5px !important;
 	height: 34px;
 	background-size: cover;
 	padding-left: 34px;
@@ -1589,8 +1597,8 @@ button.close {
 @media(max-width:1200px) {
 	#logo.en:after {
 		width: 5em;
-		font-size: 15px;
-		line-height: 1.5em;
+		font-size: 16px;
+		line-height: 1.4em;
 		padding: 2px 5px;
 	}
 	#logo.gifted.en:after {
@@ -1794,10 +1802,10 @@ button.close {
 	}
 	#logo.ministry {
 		display: inline-block;
-		width: 45px;
+		width: 91px;
 		height: 40px;
 		margin: 5px;
-		padding-left: 45px;
+		padding-left: 91px;
 	}
 	#logo.gifted {
 		display: inline-block;
