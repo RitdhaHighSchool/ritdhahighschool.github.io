@@ -6711,6 +6711,15 @@ button.close {
 	}
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+	.full {
+		display: none;
+	}
+	.short {
+		display: inline-block;
+	}
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
 	.visible-md {
 		display: block !important;
