@@ -161,6 +161,32 @@ ul#countdown li p {
 	font-size: 25px;
 }
 
+.preload {
+	opacity: 0;
+	display: none;
+	visibility: hidden;
+	height: 70px;
+	width: 159px;
+	padding-left: 159px;
+	background-size: cover;
+	padding-left: 80px;
+	background: url(../images/ministryritdha.png);
+	pointer-events: none;
+}
+
+.preload2 {
+	opacity: 0;
+	display: none;
+	visibility: hidden;
+	height: 70px;
+	width: 159px;
+	padding-left: 159px;
+	background-size: cover;
+	padding-left: 80px;
+	background: url(../images/ministrygiftedlogo.png);
+	pointer-events: none;
+}
+
 #logo {
 	display: block;
 	height: 70px;
