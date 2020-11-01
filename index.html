@@ -45,7 +45,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Sarabun:400,700&display=swap" rel="stylesheet">
 	<link href="/css/notoserif.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/css/glitch.css" />
-	<link rel="stylesheet" href="/css/jquery.fancybox.css" type="text/css" media="all" />
 </head>
 
 <body class="glitch1 loading">
@@ -226,30 +225,10 @@
 			</p>
 		</div>
 	</div>
-	<div id="announcement" data-src="images/1972-2563.jpg"></div>
 	<audio id="theme" type="audio/mp3" preload="auto" src="audio/theme.mp3" autoplay></audio>
 	<!-- js -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="/js/jquery.countdown.min.js?v=1.0.0.0"></script>
-	<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/latest/js.cookie.min.js"></script>
-	<script>
-		jQuery(document).ready(function () {
-			if (!Cookies.get('firstvisit')) {
-				Cookies.set('firstvisit', 1, { expires: 1 / 48 });
-				$('#announcement').fancybox({
-					protect: true,
-					buttons: [""],
-					wheel: false,
-					width: 1080,
-					mobile: {
-						height: 1500,
-						width: 'auto'
-					}
-				}).trigger('click');
-			};
-		});
-	</script>
 	<!-- //js -->
 	<!--
 	<script class="source" type="text/javascript">
