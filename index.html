@@ -45,6 +45,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Sarabun:400,700&display=swap" rel="stylesheet">
 	<link href="/css/notoserif.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/css/glitch.css" />
+	<link rel="stylesheet " href="css/jquery.fancybox.css " type="text/css" media="all" />
 </head>
 
 <body class="glitch1 loading">
@@ -98,9 +99,8 @@
 				--><span class="inlineblock">วิทยาคม</span><!--
 				--></span><!--
 				--></h1>
-				<h3 class="content__text">AD • ASTRA • SAPIENTIAM</h3>
-				<!--
-				<h3 id="countdowntitle" class="content__text">เปิดภาคเรียน 2563</h3>
+				<h3 id="slogan" class="content__text" style="display:none">AD • ASTRA • SAPIENTIAM</h3>
+				<h3 id="countdowntitle" class="content__text">ปิดภาคเรียน</h3>
 				<div class="clearfix"></div>
 				<ul id="countdown">
 					<span id="days">
@@ -121,7 +121,6 @@
 						<li><span class="milliseconds">00</span><p class="milliseconds_text">&nbsp;</p></li>
 					</span>
 				</ul>
-				-->
 				<div class="clearfix"></div>
 				<!-- hide 
 				<div class="appform">
@@ -232,15 +231,21 @@
 			</p>
 		</div>
 	</div>
+	<div id="end" style="display:none">
+		<h3>ประกาศปิดภาคเรียน</h3>
+			<div class="readmore">
+				<p>ขอให้นักเรียนทุกคนโชคดี และเป็นอนาคตที่ดีของชาติต่อไป</p>
+			</div>
+	</div>
 	<audio id="theme" type="audio/mp3" preload="auto" src="audio/theme.mp3" autoplay></audio>
 	<!-- js -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="/js/jquery.countdown.min.js?v=1.0.0.0"></script>
+	<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
 	<!-- //js -->
-	<!--
 	<script class="source" type="text/javascript">
 		$('#countdown').countdown({
-			date: '09/06/2020 20:10:00',
+			date: '11/29/2020 21:30:00',
 			offset: +7, //
 			day: 'วัน',
 			days: 'วัน',
@@ -253,15 +258,11 @@
 			hideOnComplete: true
 		}, function(container) {
 			$('#countdowntitle').hide();
-			$('audio').each(function(){
-    		this.pause();
-    		this.currentTime = 0;
-			}); 
-			$.fancybox.open( $('#watch'), {
+			$('#slogan').show();
+			$.fancybox.open( $('#end'), {
   		});
 		});
 	</script>
-	-->
 	<script src="/js/jquery.username.js"></script>
 	<!-- js for portfolio  -->
 	<script type="text/javascript">

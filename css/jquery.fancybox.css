@@ -188,14 +188,19 @@ body.compensate-for-scrollbar {
   vertical-align: middle;
 }
 
-#watch {
+#end {
   display: none;
   padding: 3em 4em;
 }
 
-#watch h3 {
+#end h3 {
   margin-bottom: 1.5em;
   color: #ccc;
+}
+
+#end p {
+  font-family: Sarabun;
+  color: #fff;
 }
 
 .fancybox-slide--image .fancybox-content {
