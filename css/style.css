@@ -690,6 +690,10 @@ div#myNavbar {
 	text-transform: uppercase;
 	font-size: 4em;
 	line-height: 1.5em;
+	
+}
+
+#slogan {
 	word-spacing: -0.15em;
 }
 
