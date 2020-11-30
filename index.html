@@ -99,7 +99,8 @@
 				--><span class="inlineblock">วิทยาคม</span><!--
 				--></span><!--
 				--></h1>
-				<h3 id="slogan" class="content__text" style="display:none">AD • ASTRA • SAPIENTIAM</h3>
+				<h3 id="slogan" class="content__text">AD • ASTRA • SAPIENTIAM</h3>
+				<!-- 
 				<h3 id="countdowntitle" class="content__text">ปิดภาคเรียน</h3>
 				<div class="clearfix"></div>
 				<ul id="countdown">
@@ -122,6 +123,7 @@
 					</span>
 				</ul>
 				<div class="clearfix"></div>
+				-->
 				<!-- hide 
 				<div class="appform">
 				<a href="images/timeline.jpg" target="_blank">
@@ -234,7 +236,7 @@
 	<div id="end" style="display:none">
 		<h3>ประกาศปิดภาคเรียน</h3>
 			<div class="readmore">
-				<p>ขอให้ทุกคนโชคดีและมีความสุขกับศักยภาพของตัวเอง</p>
+				<p>ขอให้ทุกคนโชคดี และมีความสุขกับศักยภาพของตัวเอง</p>
 			</div>
 	</div>
 	<audio id="theme" type="audio/mp3" preload="auto" src="audio/theme.mp3" autoplay></audio>
@@ -244,23 +246,8 @@
 	<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
 	<!-- //js -->
 	<script class="source" type="text/javascript">
-		$('#countdown').countdown({
-			date: '11/29/2020 21:30:00',
-			offset: +7, //
-			day: 'วัน',
-			days: 'วัน',
-			hour: 'ชั่วโมง',
-			hours: 'ชั่วโมง',
-			minute: 'นาที',
-			minutes: 'นาที',
-			second: 'วินาที',
-			seconds: 'วินาที',
-			hideOnComplete: true
-		}, function(container) {
-			$('#countdowntitle').hide();
-			$('#slogan').show();
-			$.fancybox.open( $('#end'), {
-  		});
+		$(document).ready(function() {
+			$.fancybox.open( $('#end'), {});
 		});
 	</script>
 	<script src="/js/jquery.username.js"></script>
