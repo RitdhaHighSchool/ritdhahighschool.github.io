@@ -575,7 +575,11 @@ div#myNavbar {
 	transform: translateY(-10px);
 }
 
-.link-effect li.active a::after, .link-effect a:hover::after {
+.link-effect li.active a::after,
+.link-effect a:hover::after,
+li.lang.desktop a:active::after,
+li.lang.desktop a:focus::after
+ {
 	height: 5px;
 	opacity: 1;
 	-webkit-transform: translateY(0px);
