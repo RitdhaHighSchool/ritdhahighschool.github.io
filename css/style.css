@@ -1015,7 +1015,7 @@ div#about {
 
 .stylegridtext ul li:before {
   content: '– ';
-	padding-left: 12px;
+	padding-left: 6px;
 }
 
 p.potential {
