@@ -1675,7 +1675,8 @@ button.close {
 	outline: none;
 }
 
-#students .one-time .container::after, #alumni .one-time .container::after {
+#students .one-time .container::after,
+#alumni .one-time .container::after {
 	content: '';
 	display: none;
 	background: url(../images/FKGIFTED2.png);
@@ -2299,7 +2300,8 @@ button.close {
 	.stylegridtext, #notebook .stylegridtext {
 		padding: 1px 8px;
 	}
-	#students .container:after, .alumni .container:after {
+	#students .container:after,
+	#alumni .container:after {
 		background-size: 125%;
 		background-position: center 75%;
 	}
