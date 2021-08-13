@@ -1600,7 +1600,7 @@ iframe {
 	color: #c4a474;
 }
 
-.copyrightbreak {
+.copyrightbreak, .copyrightbreak-en {
 	display: inline-block;
 }
 
@@ -1756,6 +1756,9 @@ button.close {
 	}
 	.banner.gifted.en h3 {
 		font-size: 3em;
+	}
+	.copyrightbreak-en {
+		display: block;
 	}
 }
 
@@ -2191,6 +2194,9 @@ button.close {
 		position: relative;
 		left: 50%;
 		transform: translateX(-50%);
+	}
+	.copyrightbreak-en2 {
+		display: block;
 	}
 }
 
