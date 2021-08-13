@@ -1142,8 +1142,12 @@ img.boxset {
   position: relative;
 }
 
-.boxset-disc1, .boxset-disc2, .boxset-title, .boxset-disc3 {
+.boxset-disc1, .boxset-disc2, .boxset-title, .boxset-disc3, .boxset-titledisc {
 	display: inline-block;
+}
+
+.boxset-disc.en {
+	display: block;
 }
 
 .boxset-title {
@@ -2182,6 +2186,9 @@ button.close {
 		float: none;
 		width: 55%;
 	}
+	.boxset-disc.en {
+		display: inline;
+	}
 }
 
 @media(max-width:480px) {
@@ -2343,7 +2350,10 @@ button.close {
 	.boxset-title {
 		display: block;
 	}
-	.boxset-disc4, .boxset-disc5 {
+	.boxset-title en {
+		display: inline-block;
+	}
+	.boxset-details {
 		display: block;
 		margin-top: -6px;
 	}
