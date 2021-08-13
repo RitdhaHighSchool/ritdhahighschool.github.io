@@ -71,7 +71,7 @@ img, a, .std-profile a, div.portfolio-grids * {
 	display: none !important;
 }
 
-div.teachers img {
+div.teachers img, div.revolution img {
 	-webkit-touch-callout: none !important;
 	font-size: 0;
 	touch-action: pan-y;
@@ -639,6 +639,11 @@ div#myNavbar {
 	transform: translate(-50%, -55%);
 }
 
+.banner.gifted.en .container {
+	top: calc(50%);
+	transform: translate(-50%, -35%);
+}
+
 @media (max-width: 1366px) {
 	.banner .container {
 		bottom: 15% !important;
@@ -701,13 +706,14 @@ div#myNavbar {
 	word-spacing: normal;
 }
 
-#teachers, #social, #students, #pin {
+#teachers, #revolution, #social, #students, #notebook {
 	background: #000;
 }
 
 #teachers.gifted {
 	background-color: #071434;
 }
+
 
 .banner p {
 	color: #ccc;
@@ -881,7 +887,7 @@ a.w3ls_banner_more:hover {
 
 /*-- about --*/
 
-.about, .curriculum, .contact, .teachers, .video, .social, .students, .frame, .pin {
+.about, .curriculum, .contact, .teachers, .revolution, .video, .social, .students, .frame, .pin, .notebook, .boxset {
 	padding: 5em 0;
 }
 
@@ -974,12 +980,53 @@ div#about {
 	font-weight: 500;
 }
 
+#boxset .stylegridtext h3 {
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+
 .stylegridtext p {
 	font-family: Sarabun;
 	font-size: 16px;
 	line-height: 30px;
 	color: #fff;
 	margin-bottom: 20px;
+}
+
+.stylegridtext b {
+	font-family: Sarabun;
+	font-size: 16px;
+	line-height: 30px;
+	color: #fff;
+
+}
+
+.stylegridtext ul {
+  list-style-type: none;
+	font-family: Sarabun;
+	line-height: 28px;
+	color: #ccc;
+	margin-bottom: 20px;
+}
+
+.stylegridtext ul li:before {
+  content: '– ';
+	padding-left: 12px;
+}
+
+p.potential {
+	font-family: Sarabun;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+#video .heading h3 {
+	margin-bottom: 18px;
+}
+
+.potential .break {
+	display: inline;
 }
 
 .readmore a, .w3_agile_mail_grid input[type="submit"] {
@@ -1056,14 +1103,14 @@ div#about {
 	background-size: contain;
 }
 
-.pin-price {
+.price {
 	font-size: 3rem;
 	color: #c4a474;
 	margin-bottom: 20px;
 }
 
-.pin-price.en:after {
-	content: "(not including shipping)";
+.price.en:after {
+	content: "(not including shipping fee)";
 	font-size: 0.35em;
 	opacity: 0.65;
 	color: #fff;
@@ -1074,7 +1121,7 @@ div#about {
 .buynow a {
 	display: inline-block;
 	padding: 10px 25px;
-	background: #071434;
+	background: #000;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -1082,7 +1129,29 @@ div#about {
 	border: none;
 }
 
-.readmore a:hover, .buynow a:hover {
+#notebook .col-md-8 {
+	text-align: right;
+}
+
+#notebook .buynow a {
+	background: #071434;
+}
+
+img.boxset {
+	left: -3rem;
+  position: relative;
+}
+
+.boxset-disc1, .boxset-disc2, .boxset-title, .boxset-disc3 {
+	display: inline-block;
+}
+
+.boxset-title {
+	font-weight: 700;
+	color: #c4a474;
+}
+
+.readmore a:hover, .buynow a:hover, #notebook .buynow a:hover {
 	background: #c4a474;
 	color: #030408;
 }
@@ -1663,7 +1732,10 @@ button.close {
 	}
 	#logo.gifted.en:after {
 		padding: 2px 1px 2px 9px;
-	}	
+	}
+	img.boxset {
+		margin-top: 2.5rem;
+	}
 }
 
 @media(max-width:1080px) {}
@@ -1708,6 +1780,9 @@ button.close {
 	.banner.main.en h1 {
 		font-size: 3em;
 	}
+	.banner.gifted.en .container {
+		transform: translate(-50%, -20%);
+	}
 	.wthree_banner_grid {
 		width: 25%;
 		float: left;
@@ -1737,7 +1812,7 @@ button.close {
 		float: none;
 		margin: 2em 0;
 	}
-	.about, .curriculum, .contact, .teachers, .video, .social, .students, .frame, .pin {
+	.about, .curriculum, .contact, .teachers, .revolution, .video, .social, .students, .frame, .pin, .notebook, .boxset {
 		padding: 3em 0;
 	}
 	.stylegridimg {
@@ -1745,7 +1820,7 @@ button.close {
 		max-width: 50%;
 		margin: 0 auto;
 	}
-	.stylegridtext {
+	.stylegridtext, #notebook .stylegridtext {
 		padding: 40px 8px;
 		margin-bottom: 2em;
 		text-align: center;
@@ -1785,6 +1860,13 @@ button.close {
 		width: 100%;
 		float: none;
 		margin: 2em 0 0 0;
+	}
+	.stylegridtext ul li:before {
+		padding-left: 0;
+	}
+	img.boxset {
+		margin: unset;
+		left: unset;
 	}
 }
 
@@ -1978,13 +2060,13 @@ button.close {
 	.about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
 		font-size: 2.5em;
 	}
-	.about, .curriculum, .contact, .teachers, .video, .social, .students, .frame, .pin {
+	.about, .curriculum, .contact, .teachers, .revolution, .video, .social, .students, .frame, .pin, .notebook, .boxset {
 		padding: 2.5em 0;
 	}
 	.address-row h5 {
 		font-size: 1.5em;
 	}
-	.about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
+	.about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3, p.potential {
 		margin-bottom: 25px;
 	}
 	.wthree_teachers_grid h4 {
@@ -2072,10 +2154,17 @@ button.close {
 	}
 	.banner {
 		min-height: 100vh;
-	}
+	}	
 }
 
-@media(max-width:600px) {}
+@media(max-width:600px) {
+	img.notebook {
+		width: 130%;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
 
 @media(max-width:568px) {
 	.stamp-div {
@@ -2167,6 +2256,10 @@ button.close {
 		font-size: 22px;
 		margin-bottom: 5px;
 	}
+	#boxset .stylegridtext h3 {
+		line-height: 32px;
+		margin-bottom: -4px;
+	}
 	.stylegridtext h4 {
 		font-size: 2.5rem;
 		margin-top: 20px;
@@ -2188,13 +2281,22 @@ button.close {
 		width: 100%;
 		float: none;
 	}
-	.stylegridtext {
+	.stylegridtext, #notebook .stylegridtext {
 		padding: 1px 8px;
 	}
 	#students .container:after {
 		background-size: 125%;
 		background-position: center 75%;
 	}
+	#revolutionpic {
+		width: auto;
+		max-width: calc(100% + 30px);
+		margin-left: -15px;
+	}
+	.linebreak {
+		display: block;
+	}
+
 }
 
 @media(max-width:414px) {
@@ -2210,7 +2312,7 @@ button.close {
 	.banner.gifted.en h3 {
 		font-size: 1em;
 	}
-	.about, .curriculum, .contact, .teachers, .social, .students, .frame, .pin {
+	.about, .curriculum, .contact, .teachers, .revolution, .social, .students, .frame, .pin, .notebook, .boxset {
 		padding: 2em 0;
 	}
 	.about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
@@ -2237,6 +2339,13 @@ button.close {
 	}
 	html[lang="en-US"] #students .container .heading h3 {
 		font-size: 1.75em;
+	}
+	.boxset-title {
+		display: block;
+	}
+	.boxset-disc4, .boxset-disc5 {
+		display: block;
+		margin-top: -6px;
 	}
 }
 
@@ -2271,6 +2380,10 @@ button.close {
 		font-size: 18px;
 		margin-bottom: 5px;
 	}
+	#boxset .stylegridtext h3 {
+		line-height: 30px;
+		margin-bottom: -5px;
+	}
 	.stylegridtext h4 {
 		font-size: 2.5rem;
 	}
@@ -2293,6 +2406,9 @@ button.close {
 	}
 	.search-grid input[type="text"] {
 		width: 75%;
+	}
+	.linebreak2 {
+		display: block;
 	}
 }
 
