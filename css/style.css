@@ -1745,13 +1745,13 @@ button.close {
 		margin-top: 2.5rem;
 	}
 	.banner.gifted.en h3 {
-		font-size: 3.25em;
+		font-size: 3em;
 	}
 }
 
 @media(max-width:1080px) {
 	.banner.gifted.en h3 {
-		font-size: 3em;
+		font-size: 2.75em;
 	}
 }
 
