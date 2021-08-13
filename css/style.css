@@ -2332,13 +2332,12 @@ button.close {
 	}
 	#revolutionariespic {
 		width: auto;
-		max-width: calc(100% + 30px);
-		margin-left: -15px;
+		max-width: calc(100% + 20px);
+		margin-left: -10px;
 	}
 	.linebreak {
 		display: block;
 	}
-
 }
 
 @media(max-width:414px) {
