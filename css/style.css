@@ -2508,6 +2508,25 @@ button.close {
 	html[lang="en-US"] #alumni .container .heading h3 {
 		font-size: 1.5em;
 	}
+	.copyrightbreak-en .copyrightbreak {
+		font-size: 15px;
+		letter-spacing: .8px;
+	}
+}
+
+@media(max-width:280x) {
+	.copyrightbreak-en {
+		font-size: 15px;
+		letter-spacing: .8px;
+		margin: 0 -10px;
+	}
+	.copyrightbreak-en .copyrightbreak {
+		font-size: 14px;
+		letter-spacing: .7px;
+	}
+	.revsmall {
+		font-size: .9em;
+	}
 }
 
 /*-- /responsive design --*/
