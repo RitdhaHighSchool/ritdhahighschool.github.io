@@ -2000,7 +2000,8 @@ button.close {
 		height: unset;
 		line-height: 20px;
 	}
-	.link-effect li.lang a::after {
+	.link-effect li.lang a::after,
+	.link-effect li.lang a.active::after {
 		top: 75px;
 	}
 	li.lang.desktop.en,
@@ -2009,6 +2010,13 @@ button.close {
 	}	
 	li.lang.mobile {
 		display: flex;
+		text-align: center;
+	}
+	li.lang.mobile.th {
+		flex-direction: row-reverse;
+	}
+	li.lang.mobile.en {
+		flex-direction: row;
 	}
 	li.lang a.mobile {
 		display: flex;
@@ -2016,8 +2024,41 @@ button.close {
 		margin: 0;
 		justify-content: center;
 	}
-	.link-effect li.lang a.active.mobile::after {
-		display: none;
+	li.lang a.mobile:not(.active):active {
+		background: #000;
+		color: #fff;
+	}
+	
+	li.lang a.mobile:not(.active):hover ~ a:after,
+	li.lang a.mobile:not(.active):active ~ a:after {
+		height: 1px;
+		opacity: 0;
+		-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+		-moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+		transition: height 0.3s, opacity 0.3s, transform 0.3s;
+		-webkit-transform: translateY(-10px);
+		-moz-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+	
+	li.lang a.mobile:not(.active):hover ~ a,
+	li.lang a.mobile:not(.active):active ~ a {
+		background: #071434;
+		color: #c4a474;
+	}	
+	li.lang a.mobile:not(.active):focus:not(:hover) ~ a:after {
+		opacity: 1;
+	}	
+	li.lang a.mobile:not(.active):focus:not(:hover) ~ a {
+		background: #000;
+		color: #fff;
+	}	
+	li.lang a.mobile:not(.active):focus:not(:hover) {
+		background: transparent;
+		color: #c4a474;
+	}	
+	li.lang a.mobile:not(.active):focus:not(:hover):after {
+		opacity: 0;
 	}
 	.navbar-collapse {
 		transition: height .3s ease-in-out !important;
