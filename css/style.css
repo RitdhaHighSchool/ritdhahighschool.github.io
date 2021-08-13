@@ -519,16 +519,33 @@ li.lang a.desktop:not(.active):active {
 }
 
 li.lang a.desktop:not(.active):hover ~ a:after,
-li.lang a.desktop:not(.active):active ~ a:after,
-li.lang a.desktop:not(.active):focus ~ a:after {
+li.lang a.desktop:not(.active):active ~ a:after {
 	opacity: 0;
 }
 
 li.lang a.desktop:not(.active):hover ~ a,
-li.lang a.desktop:not(.active):active ~ a,
-li.lang a.desktop:not(.active):focus ~ a {
+li.lang a.desktop:not(.active):active ~ a {
 	background: #071434;
 	color: #c4a474;
+}
+
+li.lang a.desktop:not(.active):focus:not(:hover) ~ a:after {
+	opacity: 1;
+}
+
+li.lang a.desktop:not(.active):focus:not(:hover) ~ a {
+	background: #000;
+	color: #fff;
+}
+
+li.lang a.desktop:not(.active):focus:not(:hover){
+	background: transparent;
+	color: #c4a474;
+}
+
+li.lang a.desktop:not(.active):focus:not(:hover):after{
+	opacity: 0;
+}
 }
 
 .navbar-inverse .navbar-nav>li>a:focus {
@@ -582,8 +599,7 @@ div#myNavbar {
 
 .link-effect li.active a::after,
 .link-effect a:hover::after,
-li.lang.desktop a:active::after,
-li.lang.desktop a:focus::after
+li.lang.desktop a:active::after
  {
 	height: 5px;
 	opacity: 1;
