@@ -706,6 +706,10 @@ div#myNavbar {
 	word-spacing: normal;
 }
 
+.banner.gifted.en h3 {
+	font-size: 3.5em;
+}
+
 #teachers, #revolution, #social, #students, #notebook {
 	background: #000;
 }
@@ -1740,14 +1744,18 @@ button.close {
 	img.boxset {
 		margin-top: 2.5rem;
 	}
+	.banner.gifted.en h3 {
+		font-size: 3.25em;
+	}
 }
 
-@media(max-width:1080px) {}
-
-@media(max-width:1024px) {
+@media(max-width:1080px) {
 	.banner.gifted.en h3 {
 		font-size: 3em;
-	}	
+	}
+}
+
+@media(max-width:1024px) {	
 }
 
 @media(max-width:991px) {
