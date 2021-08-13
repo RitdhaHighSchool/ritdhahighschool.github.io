@@ -2054,7 +2054,7 @@ button.close {
 		color: #fff;
 	}	
 	li.lang a.mobile:not(.active):focus:not(:hover) {
-		background: transparent;
+		background: #071434;
 		color: #c4a474;
 	}	
 	li.lang a.mobile:not(.active):focus:not(:hover):after {
