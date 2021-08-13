@@ -513,11 +513,15 @@ li.lang.desktop a {
 	width: 80px;
 }
 
-li.lang a.desktop:not(.active):hover ~ a:after {
+li.lang a.desktop:not(.active):hover ~ a:after,
+li.lang a.desktop:not(.active):active ~ a:after
+li.lang a.desktop:not(.active):focus ~ a:after {
 	opacity: 0;
 }
 
-li.lang a.desktop:not(.active):hover ~ a {
+li.lang a.desktop:not(.active):hover ~ a,
+li.lang a.desktop:not(.active):active ~ a
+li.lang a.desktop:not(.active):focus ~ a {
 	background: #071434;
 	color: #c4a474;
 }
