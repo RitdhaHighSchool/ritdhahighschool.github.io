@@ -460,6 +460,11 @@ a.navbar-brand {
 	vertical-align: middle;
 }
 
+li.active a,
+li a.active {
+	cursor: default;
+}
+
 li.lang a.mobile {
 	display: none;
 }
@@ -520,7 +525,14 @@ li.lang a.desktop:not(.active):active {
 
 li.lang a.desktop:not(.active):hover ~ a:after,
 li.lang a.desktop:not(.active):active ~ a:after {
+	height: 1px;
 	opacity: 0;
+	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+	transition: height 0.3s, opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
 }
 
 li.lang a.desktop:not(.active):hover ~ a,
