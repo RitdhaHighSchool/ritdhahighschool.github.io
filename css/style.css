@@ -984,7 +984,7 @@ div#about {
 	font-weight: 500;
 }
 
-#boxset .stylegridtext h3 {
+#pin .stylegridtext h3, #boxset .stylegridtext h3 {
 	line-height: 40px;
 	margin-bottom: 20px;
 }
@@ -1105,6 +1105,11 @@ p.potential {
 	height: 20px;
 	background: url(../images/twilogo.png);
 	background-size: contain;
+}
+
+#newpin {
+	font-style: italic;
+	font-weight: 400;
 }
 
 .price {
@@ -1333,7 +1338,7 @@ p.sub_cap {
 	font-size: 20px;
 	text-transform: uppercase;
 	letter-spacing: .5px;
-	margin: 10px 0 40px;
+	margin: 10px 0 20px;
 }
 
 #head {
@@ -1595,6 +1600,10 @@ iframe {
 	color: #c4a474;
 }
 
+.copyrightbreak {
+	display: inline-block;
+}
+
 .twitter i, .instagram i, .fbpage i {
 	color: #c4a474;
 	font-size: 1.3em;
@@ -1829,14 +1838,17 @@ button.close {
 		padding: 3em 0;
 	}
 	.stylegridimg {
-		padding: 2em 0;
+		padding: 1em 0;
 		max-width: 50%;
 		margin: 0 auto;
 	}
+	#pin .stylegridimg, #boxset .stylegridimg {
+		padding-top: .5em;
+	}
 	.stylegridtext, #notebook .stylegridtext {
 		padding: 40px 8px;
-		margin-bottom: 2em;
 		text-align: center;
+		margin-bottom: 1em;
 	}
 	.stylegrid2 .stylegridtext {
 		text-align: left;
@@ -1880,6 +1892,9 @@ button.close {
 	img.boxset {
 		margin: unset;
 		left: unset;
+	}
+	.copyrightbreak {
+		display: block;
 	}
 }
 
@@ -2146,7 +2161,7 @@ button.close {
 		text-align: center;
 		width: 60%;
 		float: left;
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 	.w3-left-contact {
 		width: 100%;
@@ -2206,7 +2221,7 @@ button.close {
 	}
 	.wthree_teachers_grid p {
 		font-size: 15px !important;
-		margin: 10px -5px 40px !important;
+		margin: 10px -5px 0 !important;
 	}
 	.stamp-div {
 		font-size: 4em;
@@ -2272,7 +2287,7 @@ button.close {
 		font-size: 22px;
 		margin-bottom: 5px;
 	}
-	#boxset .stylegridtext h3 {
+	#pin .stylegridtext h3, #boxset .stylegridtext h3 {
 		line-height: 32px;
 		margin-bottom: -4px;
 	}
@@ -2317,7 +2332,10 @@ button.close {
 }
 
 @media(max-width:414px) {
-	#newli {
+	.newli {
+		display: block;
+	}
+	#newpin {
 		display: block;
 	}
 	.table {
@@ -2368,6 +2386,9 @@ button.close {
 		display: block;
 		margin-top: -6px;
 	}
+	.copyrightbreak2 {
+		display: inline-block;
+	}
 }
 
 @media(max-width:384px) {
@@ -2401,7 +2422,7 @@ button.close {
 		font-size: 18px;
 		margin-bottom: 5px;
 	}
-	#boxset .stylegridtext h3 {
+	#pin .stylegridtext h3, #boxset .stylegridtext h3 {
 		line-height: 30px;
 		margin-bottom: -5px;
 	}
