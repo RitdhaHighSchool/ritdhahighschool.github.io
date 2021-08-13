@@ -71,7 +71,7 @@ img, a, .std-profile a, div.portfolio-grids * {
 	display: none !important;
 }
 
-div.teachers img, div.revolution img {
+div.teachers img, div.revolutionaries img {
 	-webkit-touch-callout: none !important;
 	font-size: 0;
 	touch-action: pan-y;
@@ -710,7 +710,7 @@ div#myNavbar {
 	font-size: 3.25em;
 }
 
-#teachers, #revolution, #social, #students, #notebook {
+#teachers, #revolutionaries, #social, #students, #notebook {
 	background: #000;
 }
 
@@ -891,7 +891,7 @@ a.w3ls_banner_more:hover {
 
 /*-- about --*/
 
-.about, .curriculum, .contact, .teachers, .revolution, .video, .social, .students, .frame, .pin, .notebook, .boxset {
+.about, .curriculum, .contact, .teachers, .revolutionaries, .video, .social, .students, .frame, .pin, .notebook, .boxset {
 	padding: 5em 0;
 }
 
@@ -1824,7 +1824,7 @@ button.close {
 		float: none;
 		margin: 2em 0;
 	}
-	.about, .curriculum, .contact, .teachers, .revolution, .video, .social, .students, .frame, .pin, .notebook, .boxset {
+	.about, .curriculum, .contact, .teachers, .revolutionaries, .video, .social, .students, .frame, .pin, .notebook, .boxset {
 		padding: 3em 0;
 	}
 	.stylegridimg {
@@ -2072,7 +2072,7 @@ button.close {
 	.about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
 		font-size: 2.5em;
 	}
-	.about, .curriculum, .contact, .teachers, .revolution, .video, .social, .students, .frame, .pin, .notebook, .boxset {
+	.about, .curriculum, .contact, .teachers, .revolutionaries, .video, .social, .students, .frame, .pin, .notebook, .boxset {
 		padding: 2.5em 0;
 	}
 	.address-row h5 {
@@ -2303,7 +2303,7 @@ button.close {
 		background-size: 125%;
 		background-position: center 75%;
 	}
-	#revolutionpic {
+	#revolutionariespic {
 		width: auto;
 		max-width: calc(100% + 30px);
 		margin-left: -15px;
@@ -2327,7 +2327,7 @@ button.close {
 	.banner.gifted.en h3 {
 		font-size: 1em;
 	}
-	.about, .curriculum, .contact, .teachers, .revolution, .social, .students, .frame, .pin, .notebook, .boxset {
+	.about, .curriculum, .contact, .teachers, .revolutionaries, .social, .students, .frame, .pin, .notebook, .boxset {
 		padding: 2em 0;
 	}
 	.about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
