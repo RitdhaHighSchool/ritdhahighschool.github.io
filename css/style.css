@@ -2519,6 +2519,9 @@ button.close {
 }
 
 @media(max-width:280x) {
+	.banner.gifted.en h3 {
+		font-size: 0.85em;
+	}
 	.copyrightbreak-en {
 		font-size: 15px;
 		letter-spacing: .8px;
