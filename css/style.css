@@ -710,7 +710,7 @@ div#myNavbar {
 	font-size: 3.25em;
 }
 
-#teachers, #revolutionaries, #social, #students, #notebook {
+#teachers, #revolutionaries, #social, #students, #alumni, #notebook {
 	background: #000;
 }
 
@@ -891,7 +891,7 @@ a.w3ls_banner_more:hover {
 
 /*-- about --*/
 
-.about, .curriculum, .contact, .teachers, .revolutionaries, .video, .social, .students, .frame, .pin, .notebook, .boxset {
+.about, .curriculum, .contact, .teachers, .revolutionaries, .video, .social, .students, .alumni, .frame, .pin, .notebook, .boxset {
 	padding: 5em 0;
 }
 
@@ -918,7 +918,7 @@ div#about {
 	text-transform: uppercase;
 }
 
-#students>.container>.heading h3 {
+#students>.container>.heading h3, #alumni>.container>.heading h3 {
 	margin-bottom: 0;
 }
 
@@ -1675,7 +1675,7 @@ button.close {
 	outline: none;
 }
 
-#students .one-time .container::after {
+#students .one-time .container::after, #alumni .one-time .container::after {
 	content: '';
 	display: none;
 	background: url(../images/FKGIFTED2.png);
@@ -1824,7 +1824,7 @@ button.close {
 		float: none;
 		margin: 2em 0;
 	}
-	.about, .curriculum, .contact, .teachers, .revolutionaries, .video, .social, .students, .frame, .pin, .notebook, .boxset {
+	.about, .curriculum, .contact, .teachers, .revolutionaries, .video, .social, .students, .alumni, .frame, .pin, .notebook, .boxset {
 		padding: 3em 0;
 	}
 	.stylegridimg {
@@ -2072,7 +2072,7 @@ button.close {
 	.about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
 		font-size: 2.5em;
 	}
-	.about, .curriculum, .contact, .teachers, .revolutionaries, .video, .social, .students, .frame, .pin, .notebook, .boxset {
+	.about, .curriculum, .contact, .teachers, .revolutionaries, .video, .social, .students, .alumni, .frame, .pin, .notebook, .boxset {
 		padding: 2.5em 0;
 	}
 	.address-row h5 {
@@ -2299,7 +2299,7 @@ button.close {
 	.stylegridtext, #notebook .stylegridtext {
 		padding: 1px 8px;
 	}
-	#students .container:after {
+	#students .container:after, .alumni .container:after {
 		background-size: 125%;
 		background-position: center 75%;
 	}
@@ -2327,7 +2327,7 @@ button.close {
 	.banner.gifted.en h3 {
 		font-size: 1em;
 	}
-	.about, .curriculum, .contact, .teachers, .revolutionaries, .social, .students, .frame, .pin, .notebook, .boxset {
+	.about, .curriculum, .contact, .teachers, .revolutionaries, .social, .students, .alumni, .frame, .pin, .notebook, .boxset {
 		padding: 2em 0;
 	}
 	.about-agileits-title h3, h3.wthree_head, .contact h3, .wthree_head_section_gallery h3, .agileits-title-teachers h3, .heading h3 {
@@ -2352,7 +2352,8 @@ button.close {
 	.search-grid button.btn1 {
 		padding: 6px 12px;
 	}
-	html[lang="en-US"] #students .container .heading h3 {
+	html[lang="en-US"] #students .container .heading h3,
+	html[lang="en-US"] #alumni .container .heading h3 {
 		font-size: 1.75em;
 	}
 	.boxset-title {
@@ -2474,7 +2475,8 @@ button.close {
 	.w3ls-form input[type="email"] {
 		width: 100%;
 	}
-	html[lang="en-US"] #students .container .heading h3 {
+	html[lang="en-US"] #students .container .heading h3,
+	html[lang="en-US"] #alumni .container .heading h3 {
 		font-size: 1.5em;
 	}
 }
