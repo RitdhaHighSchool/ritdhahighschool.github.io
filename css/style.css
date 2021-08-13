@@ -1155,7 +1155,7 @@ img.boxset {
   position: relative;
 }
 
-.boxset-disc1, .boxset-disc2, .boxset-title, .boxset-disc3, .boxset-titledisc {
+.boxset-disc1, .boxset-disc2, .boxset-title, .boxset-title-en, .boxset-disc3, .boxset-titledisc {
 	display: inline-block;
 }
 
@@ -1164,6 +1164,11 @@ img.boxset {
 }
 
 .boxset-title {
+	font-weight: 700;
+	color: #c4a474;
+}
+
+.boxset-title-en {
 	font-weight: 700;
 	color: #c4a474;
 }
@@ -2387,9 +2392,6 @@ button.close {
 	}
 	.boxset-title {
 		display: block;
-	}
-	.boxset-title en {
-		display: inline-block;
 	}
 	.boxset-details {
 		display: block;
