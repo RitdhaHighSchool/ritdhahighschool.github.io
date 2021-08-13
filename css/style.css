@@ -460,6 +460,10 @@ a.navbar-brand {
 	vertical-align: middle;
 }
 
+li.lang a.mobile {
+	display: none;
+}
+
 li.lang a.active {
 	color: #fff;
 	background: black;
@@ -486,6 +490,36 @@ li.lang a.active {
 .nav-links .navbar-inverse .navbar-nav>li>a:hover {
 	background-color: #000;
 	color: #fff;
+}
+
+li.lang.mobile {
+	display: none;
+}
+
+li.lang.desktop.th {
+	display: flex;
+  flex-direction: column-reverse;
+	text-align: center;
+}
+
+li.lang.desktop.en {
+	display: flex;
+  flex-direction: column;
+	text-align: center;
+}
+
+li.lang.desktop a {
+  flex: 1;
+	width: 80px;
+}
+
+li.lang a.desktop:not(.active):hover ~ a:after {
+	opacity: 0;
+}
+
+li.lang a.desktop:not(.active):hover ~ a {
+	background: #071434;
+	color: #c4a474;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus {
@@ -606,7 +640,7 @@ div#myNavbar {
 	.banner, .banner.gifted {
 		background-position: center top;
 		background-size: 768px;
-	}
+	}	
 }
 
 @media (max-width: 640px) {
@@ -1928,7 +1962,20 @@ button.close {
 	.link-effect li.lang a::after {
 		top: 75px;
 	}
-	li.lang a.active {
+	li.lang.desktop.en,
+	li.lang.desktop.th {
+		display: none;
+	}	
+	li.lang.mobile {
+		display: flex;
+	}
+	li.lang a.mobile {
+		display: flex;
+		width: 50%;
+		margin: 0;
+		justify-content: center;
+	}
+	.link-effect li.lang a.active.mobile::after {
 		display: none;
 	}
 	.navbar-collapse {
