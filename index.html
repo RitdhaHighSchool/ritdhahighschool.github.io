@@ -235,6 +235,17 @@
 	<audio id="theme" type="audio/mp3" preload="auto" src="audio/theme.mp3" autoplay></audio>
 	<!-- js -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function () {
+			sessionStorage.scrollIndex = $(this).scrollTop();
+		});
+
+		$(document).ready(function () {
+			if (sessionStorage.scrollIndex != "undefined") {
+				$(window).scrollTop(sessionStorage.scrollIndex);
+			}
+		});
+	</script>
 	<script type="text/javascript" src="/js/jquery.countdown.min.js?v=1.0.0.0"></script>
 	<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
 	<!-- //js -->
@@ -246,20 +257,7 @@
 	</script>
 	-->
 	<script src="/js/jquery.username.js"></script>
-	<!-- js for portfolio  -->
-	<script>
-		document.addEventListener("DOMContentLoaded", function (event) {
-				var scrollIndex = sessionStorage.getItem('scrollIndex');
-				if (scrollIndex) {
-						window.scrollTo(0, scrollIndex);
-						sessionStorage.removeItem('scrollIndex');
-				}
-		});
-
-		window.addEventListener("beforeunload", function (e) {
-				sessionStorage.setItem('scrollIndex', window.scrollY);
-		});
-	</script>
+	<!-- js for portfolio  -->	
 	<script type="text/javascript">
 		jQuery(document).ready(function ($) {
 			var isMobile = false; //initiate as false
