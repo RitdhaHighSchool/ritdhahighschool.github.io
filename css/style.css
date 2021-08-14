@@ -73,6 +73,7 @@ div.teachers img, div.revolutionaries img {
 	-webkit-touch-callout: none !important;
 	font-size: 0;
 	touch-action: pan-y;
+	margin-bottom: 3rem;
 }
 
 .fal {
