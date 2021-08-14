@@ -634,17 +634,6 @@
 	<script type="text/javascript" src="/js/move-top.js"></script>
 	<script type="text/javascript" src="/js/easing.js"></script>
 	<script type="text/javascript">
-		$(window).scroll(function () {
-			localStorage.scrollGifted = $(this).scrollTop();
-		});
-
-		$(document).ready(function () {
-			if (localStorage.scrollIndex != "undefined") {
-				$(window).scrollTop(localStorage.scrollGifted);
-			}
-		});
-	</script>
-	<script type="text/javascript">
 		jQuery(document).ready(function ($) {
 			var isMobile = false; //initiate as false
 			// device detection

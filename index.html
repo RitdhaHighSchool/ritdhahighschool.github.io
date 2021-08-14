@@ -235,17 +235,6 @@
 	<audio id="theme" type="audio/mp3" preload="auto" src="audio/theme.mp3" autoplay></audio>
 	<!-- js -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-	<script type="text/javascript">
-		$(window).scroll(function () {
-			localStorage.scrollIndex = $(this).scrollTop();
-		});
-
-		$(document).ready(function () {
-			if (localStorage.scrollIndex != "undefined") {
-				$(window).scrollTop(localStorage.scrollIndex);
-			}
-		});
-	</script>
 	<script type="text/javascript" src="/js/jquery.countdown.min.js?v=1.0.0.0"></script>
 	<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
 	<!-- //js -->
