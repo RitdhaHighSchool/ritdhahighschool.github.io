@@ -69,7 +69,7 @@ img, a, .std-profile a, div.portfolio-grids * {
 	display: none !important;
 }
 
-div.teachers img, div.revolutionaries img {
+div.teachers img, .revolutionariespic {
 	-webkit-touch-callout: none !important;
 	font-size: 0;
 	touch-action: pan-y;
@@ -1989,6 +1989,9 @@ button.close {
 	.copyrightbreak {
 		display: block;
 	}
+	.revolutionariespic {
+		margin-bottom: 2rem;
+	}
 }
 
 @media(max-width:800px) {
@@ -2474,6 +2477,7 @@ button.close {
 		width: auto;
 		max-width: calc(100% + 20px);
 		margin-left: -10px;
+		margin-bottom: 1rem;
 	}
 	.linebreak {
 		display: block;
