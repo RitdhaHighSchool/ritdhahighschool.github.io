@@ -247,15 +247,17 @@
 	-->
 	<script src="/js/jquery.username.js"></script>
 	<!-- js for portfolio  -->
-	<script type="text/javascript">
-		$(window).scroll(function () {
-			sessionStorage.scrollIndex = $(this).scrollTop();
+	<script>
+		document.addEventListener("DOMContentLoaded", function (event) {
+				var scrollIndex = sessionStorage.getItem('scrollIndex');
+				if (scrollIndex) {
+						window.scrollTo(0, scrollIndex);
+						sessionStorage.removeItem('scrollIndex');
+				}
 		});
 
-		$(document).ready(function () {
-			if (sessionStorage.scrollIndex != "undefined") {
-				$(window).scrollTop(sessionStorage.scrollIndex);
-			}
+		window.addEventListener("beforeunload", function (e) {
+				sessionStorage.setItem('scrollIndex', window.scrollY);
 		});
 	</script>
 	<script type="text/javascript">
