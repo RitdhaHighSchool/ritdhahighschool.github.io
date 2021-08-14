@@ -635,12 +635,12 @@
 	<script type="text/javascript" src="/js/easing.js"></script>
 	<script type="text/javascript">
 		$(window).scroll(function () {
-			sessionStorage.scrollGifted = $(this).scrollTop();
+			localStorage.scrollGifted = $(this).scrollTop();
 		});
 
 		$(document).ready(function () {
-			if (sessionStorage.scrollIndex != "undefined") {
-				$(window).scrollTop(sessionStorage.scrollGifted);
+			if (localStorage.scrollIndex != "undefined") {
+				$(window).scrollTop(localStorage.scrollGifted);
 			}
 		});
 	</script>

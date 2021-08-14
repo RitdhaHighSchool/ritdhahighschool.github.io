@@ -237,12 +237,12 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript">
 		$(window).scroll(function () {
-			sessionStorage.scrollIndex = $(this).scrollTop();
+			localStorage.scrollIndex = $(this).scrollTop();
 		});
 
 		$(document).ready(function () {
-			if (sessionStorage.scrollIndex != "undefined") {
-				$(window).scrollTop(sessionStorage.scrollIndex);
+			if (localStorage.scrollIndex != "undefined") {
+				$(window).scrollTop(localStorage.scrollIndex);
 			}
 		});
 	</script>
