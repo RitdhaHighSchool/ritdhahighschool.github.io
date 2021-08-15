@@ -27,7 +27,7 @@ img, a, .std-profile a, div.portfolio-grids * {
 	font-size: 0;
 }
 
-#audiooverlay{
+#themeoverlay{
   background: #000;
   position: fixed;
   opacity: 0.0;
