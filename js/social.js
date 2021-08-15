@@ -1,7 +1,7 @@
 jQuery(document).ready(function () {
 	if (/Android/i.test(navigator.userAgent)) {
 		$('.twitter').attr('href', 'intent://twitter.com/TheGiftedGlobal#Intent;package=com.twitter.android;scheme=https;end');
-		$('.fbpage').attr('href', 'intent://profile/492376137854324#Intent;package=com.facebook.katana;scheme=fb;S.browser_fallback_url=https://facebook.com/TheGiftedGlobal;end');
+		$('.fbpage').attr('href', 'intent://page/492376137854324#Intent;package=com.facebook.katana;scheme=fb;S.browser_fallback_url=https://facebook.com/TheGiftedGlobal;end');
 		$('.instagram').attr('href', 'intent://www.instagram.com/thegiftedglobal/#Intent;package=com.instagram.android;scheme=https;end');
 	}
 
