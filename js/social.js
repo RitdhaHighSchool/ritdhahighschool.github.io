@@ -18,11 +18,6 @@ jQuery(document).ready(function () {
 			_overlay.style.display = 'block';
 		}, 1000);
 
-		document.addEventListener('touchmove', function (e) {
-			e.preventDefault();
-			//  _overlay.style.display = 'block';
-		}, false);
-
     $('.twitter').click(function (e) {
 			e.stopPropagation();
 			e.preventDefault();
