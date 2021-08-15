@@ -9,10 +9,11 @@ jQuery(document).ready(function () {
 		var theme = document.querySelector('#theme');
 		var _overlay = $('#themeoverlay');
 
-		_overlay.on('click auxclick touchstart', function (e) {
+		$(document).on('click touchstart tap', '#themeoverlay', function (e) {
+			e.preventDefault();
 			theme.play();
 			_overlay.remove();
-		}, false);
+		}, false);			
 
 		setTimeout(function () {
 			_overlay.css('display', 'block')
