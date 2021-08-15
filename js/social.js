@@ -6,11 +6,11 @@ jQuery(document).ready(function () {
 	}
 
 	if (/iPhone|iPad|iPod|^i/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
-		var theme = $('#theme');
 		var _overlay = $('#themeoverlay');
+		const audio = new Audio("https://ritdha.com/audio/theme.mp3");
 
 		_overlay.on('click', function (e) {
-			theme.play();
+			audio.play();
 			_overlay.remove();
 		}, false);
 
@@ -22,7 +22,6 @@ jQuery(document).ready(function () {
 			e.preventDefault();
 		//  _overlay.style.display = 'block';
 		}, false);
-		
     $('.twitter').click(function (e) {
 			e.stopPropagation();
 			e.preventDefault();
