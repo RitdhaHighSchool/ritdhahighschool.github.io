@@ -10,7 +10,7 @@ jQuery(document).ready(function () {
 		const audio = new Audio("https://ritdha.com/audio/theme.mp3");
 
 		_overlay.on('click', function (e) {
-			audio.play();
+			$(document).querySelector('#theme').play();
 			_overlay.remove();
 		}, false);
 
