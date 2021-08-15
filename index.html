@@ -292,24 +292,6 @@
 		});
 	</script>
 	<script>
-		var theme = $('#theme');
-		var _overlay = $('#themeoverlay');
-
-		_overlay.on('click', function (e) {
-			theme.play();
-			_overlay.remove();
-		}, false);
-
-		setTimeout(function () {
-			_overlay.style.display = 'block';
-		}, 1000);
-
-		$(document).on('touchmove', function(e) {
-			e.preventDefault();
-		//  _overlay.style.display = 'block';
-		}, false);
-	</script>
-	<script>
 		focus();
 		var listener = addEventListener('blur', function () {
 			if (document.activeElement === document.getElementById('intro')) {
