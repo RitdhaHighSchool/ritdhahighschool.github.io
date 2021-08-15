@@ -7,15 +7,15 @@ jQuery(document).ready(function () {
 
 	if (/iPhone|iPad|iPod|^i/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
 		var theme = document.querySelector('#theme');
-		var _overlay = document.querySelector('#themeoverlay');
+		var _overlay = $('#themeoverlay');
 
-		$('#themeoverlay').on('click auxclick touchstart', function (e) {
+		_overlay.on('click auxclick touchstart', function (e) {
 			theme.play();
 			_overlay.remove();
 		}, false);
 
 		setTimeout(function () {
-			_overlay.style.display = 'block';
+			_overlay.css('display', 'block')
 		}, 1000);
 
     $('.twitter').click(function (e) {
