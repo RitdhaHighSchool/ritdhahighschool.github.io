@@ -6,6 +6,23 @@ jQuery(document).ready(function () {
 	}
 
 	if (/iPhone|iPad|iPod|^i/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
+		var theme = document.querySelector('#theme');
+		var _overlay = document.querySelector('#themeoverlay');
+
+		_overlay.addEventListener('click', function (e) {
+			theme.play();
+			_overlay.remove();
+		}, false);
+
+		setTimeout(function () {
+			_overlay.style.display = 'block';
+		}, 1000);
+
+		document.addEventListener('touchmove', function (e) {
+			e.preventDefault();
+			//  _overlay.style.display = 'block';
+		}, false);
+
     $('.twitter').click(function (e) {
 			e.stopPropagation();
 			e.preventDefault();

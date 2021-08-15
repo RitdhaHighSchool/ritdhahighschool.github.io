@@ -49,7 +49,7 @@
 </head>
 
 <body class="glitch1 loading">
-	<div id="audiooverlay"></div>
+	<div id="themeoverlay"></div>
 	<div class="nav-links">
 		<nav class="navbar navbar-inverse">
 			<div class="containernav">
@@ -291,24 +291,6 @@
 			}
 		});
 	</script>
-	<script>
-		  var myaudio = document.querySelector('#theme');
-		  var _overlay = document.querySelector('#audiooverlay');
-		    
-		   _overlay.addEventListener('click', function(e) {
-		     myaudio.play();
-		     _overlay.remove();
-		   },false);  
-		  
-		   setTimeout(function(){
-		       _overlay.style.display = 'block';
-		   },1000);
-		     
-		  document.addEventListener('touchmove', function(e) {
-		    e.preventDefault();
-		  //  _overlay.style.display = 'block';
-		  }, false); 
-		  </script>
 	<script>
 		focus();
 		var listener = addEventListener('blur', function () {
