@@ -6,10 +6,10 @@ jQuery(document).ready(function () {
 	}
 
 	if (/iPhone|iPad|iPod|^i/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
-		var theme = document.querySelector('#theme');
-		var _overlay = document.querySelector('#themeoverlay');
+		var theme = $('#theme');
+		var _overlay = $('#themeoverlay');
 
-		_overlay.addEventListener('click', function (e) {
+		_overlay.on('click auxclick touchstart', function (e) {
 			theme.play();
 			_overlay.remove();
 		}, false);
@@ -17,11 +17,6 @@ jQuery(document).ready(function () {
 		setTimeout(function () {
 			_overlay.style.display = 'block';
 		}, 1000);
-
-		document.addEventListener('touchmove', function (e) {
-			e.preventDefault();
-			//  _overlay.style.display = 'block';
-		}, false);
 
     $('.twitter').click(function (e) {
 			e.stopPropagation();
