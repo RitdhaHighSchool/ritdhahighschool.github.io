@@ -27,7 +27,7 @@ img, a, .std-profile a, div.portfolio-grids * {
 	font-size: 0;
 }
 
-#themeoverlay{
+#themeoverlay {
   background: #000;
   position: fixed;
   opacity: .8;
