@@ -9,7 +9,7 @@ jQuery(document).ready(function () {
 		var theme = document.querySelector('#theme');
 		var _overlay = document.querySelector('#themeoverlay');
 
-		_overlay.addEventListener('click', function (e) {
+		$('#themeoverlay').on('click auxclick touchstart', function (e) {
 			theme.play();
 			_overlay.remove();
 		}, false);
