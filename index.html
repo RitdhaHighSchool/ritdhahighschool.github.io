@@ -251,6 +251,30 @@
 	<!-- js for portfolio  -->
 	<script>
 		jQuery(document).ready(function ($) {
+			if (/iPhone|iPad|iPod|^i/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
+				var theme = document.querySelector('#theme');
+				var _overlay = document.querySelector('#themeoverlay');
+
+				['click', 'touchstart'].forEach(evt =>
+					_overlay.addEventListener(evt, function (e) {
+						theme.play();
+						$('#themeoverlay').remove();
+					}, false)
+				);
+
+				setTimeout(function () {
+					_overlay.style.display = 'block';
+				}, 1000);
+
+				document.addEventListener('touchmove', function (e) {
+					e.preventDefault();
+					//  _overlay.style.display = 'block';
+				}, false);
+			}
+		});
+	</script>
+	<script>
+		jQuery(document).ready(function ($) {
 			if ($('#myNavbar').outerHeight() == $('.navbar').outerHeight()) {
 				offset = $('.navbar').outerHeight();
 			} else {
@@ -290,7 +314,7 @@
 				$('html,body').animate({ scrollTop: 0 }, 1000);
 			}
 		});
-	</script>
+	</script>	
 	<script>
 		focus();
 		var listener = addEventListener('blur', function () {
